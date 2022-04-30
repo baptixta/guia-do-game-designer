@@ -4,14 +4,17 @@
 
 ![contributions welcome](https://camo.githubusercontent.com/f5054ffcd4245c10d3ec85ef059e07aacf787b560f83ad4aec2236364437d097/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f6e747269627574696f6e732d77656c636f6d652d627269676874677265656e2e7376673f7374796c653d666c6174)
 
-## O trabalho de um Game Designer:
+## 🎯Objetivo
+A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers a se desenvolverem (de iniciantes até avançados). Se tiver algo legal para compartilhar, é só mandar um pull request :)
+
+## 💻 O trabalho de um Game Designer:
 
    - Links de exemplos/tipos de GDD ↓
      - Como escrever um GDD: <https://www.gamedeveloper.com/business/how-to-write-a-game-design-document>
      - Produção de Jogos: <https://producaodejogos.com/gdd/>
      - Game Documents: <https://gamedocs.org/documents/>
 
-## Como aprender Game Design:
+## 🧠 Como aprender Game Design:
 
    - Links de livros bons ↓
       - Theory of Fun for Game Design: <https://www.amazon.com.br/Theory-Fun-Game-Design-English-ebook/dp/B00GK5SRFY/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2H91J3U83DSM9&keywords=theory+of+fun&qid=1651344903&s=digital-text&sprefix=theory+of+fun%2Cdigital-text%2C180&sr=1-1>
@@ -36,7 +39,7 @@
       - Mix and Jam: <https://www.youtube.com/c/MixandJam/>
       - Unity: <https://www.youtube.com/c/unity/>
 
-## O que eu teria feito diferente:
+## ❓ O que eu teria feito diferente:
 
    - Link do meu currículo ↓     
      Currículo: <https://docs.google.com/document/d/1tcvu5LJOtjTWfmLRSB64JiJ0RXb1LxZYsnZiNMbDS-0/edit>
