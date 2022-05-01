@@ -28,6 +28,8 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
       - Game Wisdom: <https://game-wisdom.com/>
       - Deconstructor of Fun: <https://www.deconstructoroffun.com/>
       - GameDev Directory: <https://startgame.dev/>
+      - The Game Design Resource Guide: <https://alexiamandeville.medium.com/the-game-design-resource-guide-e19bb237877>
+      - Framework MDA: <https://users.cs.northwestern.edu/~hunicke/MDA.pdf>
       - Baptixta: <https://www.baptixta.com/>
 
    - Link de canais bons ↓
