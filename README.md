@@ -51,6 +51,7 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
       - Michael Levall: <https://www.michaellevall.com/>
       - Dean Tate: <http://www.iamdeantate.com/>
       - Nicolas Kraj: <http://nicolaskraj.com/>
+      - Peter Harries: <https://www.peterharries.co.uk/>
       - Jay Van Hutten: <http://www.jayvanhutten.com/>
 
    - Link do meu linkedin ↓
