@@ -14,6 +14,10 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
      - Produção de Jogos: <https://producaodejogos.com/gdd/>
      - Game Documents: <https://gamedocs.org/documents/>
 
+   - Como fazer balanceamento do seu jogo ↓
+     - Template de balanceamento: <https://www.entrogames.com/2022/01/how-to-balance-a-game-a-deep-dive-into-a-real-world-template/>
+     - Game Design 101 - Balanceando sua economia: <https://medium.com/strike-the-pixels/game-design-101-balancing-economy-5f3e5a7eecc5>
+
 ## 🧠 Como aprender Game Design:
 
    - Links de livros bons ↓
