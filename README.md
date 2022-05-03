@@ -50,6 +50,12 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
    - Link de podcasts bons ↓
       - Podquest: <http://www.podquest.com.br>
       - Game Design de Bolso: <https://open.spotify.com/show/6PvyZNI5qIL5EyhSXuX3Zw>
+      - Regras do jogo: <https://open.spotify.com/show/3WReGMZA3GcqC7iGeuKewE?si=8bafa69095524e14>
+      - Rise and Play: <https://open.spotify.com/show/3y9fodf6P8kUXUqIXMtLbq?si=cffe771fc71f42d2>
+      - Behind the Game: <https://open.spotify.com/show/4VX3RtpKenZRce3QcXCY60?si=26356bb1b3cc4434>
+      - Game Dev Playbook: <https://open.spotify.com/show/7KPT3GT0HI35dsd5dUsf5K?si=2e7525036d104101>
+      - Deconstructor of Fun: <https://open.spotify.com/show/2mWi6kHU4BcN8X92pEPa2i?si=a00cb15df3c3482b>
+      - Mastering Retention: <https://open.spotify.com/show/08xwnyDo84JwEKOPi0obCi?si=5cd27ea049ea46b6>
 
 ## ❓ Inspiração (Portfolio / Currículo)
 
