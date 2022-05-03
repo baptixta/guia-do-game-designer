@@ -92,3 +92,6 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
 <a href="https://github.com/baptixta/game-design-refs/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=baptixta/game-design-refs" />
 </a>
+
+---
+Feito com ♥ by Baptixta
