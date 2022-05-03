@@ -48,6 +48,10 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
       - Mix and Jam: <https://www.youtube.com/c/MixandJam/>
       - Unity: <https://www.youtube.com/c/unity/>
 
+   - Link de podcasts bons ↓]
+      - Podquest: <http://www.podquest.com.br>
+      - Game Design de Bolso: <https://open.spotify.com/show/6PvyZNI5qIL5EyhSXuX3Zw>
+
 ## ❓ Inspiração (Portfolio / Currículo)
 
    - Link do meu currículo ↓     
