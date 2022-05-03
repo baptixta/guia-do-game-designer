@@ -73,6 +73,8 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
    - Link do meu linkedin ↓
       - Davi Arcos Baptista: <https://www.linkedin.com/in/davi-baptista/>
 
+## 🤝 Contribuidores
+
 <a href="https://github.com/baptixta/game-design-refs/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=baptixta/game-design-refs" />
 </a>
