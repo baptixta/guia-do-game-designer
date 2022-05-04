@@ -10,6 +10,9 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
 
 ## 💻 O trabalho de um Game Designer:
 
+- Templates GDD ↓
+  - GDD Template (by: Rosa Carbo-Mascarell): <https://glamorous-save-06a.notion.site/Game-design-template-0132383574dd4c2dbff5d14e3a90761c>
+
 - Links de exemplos/tipos de GDD ↓
 
   - Como escrever um GDD: <https://www.gamedeveloper.com/business/how-to-write-a-game-design-document>
