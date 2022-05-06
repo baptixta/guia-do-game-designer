@@ -11,6 +11,7 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
 ## 💻 O trabalho de um Game Designer:
 
 - Templates GDD ↓
+
   - GDD Template (by: Rosa Carbo-Mascarell): <https://glamorous-save-06a.notion.site/Game-design-template-0132383574dd4c2dbff5d14e3a90761c>
   - GDD Template (by: Unity): <https://connect-prd-cdn.unity.com/20201215/83f3733d-3146-42de-8a69-f461d6662eb1/Game-Design-Document-Template.pdf>
   - High Level GDD Template (by: Double Coconut): <https://docs.google.com/document/d/1h4p_3wMyBtUjyW7p6VdXFcv1vWBNFcT6cLr1DzaD7V0/edit>
@@ -55,13 +56,39 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
   - Game Maker's Toolkit: <https://www.youtube.com/c/MarkBrownGMT/>
   - Extra Credits: <https://www.youtube.com/extracredits/>
   - GDC: <https://www.youtube.com/c/Gdconf/>
+  - The Gamer Inside Brasil: <https://www.youtube.com/user/TheGamerInsideBrasil>
+  - Escola Rivers: <https://www.youtube.com/c/EscolaRivers>
+
+- Link de canais bons de Unity ↓
+
+  - Unity: <https://www.youtube.com/c/unity/>
   - Brackeys: <https://www.youtube.com/c/Brackeys>
   - Blackthornprod: <https://www.youtube.com/c/Blackthornprod>
   - Mix and Jam: <https://www.youtube.com/c/MixandJam/>
-  - Unity: <https://www.youtube.com/c/unity/>
+  - GameDev Guide: <https://www.youtube.com/c/GameDevGuide>
+  - Thomas Brush: <https://www.youtube.com/c/AtmosGames/>
+  - High Level: <https://www.youtube.com/c/HighLevelGames>
+  - Jettely VFX: <https://www.youtube.com/c/Jettelly>
+  - Jason Weimann: <https://www.youtube.com/c/Unity3dCollege>
+  - Gabriel Dechichi: <https://www.youtube.com/c/GabrielDechichi>
+
+- Link de canais bons de Unreal ↓
+
   - Unreal: <https://www.youtube.com/c/UnrealEngine>
-  - Thomas Brush <https://www.youtube.com/c/AtmosGames/>
-  - The Gamer Inside Brasil: <https://www.youtube.com/user/TheGamerInsideBrasil>
+  - Fat Dino: <https://www.youtube.com/c/FatDino>
+  - Reubs: <https://www.youtube.com/c/ReubenWardTutorials>
+  - Mateus Quadros: <https://www.youtube.com/c/MateusQuadros>
+  - Mathew Wadstein: <https://www.youtube.com/c/MathewWadsteinTutorials>
+  - Unreal Sensei: <https://www.youtube.com/c/UnrealSensei>
+  - Virtus: <https://www.youtube.com/c/VirtusEdu>
+  - Diego Snow Dev: <https://www.youtube.com/c/DiegoSnowDev>
+
+- Link de canais bons de Godot ↓
+
+  - Godot: <https://www.youtube.com/c/GodotEngineOfficial>
+  - GDQuest: <https://www.youtube.com/c/Gdquest>
+  - HeartBeast: <https://www.youtube.com/c/uheartbeast>
+  - Clécio Espindola GameDev: <https://www.youtube.com/c/ClécioEspíndola>
 
 - Link de podcasts bons ↓
   - Podquest: <http://www.podquest.com.br>
@@ -73,6 +100,7 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
   - Deconstructor of Fun: <https://open.spotify.com/show/2mWi6kHU4BcN8X92pEPa2i?si=a00cb15df3c3482b>
   - Mastering Retention: <https://open.spotify.com/show/08xwnyDo84JwEKOPi0obCi?si=5cd27ea049ea46b6>
   - Abrindo o Jogo Cast: <https://open.spotify.com/show/4eUzImMKgmlnTj9yNqSMIq?si=e9f8d7297f1c4fc8>
+  - DevTalk BR: <https://open.spotify.com/show/3ukpldDXbaKN57VNWSHIZd?si=132ab54cd8914199>
 
 ## ❓ Inspiração (Portfolio / Currículo)
 
@@ -99,4 +127,5 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
 </a>
 
 ---
+
 Feito com ♥ by Baptixta
