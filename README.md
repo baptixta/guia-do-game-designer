@@ -43,13 +43,14 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
 
 - Links de sites bons ↓
 
+  - Baptixta: <https://www.baptixta.com/>
   - Game Developer: <https://www.gamedeveloper.com/>
   - Kotaku: <https://kotaku.com/>
   - Game Wisdom: <https://game-wisdom.com/>
   - Deconstructor of Fun: <https://www.deconstructoroffun.com/>
   - GameDev Directory: <https://startgame.dev/>
   - The Game Design Resource Guide: <https://alexiamandeville.medium.com/the-game-design-resource-guide-e19bb237877>
-  - Baptixta: <https://www.baptixta.com/>
+  - We Can Fix It In UI: <https://www.notion.so/onewithmachines/WE-CAN-FIX-IT-IN-UI-9f588869324a45e2b2d0595546ce77d1>
 
 - Link de canais bons ↓
 
