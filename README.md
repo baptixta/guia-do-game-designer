@@ -117,6 +117,7 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
   - Peter Harries: <https://www.peterharries.co.uk/>
   - Jay Van Hutten: <http://www.jayvanhutten.com/>
   - Nathalie Jankie: <http://www.nathaliejankie.nl/>
+  - Jack Concordia: <https://www.jackconcordia.com/home>
 
 - Link do meu linkedin ↓
   - Davi Arcos Baptista: <https://www.linkedin.com/in/davi-baptista/>
