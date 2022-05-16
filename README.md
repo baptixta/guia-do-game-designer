@@ -120,10 +120,10 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
   - Jack Concordia: <https://www.jackconcordia.com/home>
 
 - Link de pitches ↓
-  - Jack Concordia: <https://www.jackconcordia.com/home>
+  - Jack Concordia: https://www.notion.so/Pitch-Decks-f56e38c13fe6417f8379859e74367e1a
 
 - Link do meu linkedin ↓
-  - Pitch Decks: <https://www.notion.so/Pitch-Decks-f56e38c13fe6417f8379859e74367e1a>
+  - Davi Baptista: <https://www.linkedin.com/in/davi-baptista/>
 
 ## 🤝 Contribuidores
 
