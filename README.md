@@ -119,8 +119,11 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
   - Nathalie Jankie: <http://www.nathaliejankie.nl/>
   - Jack Concordia: <https://www.jackconcordia.com/home>
 
+- Link de pitches ↓
+  - Jack Concordia: <https://www.jackconcordia.com/home>
+
 - Link do meu linkedin ↓
-  - Davi Arcos Baptista: <https://www.linkedin.com/in/davi-baptista/>
+  - Pitch Decks: <https://www.notion.so/Pitch-Decks-f56e38c13fe6417f8379859e74367e1a>
 
 ## 🤝 Contribuidores
 
