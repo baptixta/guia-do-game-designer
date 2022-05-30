@@ -73,6 +73,7 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
   - Jettely VFX: <https://www.youtube.com/c/Jettelly>
   - Jason Weimann: <https://www.youtube.com/c/Unity3dCollege>
   - Gabriel Dechichi: <https://www.youtube.com/c/GabrielDechichi>
+  - Infallible Code: <https://www.youtube.com/c/InfallibleCode>
 
 - Link de canais bons de Unreal ↓
 
@@ -84,6 +85,8 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
   - Unreal Sensei: <https://www.youtube.com/c/UnrealSensei>
   - Virtus: <https://www.youtube.com/c/VirtusEdu>
   - Diego Snow Dev: <https://www.youtube.com/c/DiegoSnowDev>
+  - Mike Stevanovic: <https://www.youtube.com/c/MikeStevanovic/>
+  - Dev Enabled: <https://www.youtube.com/c/DevEnabled>
 
 - Link de canais bons de Godot ↓
 
