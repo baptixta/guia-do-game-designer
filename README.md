@@ -74,6 +74,8 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
   - Jason Weimann: <https://www.youtube.com/c/Unity3dCollege>
   - Gabriel Dechichi: <https://www.youtube.com/c/GabrielDechichi>
   - Infallible Code: <https://www.youtube.com/c/InfallibleCode>
+  - Gabriel Aguiar Prod.: <https://www.youtube.com/c/GabrielAguiarProd>
+  - Jettelly | VFX & Shaders: <https://www.youtube.com/c/Jettelly>
 
 - Link de canais bons de Unreal ↓
 
@@ -106,6 +108,7 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
   - Mastering Retention: <https://open.spotify.com/show/08xwnyDo84JwEKOPi0obCi?si=5cd27ea049ea46b6>
   - Abrindo o Jogo Cast: <https://open.spotify.com/show/4eUzImMKgmlnTj9yNqSMIq?si=e9f8d7297f1c4fc8>
   - DevTalk BR: <https://open.spotify.com/show/3ukpldDXbaKN57VNWSHIZd?si=132ab54cd8914199>
+  - Na Realidade: <https://open.spotify.com/show/4bTQORloFtVniEWxBoifSk?si=bd28fa1908e4429f>
 
 ## ❓ Inspiração (Portfolio / Currículo)
 
