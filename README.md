@@ -14,6 +14,7 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
 
   - GDD Template (by: Rosa Carbo-Mascarell): <https://glamorous-save-06a.notion.site/Game-design-template-0132383574dd4c2dbff5d14e3a90761c>
   - GDD Template (by: Unity): <https://connect-prd-cdn.unity.com/20201215/83f3733d-3146-42de-8a69-f461d6662eb1/Game-Design-Document-Template.pdf>
+  - GDD Template (BY: Milanote): <https://milanote.com/templates/game-design/game-design-document>
   - High Level GDD Template (by: Double Coconut): <https://docs.google.com/document/d/1h4p_3wMyBtUjyW7p6VdXFcv1vWBNFcT6cLr1DzaD7V0/edit>
 
 - Links de exemplos/tipos de GDD ↓
