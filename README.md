@@ -132,6 +132,9 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
 
 - Link do meu linkedin ↓
   - Davi Baptista: <https://www.linkedin.com/in/davi-baptista/>
+  
+  ## 🔍Outras fontes de estudo
+  - Kordeyrow (Matheus Cordeiro); <https://dynalist.io/d/cvvsR8RJo0E8hbQQ5Ap-3gZM#z=yT1EFc8lc6wP5tC-ULKNOoyl>
 
 ## 🤝 Contribuidores
 
