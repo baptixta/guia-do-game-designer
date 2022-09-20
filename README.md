@@ -114,7 +114,7 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
 ## ❓ Inspiração (Portfolio / Currículo)
 
 - Link do meu currículo ↓  
-  Currículo: <https://docs.google.com/document/d/1tcvu5LJOtjTWfmLRSB64JiJ0RXb1LxZYsnZiNMbDS-0/edit>
+  Currículo: <https://www.baptixta.com/resume>
 
 - Link de porfolios de game designers ↓
 
