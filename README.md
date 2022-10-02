@@ -39,9 +39,13 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
   - Rules of Play: <https://www.amazon.com.br/Rules-Play-Game-Design-Fundamentals/dp/0262240459/ref=rvi_sccl_4/144-1798634-7816448>
   - Challenges for Game Designers: <https://www.amazon.com.br/Challenges-Games-Designers-Non-Digital-Exercises-ebook/dp/B01NCYECGE/ref=sr_1_1>
 
-- Framework MDA (Mecânicas, Dinâmicas, Estética) ↓
+- Frameworks ↓
 
-  - Artigo: <https://users.cs.northwestern.edu/~hunicke/MDA.pdf>
+  - MDA (Mecânicas, Dinâmicas, Estética): <https://users.cs.northwestern.edu/~hunicke/MDA.pdf>
+  - The Colors of Game Design: https://medium.com/@lipedal/colors-of-game-design-9413d81e93a
+  - 4 Keys 2 Fun: http://www.xeodesign.com/research/
+  - Gamer Motivational Model: https://quanticfoundry.com/#motivation-model
+
 
 - Links de sites bons ↓
 
