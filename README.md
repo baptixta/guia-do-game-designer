@@ -54,6 +54,7 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
   - Kotaku: <https://kotaku.com/>
   - Game Wisdom: <https://game-wisdom.com/>
   - Deconstructor of Fun: <https://www.deconstructoroffun.com/>
+  - Katarina Gyllenback (Narrative Construction): <https://katarinagyllenback.com>
   - GameDev Directory: <https://startgame.dev/>
   - Game Design Resources (Documento): <https://docs.google.com/spreadsheets/d/1QhFyPfYSjHv7PjibGrslF3mNW_CIDXWv9o-iQgLbu1o/edit#gid=1940151835>
   - The Game Design Resource Guide: <https://alexiamandeville.medium.com/the-game-design-resource-guide-e19bb237877>
