@@ -28,7 +28,7 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
   
 # 📄 [Artigos](https://github.com/baptixta/game-design-refs/blob/main/ARTIGOS.md)
 
-## 🧠 Como aprender Game Design:
+### 🧠 Como aprender Game Design:
 
 - Links de livros bons ↓
 
