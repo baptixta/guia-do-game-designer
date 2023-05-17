@@ -117,6 +117,9 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
   - DevTalk BR: <https://open.spotify.com/show/3ukpldDXbaKN57VNWSHIZd?si=132ab54cd8914199>
   - Na Realidade: <https://open.spotify.com/show/4bTQORloFtVniEWxBoifSk?si=bd28fa1908e4429f>
 
+## 📊 Game Design Skill Chart
+<img src="https://github.com/baptixta/game-design-refs/blob/main/images/Design_Skill_Chart.png" alt="Game Design Skill Chart"/>
+
 ## ❓ Inspiração (Portfolio / Currículo)
 
 - Link do meu currículo ↓  
