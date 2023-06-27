@@ -24,6 +24,7 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
 - Como fazer balanceamento do seu jogo ↓
   - Template de balanceamento: <https://www.entrogames.com/2022/01/how-to-balance-a-game-a-deep-dive-into-a-real-world-template/>
   - Game Design 101 - Balanceando sua economia: <https://medium.com/strike-the-pixels/game-design-101-balancing-economy-5f3e5a7eecc5>
+  - Curvas (por Stanislav Stankovic): <https://stanislav-stankovic.medium.com/the-power-of-curves-652b2988cad1>
   - Machinations - <https://machinations.io/>
   
 # 📄 [Artigos](https://github.com/baptixta/game-design-refs/blob/main/ARTIGOS.md)
