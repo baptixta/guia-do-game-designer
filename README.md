@@ -65,6 +65,7 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
 
   - Game Maker's Toolkit: <https://www.youtube.com/c/MarkBrownGMT/>
   - Extra Credits: <https://www.youtube.com/extracredits/>
+  - Design Doc: <https://www.youtube.com/@DesignDoc>
   - GDC: <https://www.youtube.com/c/Gdconf/>
   - The Gamer Inside Brasil: <https://www.youtube.com/user/TheGamerInsideBrasil>
   - Escola Rivers: <https://www.youtube.com/c/EscolaRivers>
