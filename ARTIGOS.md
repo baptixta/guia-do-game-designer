@@ -16,3 +16,4 @@
 📄[How To Perfect Your Game’s Core Loop (Nathan Lovato)](https://gameanalytics.com/blog/how-to-perfect-your-games-core-loop/)<br>
 ## Mobile
 📄[Full Guide To Mobile Game Design: Theory and Best Practices (Innovecs Games)](https://www.innovecsgames.com/blog/mobile-game-design/)<br>
+📄[Density of goals: The secret to high mobile game retention](https://medium.com/ironsource-levelup/density-of-goals-2620113518bc)<br>
