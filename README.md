@@ -140,6 +140,7 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
 
 - Link de pitches ↓
   - Jack Concordia: https://www.notion.so/Pitch-Decks-f56e38c13fe6417f8379859e74367e1a
+  - Template de Pitch (Rami Ismail): https://ltpf.ramiismail.com/pitch-template/
 
 - Link do meu linkedin ↓
   - Davi Baptista: <https://www.linkedin.com/in/davi-baptista/>
