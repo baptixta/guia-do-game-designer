@@ -18,4 +18,4 @@
 📄[Full Guide To Mobile Game Design: Theory and Best Practices (Innovecs Games)](https://www.innovecsgames.com/blog/mobile-game-design/)<br>
 📄[Density of goals: The secret to high mobile game retention](https://medium.com/ironsource-levelup/density-of-goals-2620113518bc)<br>
 ## System Design
-[What is Video Game Systems Design and How Do You Learn It? (Game Design Skills)](https://gamedesignskills.com/game-design/systems-design/)
+📄[What is Video Game Systems Design and How Do You Learn It? (Game Design Skills)](https://gamedesignskills.com/game-design/systems-design/)
