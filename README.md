@@ -50,7 +50,7 @@ A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers
 
 - Links de sites bons ↓
 
-  - Baptixta: <https://www.baptixta.com/>
+  - Game Design Skills: <https://gamedesignskills.com>
   - Game Developer: <https://www.gamedeveloper.com/>
   - Kotaku: <https://kotaku.com/>
   - Game Wisdom: <https://game-wisdom.com/>
