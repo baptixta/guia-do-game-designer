@@ -196,28 +196,115 @@ footer > h2 > a:hover {
 
 /* Modal */
 dialog::backdrop {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 dialog {
     border: none;
+    border-radius: 5px;
     -webkit-box-shadow:0px 0px 91px 10px rgba(255,43,89,0.3);
     -moz-box-shadow: 0px 0px 91px 10px rgba(255,43,89,0.3);
     box-shadow: 0px 0px 91px 10px rgba(255,43,89,0.3);
     background-color: #161616;
+    padding: 0;
     position: relative;
+    max-width: 650px;
+    width: 100%;
+}
+
+dialog > h2 {
+    background: #FF2B58;
+    font-size: 2.5em;
+    width: 100%;
+    padding: 15px 0 15px 30px;
+    text-align: left;
+    margin: 0;
+    width: 85%;
+}
+
+.dialog-content {
+    border-right: 1px solid #FF2B58;
+    padding-left: 30px;
+    width: 85%;
+}
+
+.dialog-content > p {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dialog-content > ul {
+    border-bottom: 1px solid #FF2B58;
+    padding-left: 12px;
+    padding-right: 26px;
+    padding-bottom: 32px;
+    margin-top: 0;
+    padding-top: 30px;
+    color: #d3c3c6;
+
+}
+
+.dialog-content > h3 {
+    color: #FF2B58;
+    font-size: 1.8em;
+    padding: 12px 0 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dialog-recomendations {
     display: flex;
     flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.dialog-recomendations > a {
+    border-radius: 5px;
+    color: #d3c3c6;
+    margin: 6px 0;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.dialog-recomendations > a:hover {
+    color: #746f70;
+}
+
+/* spans */
+.recomendation {
+    font-size: .8em;
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.site {
+    background: #b12bff;
+}
+
+.youtube {
+    background: #FF0000;
+}
+
+.artigo {
+    background: #404de3;
+}
+
+.curso {
+    background: #FF2B58;
 }
 
 .close {
-    color: #FF2B58;
+    color: #f1f1f1;
     cursor: pointer;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 900;
     position: absolute;
-    top: 5px;
-    right: 15px;
+    top: 15px;
+    right: 20px;
     transition: .3s ease;
 }
 
