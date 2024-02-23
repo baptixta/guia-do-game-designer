@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+    background: #212121;
+    /* background: linear-gradient(180deg, #140105, #E53E5B); */
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #f1f1f1;
+    font-size: 3em;
+}
+
+h2 {
+    color: #f1f1f1;
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    color: #ae9b9f;
+    max-width: 550px;
+    text-align: center;
+}
+
+footer  {
+    align-items: center;
+    display: flex;
+    background-color: #111111;
+    font-size: .8em;
+    color: #f1f1f1;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    margin-top: 100px;
+    padding: 8px 0;
+    width: 100%;
+}
+
+
+ /* Classes */
+
+.header {
+    align-items: center;
+    background-image: url("images/controle.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-y: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+.header-title {
+    color: #FF2B58;    
+    text-align: center;
+    line-height: 0.95;
+}
+
+.header-title > span {
+    color: #f1f1f1;
+    font-size: 2.05em;
+}
+
+.magenta {
+    color: #FF2B58;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+    width: 100%;
+}
+
+.levels {
+    color: #f1f1f1;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.box-highlight {
+    background-color: #FF2B58;
+    -webkit-box-shadow:0px 0px 91px 5px rgba(255,43,89,0.64);
+    -moz-box-shadow: 0px 0px 91px 5px rgba(255,43,89,0.64);
+    box-shadow: 0px 0px 91px 5px rgba(255,43,89,0.64);
+    border-radius: 5px;
+    font-size: 2em;
+    font-weight: 600;
+    padding: 30px 0;
+    width: 100%;
+}
+
+.box-outline {
+    border-radius: 5px;
+    margin: 10px 0;
+    outline: solid 1px #FF2B58;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.box-fill {
+    align-items: center;
+    background: #161616;
+    display: flex;
+    border-radius: 5px;
+    margin: 5px;
+    justify-content: center;
+    padding: 20px 112px;
+    transition: .3s ease;
+    width: 100%;
+}
+
+.box-fill:hover {
+    background: #FF2B58;
+    -webkit-box-shadow:0px 0px 20px 2px rgba(255,43,89,0.2);
+    -moz-box-shadow: 0px 0px 20px 2px rgba(255,43,89,0.2);
+    box-shadow: 0px 0px 20px 2px rgba(255,43,89,0.2);
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.box-divider {
+    align-content: stretch;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.gdx {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.gdx-info {
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gdx-video {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.gdx-btn {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #FF2B58;
+    color: #f1f1f1;
+    -webkit-box-shadow:0px 0px 91px 5px rgba(255,43,89,0.64);
+    -moz-box-shadow: 0px 0px 91px 5px rgba(255,43,89,0.64);
+    box-shadow: 0px 0px 91px 5px rgba(255,43,89,0.64);
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+    transition: all .4s ease;
+    width: 100%;
+}
+
+.gdx-btn:hover {
+    -webkit-box-shadow:0px 0px 91px 10px rgba(255,43,89,0.8);
+    -moz-box-shadow: 0px 0px 91px 10px rgba(255,43,89,0.8);
+    box-shadow: 0px 0px 91px 10px rgba(255,43,89,0.8);
+    transform: scale(1.1);
+}
+
+/* Modal */
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+dialog {
+    border: none;
+    -webkit-box-shadow:0px 0px 91px 10px rgba(255,43,89,0.3);
+    -moz-box-shadow: 0px 0px 91px 10px rgba(255,43,89,0.3);
+    box-shadow: 0px 0px 91px 10px rgba(255,43,89,0.3);
+    background-color: #161616;
+    max-width: 600px;
+}
+
+/* responsivo */
+@media (max-width: 500px) {
+    .content {
+        max-width: 300px;
+    }
+
+    .box-divider {
+        flex-direction: column;
+    }
+
+    .box-fill {
+        width: auto;
+    }
+
+    .gdx-info {
+        width: 80%;
+    }
+
+    .gdx-video > iframe {
+        width: 100%;
+    }
+
+    dialog {
+        width: 85%;
+    }
+}

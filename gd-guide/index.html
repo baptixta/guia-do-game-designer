@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GGD - Guia do Game Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/controle-favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="header">
+        <h1 class="header-title"><span>GUIA DO</span><br>GAME DESIGNER</h1>
+        <p>Eu criei esse guia para ajudar na sua jornada de aprendizado. Um mapeamento das principais tecnologias, conceitos e habilidades demandadas pelo mercado, com minhas sugestões e opiniões.</p>
+    </div>
+
+    <div class="levels">
+        <div class="content">
+            <div class="box-highlight">
+                Comece aqui
+            </div>
+
+            <div class="box-outline">
+                Nível 1
+            </div>
+            <div class="box-divider">
+                <div class="box-fill intro">
+                    Introdução
+                </div>
+                <div class="box-fill">
+                    Conceitos Básicos
+                </div>
+            </div>            
+
+            <div class="box-outline">
+                Nível 2
+            </div>           
+            <div class="box-divider">
+                <div class="box-fill">
+                    Conceitos Básicos
+                </div>
+                <div class="box-fill">
+                    Conceitos Básicos
+                </div>
+            </div>   
+            <div class="box-divider">
+                <div class="box-fill">
+                    Planilhas
+                </div>
+            </div>   
+
+            <div class="box-outline">
+                Nível 3
+            </div>
+            
+            <div class="box-divider">
+                <div class="box-fill">
+                    Versionamento (Git)
+                </div>                
+            </div>
+            <div class="box-divider">
+                <div class="box-fill">
+                    Engines
+                </div>
+                <div class="box-fill">
+                    Conceitos Básicos
+                </div>
+            </div>   
+
+
+        </div>        
+    </div>
+
+    <!-- Modais -->
+    <dialog>
+        <h2>Introdução</h2>
+
+        <p>
+            HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.
+        </p>
+
+        <ul>
+            <li>Teste</li>
+            <li>Teste</li>
+            <li>Teste</li>
+            <li>Teste</li>
+        </ul>
+
+        <h3>Conteúdo recomendado</h3>
+        <a href="#">Teste</a>
+        <a href="#">Teste</a>
+        <a href="#">Teste</a>
+        <a href="#">Teste</a>
+
+        <div class="close">
+            Fechar
+        </div>
+    </dialog>
+
+    <div class="gdx">
+        <div class="gdx-info">
+            <div class="gdx-text">
+                <h2>Quer investir na sua carreira?</h2>
+                <p>
+                    Para complementar esse Guia e te ajudar na sua carreira, eu criei um curso totalmente em português, ensinando teoria e prática do game design de uma forma mais simples e direta.
+                </p>
+            </div>        
+    
+            <div class="gdx-video">
+                <iframe width="550" height="300" src="https://www.youtube.com/embed/sFBDXtinomg" title="Game Design Experience" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <a href="https://csjdigital.com.br/pv-gdx/" rel="noopener" target="_blank" class="gdx-btn">
+                    Quero investir na minha carreira
+                </a>
+            </div>
+        </div>               
+    </div>
+
+    <footer>
+        <h2>Feito com <span class="magenta">❤</span> por @baptixta</h2>
+    </footer>
+
+
+
+    <script>
+        const btnModal = document.querySelector(".intro")
+        const modal = document.querySelector("dialog")
+        const buttonClose = document.querySelector(".close") 
+
+        btnModal.onclick = function () {
+            modal.showModal()
+        }
+
+        buttonClose.onclick = function () {
+            modal.close()
+        }
+    </script>
+</body>
+</html>
