@@ -1,4 +1,6 @@
-<center> ![Game Design para Game Designers Cover](https://github.com/baptixta/game-design-refs/blob/main/images/guia.png "Cover") </center>
+<center>
+![Game Design para Game Designers Cover](https://github.com/baptixta/game-design-refs/blob/main/images/guia.png "Cover")
+</center>
 
 ## 🎯Objetivo
 
