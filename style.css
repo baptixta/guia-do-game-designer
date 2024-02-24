@@ -9,6 +9,8 @@ body {
     font-family: "Space Grotesk", sans-serif;
     margin: 0;
     padding: 0;
+    position: relative;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -209,7 +211,19 @@ dialog {
     padding: 0;
     position: relative;
     max-width: 650px;
+    position: absolute;
+    transition: .3s ease-in;
     width: 100%;
+}
+
+.dialog-open {
+    pointer-events: initial;
+    opacity: 1;
+}
+
+.dialog-close {
+    pointer-events: none;
+    opacity: 0;
 }
 
 dialog > h2 {
@@ -297,7 +311,7 @@ dialog > h2 {
     background: #FF2B58;
 }
 
-.close {
+.close-intro, .close-conceitos-basicos, .close-gdd, .close-frameworks, .close-design-de-sistemas, .close-level-design, .close-planilhas, .close-versionamento, .close-engines  {
     color: #f1f1f1;
     cursor: pointer;
     font-size: 2.5em;
@@ -308,7 +322,7 @@ dialog > h2 {
     transition: .3s ease;
 }
 
-.close:hover {
+.close-intro:hover, .close-conceitos-basicos:hover, .close-gdd:hover, .close-frameworks:hover, .close-design-de-sistemas:hover, .close-level-design:hover, .close-planilhas:hover, .close-versionamento:hover, .close-engines:hover {
     transform: scale(1.3);
 }
 

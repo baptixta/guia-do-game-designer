@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GGD - Guia do Game Designer</title>
     <link rel="stylesheet" href="style.css">
-    <script src="js/index.js"></script>
     <link rel="shortcut icon" href="img/controle-favicon.png" type="image/x-icon">
 </head>
 <body>
@@ -29,8 +28,13 @@
                 <div class="box-fill intro">
                     Introdução
                 </div>
-                <div class="box-fill">
+                <div class="box-fill conceitos-basicos">
                     Conceitos Básicos
+                </div>
+            </div>    
+            <div class="box-divider">
+                <div class="box-fill gdd">
+                    Game Design Document (GDD)
                 </div>
             </div>            
 
@@ -38,18 +42,18 @@
                 Nível 2
             </div>           
             <div class="box-divider">
-                <div class="box-fill">
+                <div class="box-fill frameworks">
                     Frameworks
                 </div>
-                <div class="box-fill">
+                <div class="box-fill design-de-sistemas">
                     Design de sistemas
                 </div>
             </div>   
             <div class="box-divider">
-                <div class="box-fill">
+                <div class="box-fill level-design">
                     Level Design
                 </div>
-                <div class="box-fill">
+                <div class="box-fill planilhas">
                     Planilhas
                 </div>
             </div>   
@@ -58,26 +62,22 @@
                 Nível 3
             </div>
             
-            <div class="box-divider">
+            <div class="box-divider versionamento">
                 <div class="box-fill">
                     Versionamento (Git)
                 </div>                
             </div>
-            <div class="box-divider">
+            <div class="box-divider engines">
                 <div class="box-fill">
                     Engines
                 </div>
-                <div class="box-fill">
-                    Conceitos Básicos
-                </div>
             </div>   
-
-
         </div>        
     </div>
 
-    <!-- Modais -->
-    <dialog>
+<!-- Modais -->
+    <!-- Modal Introdução-->
+    <dialog class="modal-introducao dialog-close" open>
         <h2>Introdução</h2>
 
         <div class="dialog-content">
@@ -91,16 +91,195 @@
 
             <div class="dialog-recomendations">
                 <a href="https://youtu.be/PMXf0e8n2Oc?si=BTZbfX0zlYiZIq7Q" target="_blank"><span class="recomendation youtube">Youtube</span>How to Become a Game Designer</a>
-                <a href="https://youtu.be/PMXf0e8n2Oc?si=BTZbfX0zlYiZIq7Q" target="_blank"><span class="recomendation youtube">Youtube</span>How to Become a Game Designer</a>
+                <a href="https://youtu.be/zQvWMdWhFCc?si=5DFPkH-w_X4OCk8E" target="_blank"><span class="recomendation youtube">Youtube</span>So You Want To Be a Game Designer - Extra Credits</a>     
+                <a href="https://youtu.be/suhANDk1h40?si=zyIMsVuL-r2I-e8N" target="_blank"><span class="recomendation youtube">Youtube</span>The Four Types of Video Game Designers</a>     
                 <a href="https://www.alura.com.br/artigos/game-design" target="_blank"><span class="recomendation artigo">Artigo</span>O que é, o que faz e como se tornar game designer</a>
                 <a href="https://csjdigital.com.br/pv-gdx/" target="_blank"><span class="recomendation curso">curso</span>Game Design Experience</a>
             </div>
         </div>        
 
-        <div class="close">
+        <div class="close-intro">
             x
         </div>
     </dialog>
+
+    <!-- Modal Conceitos Básicos-->
+    <dialog class="modal-conceitos-basicos dialog-close" open>
+        <h2>Conceitos Básicos</h2>
+
+        <div class="dialog-content">
+            <ul>
+                <li>Game Design é a disciplina/ciência/arte que é responsável pela criação do jogo em si.</li>
+                <li>É o processo criativo feito junto com pesquisa de mercado, em que uma pessoa tem ideias, documenta e decide quais dessas ideias serão utilizadas.</li>
+                <li>O game design além de gerar um conceito sólido para o jogo em questão que vai ser desenvolvido, também vai definir com a maior clareza possível as regras, mecânicas e sistemas que o jogo vai ter.</li>
+            </ul>
+    
+            <h3>Conteúdo Recomendado</h3>
+
+            <div class="dialog-recomendations">
+                <a href="https://youtu.be/G8AT01tuyrk?si=gGbuakvy4vxKsL97" target="_blank"><span class="recomendation youtube">Youtube</span>Basic Principles of Game Design</a>
+                <a href="https://csjdigital.com.br/pv-gdx/" target="_blank"><span class="recomendation curso">curso</span>Game Design Experience</a>
+            </div>
+        </div>        
+
+        <div class="close-conceitos-basicos">
+            x
+        </div>
+    </dialog>
+
+    <!-- Modal GDD -->
+    <dialog class="modal-gdd dialog-close" open>
+        <h2>Game Design Document</h2>
+
+        <div class="dialog-content">
+            <ul>
+                <li>GDD</li>
+            </ul>
+    
+            <h3>Conteúdo Recomendado</h3>
+
+            <div class="dialog-recomendations">
+                <a href="https://youtu.be/G8AT01tuyrk?si=gGbuakvy4vxKsL97" target="_blank"><span class="recomendation youtube">Youtube</span>Basic Principles of Game Design</a>
+                <a href="https://csjdigital.com.br/pv-gdx/" target="_blank"><span class="recomendation curso">curso</span>Game Design Experience</a>
+            </div>
+        </div>        
+
+        <div class="close-gdd">
+            x
+        </div>
+    </dialog>
+
+    <!-- Modal Frameworks -->
+    <dialog class="modal-frameworks dialog-close" open>
+        <h2>Frameworks</h2>
+
+        <div class="dialog-content">
+            <ul>
+                <li>Frameworks</li>
+            </ul>
+    
+            <h3>Conteúdo Recomendado</h3>
+
+            <div class="dialog-recomendations">
+                <a href="https://youtu.be/G8AT01tuyrk?si=gGbuakvy4vxKsL97" target="_blank"><span class="recomendation youtube">Youtube</span>Basic Principles of Game Design</a>
+                <a href="https://csjdigital.com.br/pv-gdx/" target="_blank"><span class="recomendation curso">curso</span>Game Design Experience</a>
+            </div>
+        </div>        
+
+        <div class="close-frameworks">
+            x
+        </div>
+    </dialog>
+
+    <!-- Modal Design de Sistemas -->
+    <dialog class="modal-design-de-sistemas dialog-close" open>
+        <h2>Design de Sistemas</h2>
+
+        <div class="dialog-content">
+            <ul>
+                <li>Design de Sistemas</li>
+            </ul>
+    
+            <h3>Conteúdo Recomendado</h3>
+
+            <div class="dialog-recomendations">
+                <a href="https://youtu.be/G8AT01tuyrk?si=gGbuakvy4vxKsL97" target="_blank"><span class="recomendation youtube">Youtube</span>Basic Principles of Game Design</a>
+                <a href="https://csjdigital.com.br/pv-gdx/" target="_blank"><span class="recomendation curso">curso</span>Game Design Experience</a>
+            </div>
+        </div>        
+
+        <div class="close-design-de-sistemas">
+            x
+        </div>
+    </dialog>
+
+    <!-- Modal Level Design -->
+    <dialog class="modal-level-design dialog-close" open>
+        <h2>Level Design</h2>
+
+        <div class="dialog-content">
+            <ul>
+                <li>Level Design</li>
+            </ul>
+    
+            <h3>Conteúdo Recomendado</h3>
+
+            <div class="dialog-recomendations">
+                <a href="https://youtu.be/G8AT01tuyrk?si=gGbuakvy4vxKsL97" target="_blank"><span class="recomendation youtube">Youtube</span>Basic Principles of Game Design</a>
+                <a href="https://csjdigital.com.br/pv-gdx/" target="_blank"><span class="recomendation curso">curso</span>Game Design Experience</a>
+            </div>
+        </div>        
+
+        <div class="close-level-design">
+            x
+        </div>
+    </dialog>
+
+    <!-- Modal Planilhas -->
+    <dialog class="modal-planilhas dialog-close" open>
+        <h2>Planilhas</h2>
+
+        <div class="dialog-content">
+            <ul>
+                <li>Planilhas</li>
+            </ul>
+    
+            <h3>Conteúdo Recomendado</h3>
+
+            <div class="dialog-recomendations">
+                <a href="https://youtu.be/G8AT01tuyrk?si=gGbuakvy4vxKsL97" target="_blank"><span class="recomendation youtube">Youtube</span>Basic Principles of Game Design</a>
+                <a href="https://csjdigital.com.br/pv-gdx/" target="_blank"><span class="recomendation curso">curso</span>Game Design Experience</a>
+            </div>
+        </div>        
+
+        <div class="close-planilhas">
+            x
+        </div>
+    </dialog>
+
+    <!-- Modal Versionamento -->
+    <dialog class="modal-versionamento dialog-close" open>
+        <h2>Versionamento</h2>
+
+        <div class="dialog-content">
+            <ul>
+                <li>Versionamento</li>
+            </ul>
+    
+            <h3>Conteúdo Recomendado</h3>
+
+            <div class="dialog-recomendations">
+                <a href="https://youtu.be/G8AT01tuyrk?si=gGbuakvy4vxKsL97" target="_blank"><span class="recomendation youtube">Youtube</span>Basic Principles of Game Design</a>
+                <a href="https://csjdigital.com.br/pv-gdx/" target="_blank"><span class="recomendation curso">curso</span>Game Design Experience</a>
+            </div>
+        </div>        
+
+        <div class="close-versionamento">
+            x
+        </div>
+    </dialog>
+
+    <!-- Modal Engines -->
+    <dialog class="modal-engines dialog-close" open>
+        <h2>Engines</h2>
+
+        <div class="dialog-content">
+            <ul>
+                <li>Engines</li>
+            </ul>
+    
+            <h3>Conteúdo Recomendado</h3>
+
+            <div class="dialog-recomendations">
+                <a href="https://youtu.be/G8AT01tuyrk?si=gGbuakvy4vxKsL97" target="_blank"><span class="recomendation youtube">Youtube</span>Basic Principles of Game Design</a>
+                <a href="https://csjdigital.com.br/pv-gdx/" target="_blank"><span class="recomendation curso">curso</span>Game Design Experience</a>
+            </div>
+        </div>        
+
+        <div class="close-engines">
+            x
+        </div>
+    </dialog>  
 
     <div class="gdx">
         <div class="gdx-info">
@@ -125,20 +304,6 @@
         <h2>Feito com <span class="magenta">❤</span> por <a href="https://baptixta.com" target="_blank" rel="noopener">@baptixta</a></h2>
     </footer>
 
-
-
-    <script>
-        const btnModal = document.querySelector(".intro")
-        const modal = document.querySelector("dialog")
-        const buttonClose = document.querySelector(".close") 
-
-        btnModal.onclick = function () {
-            modal.showModal()
-        }
-
-        buttonClose.onclick = function () {
-            modal.close()
-        }
-    </script>
+    <script src="js/index.js"></script>
 </body>
 </html>
