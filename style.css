@@ -326,8 +326,12 @@ dialog > h2 {
     transform: scale(1.3);
 }
 
-.modal-introducao, .modal-conceitos-basicos, .modal-gdd {
+.modal-introducao, .modal-conceitos-basicos {
     top: 365px;
+}
+
+.modal-gdd {
+    top: 550px;
 }
 
 /* responsivo */
