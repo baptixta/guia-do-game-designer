@@ -331,7 +331,11 @@ dialog > h2 {
 }
 
 .modal-gdd {
-    top: 550px;
+    top: 490px;
+}
+
+.modal-frameworks, .modal-design-de-sistemas, .modal-level-design, .modal-planilhas {
+    top: 665px;
 }
 
 /* responsivo */
