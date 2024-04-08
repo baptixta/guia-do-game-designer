@@ -311,7 +311,7 @@ dialog > h2 {
     background: #FF2B58;
 }
 
-.close-intro, .close-conceitos-basicos, .close-gdd, .close-frameworks, .close-design-de-sistemas, .close-level-design, .close-planilhas, .close-versionamento, .close-engines  {
+.close-intro, .close-conceitos-basicos, .close-gdd, .close-frameworks, .close-design-de-sistemas, .close-level-design, .close-planilhas, .close-balanceamento, .close-versionamento, .close-engines  {
     color: #f1f1f1;
     cursor: pointer;
     font-size: 2.5em;
@@ -322,7 +322,7 @@ dialog > h2 {
     transition: .3s ease;
 }
 
-.close-intro:hover, .close-conceitos-basicos:hover, .close-gdd:hover, .close-frameworks:hover, .close-design-de-sistemas:hover, .close-level-design:hover, .close-planilhas:hover, .close-versionamento:hover, .close-engines:hover {
+.close-intro:hover, .close-conceitos-basicos:hover, .close-gdd:hover, .close-frameworks:hover, .close-design-de-sistemas:hover, .close-level-design:hover, .close-planilhas:hover, .close-balanceamento:hover .close-versionamento:hover, .close-engines:hover {
     transform: scale(1.3);
 }
 
@@ -341,6 +341,19 @@ dialog > h2 {
 .modal-level-design, .modal-planilhas {
     top: 820px;
 }
+
+.modal-level-design, .modal-planilhas {
+    top: 820px;
+}
+
+.modal-balanceamento {
+    top: 888px;
+}
+
+.modal-versionamento, .modal-engines {
+    top: 1050px;
+}
+
 
 /* responsivo */
 @media (max-width: 500px) {

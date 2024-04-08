@@ -26,6 +26,10 @@ const btnModalPlanilhas = document.querySelector(".planilhas")
 const modalPlanilhas = document.querySelector(".modal-planilhas")
 const buttonClosePlanilhas = document.querySelector(".close-planilhas") 
 
+const btnModalBalanceamento = document.querySelector(".balanceamento")
+const modalBalanceamento = document.querySelector(".modal-balanceamento")
+const buttonCloseBalanceamento = document.querySelector(".close-balanceamento") 
+
 const btnModalVersionamento = document.querySelector(".versionamento")
 const modalVersionamento = document.querySelector(".modal-versionamento")
 const buttonCloseVersionamento = document.querySelector(".close-versionamento") 
@@ -111,6 +115,17 @@ btnModalPlanilhas.onclick = function () {
 buttonClosePlanilhas.onclick = function () {
     modalPlanilhas.classList.add("dialog-close")
     modalPlanilhas.classList.remove("dialog-open")
+}
+
+// modal balanceamento
+btnModalBalanceamento.onclick = function () {
+    modalBalanceamento.classList.remove("dialog-close")
+    modalBalanceamento.classList.add("dialog-open")
+}
+
+buttonCloseBalanceamento.onclick = function () {
+    modalBalanceamento.classList.add("dialog-close")
+    modalBalanceamento.classList.remove("dialog-open")
 }
 
 // modal versionamento
