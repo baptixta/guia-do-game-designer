@@ -357,6 +357,14 @@ dialog > h2 {
 
 /* responsivo */
 @media (max-width: 500px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    p {
+        width: 85%;
+    }
+
     .content {
         max-width: 300px;
     }
@@ -379,5 +387,24 @@ dialog > h2 {
 
     dialog {
         width: 85%;
+    }
+
+    dialog > h2 {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        font-size: 1.5em;
+        width: auto;
+    }
+
+    .dialog-content {
+        border-right: none;
+    }
+
+    .dialog-content > ul {
+        padding-right: 12px;
+    }
+
+    .close-intro, .close-conceitos-basicos, .close-gdd, .close-frameworks, .close-design-de-sistemas, .close-level-design, .close-planilhas, .close-balanceamento, .close-versionamento, .close-engines {
+        top: 0px;
     }
 }
