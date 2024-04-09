@@ -1,7 +1,7 @@
 
 ![Site Gif](https://github.com/baptixta/game-design-refs/blob/main/images/ggd.gif "Site Gif")
-<p style="text-align: center;"><a href="https://baptixta.github.io/guia-do-game-designer/" target="_blank">Acesse o Guia do Game Designer aqui</a></p>
-
+<a href="https://baptixta.github.io/guia-do-game-designer/" target="_blank">Acesse o Guia do Game Designer aqui</a>
+<br>
 ## 🎯Objetivo
 
 A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers a se desenvolverem (de iniciantes até avançados). Se tiver algo legal para compartilhar, é só mandar um pull request :)
