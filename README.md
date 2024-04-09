@@ -1,8 +1,11 @@
 ![Game Design para Game Designers Cover](https://github.com/baptixta/game-design-refs/blob/main/images/guia-logo.png "Cover")
+![Site Gif](https://github.com/baptixta/game-design-refs/blob/main/images/ggd.gif "Site Gif")
+[Acesse o Guia do Game Designer aqui](https://baptixta.github.io/guia-do-game-designer/)
 
 ## 🎯Objetivo
 
 A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers a se desenvolverem (de iniciantes até avançados). Se tiver algo legal para compartilhar, é só mandar um pull request :)
+Além de todos os links organizados e estruturados em níveis no site do [**Guia do Game Designer**](https://baptixta.github.io/guia-do-game-designer/), dentro desse readme tem diversos outros links categorizados e um pouco mais bagunçados pra você estudar se quiser.
 
 ## 💻 O trabalho de um Game Designer:
 
