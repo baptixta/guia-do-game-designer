@@ -1,6 +1,6 @@
 
 ![Site Gif](https://github.com/baptixta/game-design-refs/blob/main/images/ggd.gif "Site Gif")
-<center>Acesse o Guia do Game Designer aqui](https://baptixta.github.io/guia-do-game-designer/)</center>
+<a href="https://baptixta.github.io/guia-do-game-designer/" target="_blank" style="text-align: center;">Acesse o Guia do Game Designer aqui</a>
 
 ## 🎯Objetivo
 
