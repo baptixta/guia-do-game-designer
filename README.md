@@ -7,6 +7,7 @@
 A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers a se desenvolverem (de iniciantes até avançados). Se tiver algo legal para compartilhar, é só mandar um pull request :)
 <br><br>
 Além de todos os links organizados e estruturados em níveis no site do [**Guia do Game Designer**](https://baptixta.github.io/guia-do-game-designer/), dentro desse readme tem diversos outros links categorizados e um pouco mais bagunçados pra você estudar se quiser.
+<br><br>
 
 ## 💻 O trabalho de um Game Designer:
 
@@ -28,8 +29,12 @@ Além de todos os links organizados e estruturados em níveis no site do [**Guia
   - Game Design 101 - Balanceando sua economia: <https://medium.com/strike-the-pixels/game-design-101-balancing-economy-5f3e5a7eecc5>
   - Curvas (por Stanislav Stankovic): <https://stanislav-stankovic.medium.com/the-power-of-curves-652b2988cad1>
   - Machinations - <https://machinations.io/>
+ 
+<br><br>
   
 # 📄 [Artigos](https://github.com/baptixta/game-design-refs/blob/main/ARTIGOS.md)
+
+<br><br>
 
 ### 🧠 Como aprender Game Design:
 
@@ -120,9 +125,13 @@ Além de todos os links organizados e estruturados em níveis no site do [**Guia
   - Abrindo o Jogo Cast: <https://open.spotify.com/show/4eUzImMKgmlnTj9yNqSMIq?si=e9f8d7297f1c4fc8>
   - DevTalk BR: <https://open.spotify.com/show/3ukpldDXbaKN57VNWSHIZd?si=132ab54cd8914199>
   - Na Realidade: <https://open.spotify.com/show/4bTQORloFtVniEWxBoifSk?si=bd28fa1908e4429f>
+ 
+<br><br>
 
 ## 📊 Game Design Skill Chart
 <img src="https://github.com/baptixta/game-design-refs/blob/main/images/Design_Skill_Chart.png" alt="Game Design Skill Chart"/>
+
+<br><br>
 
 ## ❓ Inspiração (Portfolio / Currículo)
 
@@ -146,9 +155,8 @@ Além de todos os links organizados e estruturados em níveis no site do [**Guia
 
 - Link do meu linkedin ↓
   - Davi Baptista: <https://www.linkedin.com/in/davi-baptista/>
-  
-## 🔍Outras fontes de estudo
-  - Kordeyrow (Matheus Cordeiro); <https://dynalist.io/d/cvvsR8RJo0E8hbQQ5Ap-3gZM#z=yT1EFc8lc6wP5tC-ULKNOoyl>
+
+<br><br>
 
 ## 🤝 Contribuidores
 
