@@ -1,6 +1,6 @@
-![Game Design para Game Designers Cover](https://github.com/baptixta/game-design-refs/blob/main/images/guia-logo.png "Cover")
+
 ![Site Gif](https://github.com/baptixta/game-design-refs/blob/main/images/ggd.gif "Site Gif")
-[Acesse o Guia do Game Designer aqui](https://baptixta.github.io/guia-do-game-designer/)
+<center>Acesse o Guia do Game Designer aqui](https://baptixta.github.io/guia-do-game-designer/)</center>
 
 ## 🎯Objetivo
 
