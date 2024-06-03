@@ -38,6 +38,14 @@ const btnModalEngines = document.querySelector(".engines")
 const modalEngines = document.querySelector(".modal-engines")
 const buttonCloseEngines = document.querySelector(".close-engines") 
 
+const btnModalPodcasts = document.querySelector(".podcasts")
+const modalPodcasts = document.querySelector(".modal-podcasts")
+const buttonClosePodcasts = document.querySelector(".close-podcasts")
+
+const btnModalCanais = document.querySelector(".canais")
+const modalCanais = document.querySelector(".modal-canais")
+const buttonCloseCanais = document.querySelector(".close-canais") 
+
 // abrindo e fechando modais
 
 // modal introducao
@@ -148,4 +156,26 @@ btnModalEngines.onclick = function () {
 buttonCloseEngines.onclick = function () {
     modalEngines.classList.add("dialog-close")
     modalEngines.classList.remove("dialog-open")
+}
+
+// modal podcasts
+btnModalPodcasts.onclick = function () {
+    modalPodcasts.classList.remove("dialog-close")
+    modalPodcasts.classList.add("dialog-open")
+}
+
+buttonClosePodcasts.onclick = function () {
+    modalPodcasts.classList.add("dialog-close")
+    modalPodcasts.classList.remove("dialog-open")
+}
+
+// modal canais
+btnModalCanais.onclick = function () {
+    modalCanais.classList.remove("dialog-close")
+    modalCanais.classList.add("dialog-open")
+}
+
+buttonCloseCanais.onclick = function () {
+    modalCanais.classList.add("dialog-close")
+    modalCanais.classList.remove("dialog-open")
 }
