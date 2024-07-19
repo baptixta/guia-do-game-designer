@@ -46,6 +46,10 @@ const btnModalCanais = document.querySelector(".canais")
 const modalCanais = document.querySelector(".modal-canais")
 const buttonCloseCanais = document.querySelector(".close-canais") 
 
+const btnModalJoga = document.querySelector(".joga")
+const modalJoga = document.querySelector(".modal-joga")
+const buttonCloseJoga = document.querySelector(".close-joga") 
+
 // abrindo e fechando modais
 
 // modal introducao

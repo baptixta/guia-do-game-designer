@@ -285,6 +285,11 @@ dialog > h2 {
     color: #746f70;
 }
 
+.fix-text {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
 /* spans */
 .recomendation {
     font-size: .8em;
@@ -311,7 +316,7 @@ dialog > h2 {
     background: #FF2B58;
 }
 
-.close-intro, .close-conceitos-basicos, .close-gdd, .close-frameworks, .close-design-de-sistemas, .close-level-design, .close-planilhas, .close-balanceamento, .close-versionamento, .close-engines, .close-podcasts, .close-canais {
+.close-intro, .close-conceitos-basicos, .close-gdd, .close-frameworks, .close-design-de-sistemas, .close-level-design, .close-planilhas, .close-balanceamento, .close-versionamento, .close-engines, .close-podcasts, .close-canais, .close-joga {
     color: #f1f1f1;
     cursor: pointer;
     font-size: 2.5em;
@@ -322,7 +327,7 @@ dialog > h2 {
     transition: .3s ease;
 }
 
-.close-intro:hover, .close-conceitos-basicos:hover, .close-gdd:hover, .close-frameworks:hover, .close-design-de-sistemas:hover, .close-level-design:hover, .close-planilhas:hover, .close-balanceamento:hover .close-versionamento:hover, .close-engines:hover, .close-podcasts:hover, .close-canais:hover {
+.close-intro:hover, .close-conceitos-basicos:hover, .close-gdd:hover, .close-frameworks:hover, .close-design-de-sistemas:hover, .close-level-design:hover, .close-planilhas:hover, .close-balanceamento:hover .close-versionamento:hover, .close-engines:hover, .close-podcasts:hover, .close-canais:hover, .close-joga:hover {
     transform: scale(1.3);
 }
 
@@ -354,7 +359,7 @@ dialog > h2 {
     top: 1050px;
 }
 
-.modal-podcasts, .modal-canais {
+.modal-podcasts, .modal-canais, .modal-joga {
     top: 1200px;
 }
 
