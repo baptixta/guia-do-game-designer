@@ -1,185 +1,172 @@
-const btnModalIntro = document.querySelector(".intro")
-const modalIntro = document.querySelector(".modal-introducao")
-const buttonCloseIntro = document.querySelector(".close-intro") 
+// Theme Toggle Functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeIcon = document.querySelector('.theme-icon');
+    const body = document.body;
+    
+    // Check for saved theme preference or default to dark theme
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    body.className = `${savedTheme}-theme`;
+    updateThemeIcon(savedTheme);
+    
+    // Theme toggle click handler
+    themeToggle.addEventListener('click', function() {
+        const currentTheme = body.classList.contains('dark-theme') ? 'dark' : 'light';
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        
+        // Update body class
+        body.className = `${newTheme}-theme`;
+        
+        // Update icon
+        updateThemeIcon(newTheme);
+        
+        // Save preference
+        localStorage.setItem('theme', newTheme);
+    });
+    
+    // Function to update theme icon
+    function updateThemeIcon(theme) {
+        if (theme === 'light') {
+            themeIcon.textContent = 'escuro';
+        } else {
+            themeIcon.textContent = 'claro';
+        }
+    }
+    
+    // Add smooth transitions for accordion animations
+    const accordionButtons = document.querySelectorAll('[data-bs-toggle="collapse"]');
+    
+    accordionButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const targetId = this.getAttribute('data-bs-target');
+            const targetElement = document.querySelector(targetId);
+            
+            // Add smooth animation class
+            if (targetElement) {
+                targetElement.style.transition = 'all 0.3s ease';
+            }
+        });
+    });
+    
+    
+    // Add smooth scrolling for anchor links
+    const anchorLinks = document.querySelectorAll('a[href^="#"]');
+    
+    anchorLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+    
+    // Add keyboard navigation support
+    document.addEventListener('keydown', function(e) {
+        // Toggle theme with Ctrl+T (or Cmd+T on Mac)
+        if ((e.ctrlKey || e.metaKey) && e.key === 't') {
+            e.preventDefault();
+            themeToggle.click();
+        }
+        
+        // Escape key to close any open accordions
+        if (e.key === 'Escape') {
+            const openAccordions = document.querySelectorAll('.collapse.show');
+            openAccordions.forEach(accordion => {
+                const bsCollapse = new bootstrap.Collapse(accordion, {
+                    hide: true
+                });
+            });
+        }
+    });
+    
+    // Add loading animation
+    window.addEventListener('load', function() {
+        document.body.style.opacity = '0';
+        document.body.style.transition = 'opacity 0.5s ease';
+        
+        setTimeout(() => {
+            document.body.style.opacity = '1';
+        }, 100);
+    });
+    
+    // Add intersection observer for smooth animations
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+    
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, observerOptions);
+    
+    // Observe all cards and sections
+    const animatedElements = document.querySelectorAll('.card, .mb-5');
+    animatedElements.forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(20px)';
+        el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        observer.observe(el);
+    });
+    
+    // Add ripple effect to buttons
+    const buttons = document.querySelectorAll('.btn');
+    
+    buttons.forEach(button => {
+        button.addEventListener('click', function(e) {
+            const ripple = document.createElement('span');
+            const rect = this.getBoundingClientRect();
+            const size = Math.max(rect.width, rect.height);
+            const x = e.clientX - rect.left - size / 2;
+            const y = e.clientY - rect.top - size / 2;
+            
+            ripple.style.width = ripple.style.height = size + 'px';
+            ripple.style.left = x + 'px';
+            ripple.style.top = y + 'px';
+            ripple.classList.add('ripple');
+            
+            this.appendChild(ripple);
+            
+            setTimeout(() => {
+                ripple.remove();
+            }, 600);
+        });
+    });
+});
 
-const btnModalConceitosBasicos = document.querySelector(".conceitos-basicos")
-const modalConceitosBasicos = document.querySelector(".modal-conceitos-basicos")
-const buttonCloseConceoitosBasicos = document.querySelector(".close-conceitos-basicos") 
-
-const btnModalGdd = document.querySelector(".gdd")
-const modalGdd = document.querySelector(".modal-gdd")
-const buttonCloseGdd = document.querySelector(".close-gdd") 
-
-const btnModalFrameworks = document.querySelector(".frameworks")
-const modalFrameworks = document.querySelector(".modal-frameworks")
-const buttonCloseFrameworks = document.querySelector(".close-frameworks") 
-
-const btnModalDesignDeSistemas = document.querySelector(".design-de-sistemas")
-const modalDesignDeSistemas = document.querySelector(".modal-design-de-sistemas")
-const buttonCloseDesignDeSistemas = document.querySelector(".close-design-de-sistemas") 
-
-const btnModalLevelDesign = document.querySelector(".level-design")
-const modalLevelDesign = document.querySelector(".modal-level-design")
-const buttonCloseLevelDesign = document.querySelector(".close-level-design") 
-
-const btnModalPlanilhas = document.querySelector(".planilhas")
-const modalPlanilhas = document.querySelector(".modal-planilhas")
-const buttonClosePlanilhas = document.querySelector(".close-planilhas") 
-
-const btnModalBalanceamento = document.querySelector(".balanceamento")
-const modalBalanceamento = document.querySelector(".modal-balanceamento")
-const buttonCloseBalanceamento = document.querySelector(".close-balanceamento") 
-
-const btnModalVersionamento = document.querySelector(".versionamento")
-const modalVersionamento = document.querySelector(".modal-versionamento")
-const buttonCloseVersionamento = document.querySelector(".close-versionamento") 
-
-const btnModalEngines = document.querySelector(".engines")
-const modalEngines = document.querySelector(".modal-engines")
-const buttonCloseEngines = document.querySelector(".close-engines") 
-
-const btnModalPodcasts = document.querySelector(".podcasts")
-const modalPodcasts = document.querySelector(".modal-podcasts")
-const buttonClosePodcasts = document.querySelector(".close-podcasts")
-
-const btnModalCanais = document.querySelector(".canais")
-const modalCanais = document.querySelector(".modal-canais")
-const buttonCloseCanais = document.querySelector(".close-canais") 
-
-const btnModalJoga = document.querySelector(".joga")
-const modalJoga = document.querySelector(".modal-joga")
-const buttonCloseJoga = document.querySelector(".close-joga") 
-
-// abrindo e fechando modais
-
-// modal introducao
-btnModalIntro.onclick = function () {
-    modalIntro.classList.remove("dialog-close")
-    modalIntro.classList.add("dialog-open")
-}
-
-buttonCloseIntro.onclick = function () {
-    modalIntro.classList.add("dialog-close")
-    modalIntro.classList.remove("dialog-open")
-}
-
-// modal conceitos básicos
-btnModalConceitosBasicos.onclick = function () {
-    modalConceitosBasicos.classList.remove("dialog-close")
-    modalConceitosBasicos.classList.add("dialog-open")
-}
-
-buttonCloseConceoitosBasicos.onclick = function () {
-    modalConceitosBasicos.classList.add("dialog-close")
-    modalConceitosBasicos.classList.remove("dialog-open")
-} 
-
-// modal gdd
-btnModalGdd.onclick = function () {
-    modalGdd.classList.remove("dialog-close")
-    modalGdd.classList.add("dialog-open")
-}
-
-buttonCloseGdd.onclick = function () {
-    modalGdd.classList.add("dialog-close")
-    modalGdd.classList.remove("dialog-open")
-}
-
-// modal frameworks
-btnModalFrameworks.onclick = function () {
-    modalFrameworks.classList.remove("dialog-close")
-    modalFrameworks.classList.add("dialog-open")
-}
-
-buttonCloseFrameworks.onclick = function () {
-    modalFrameworks.classList.add("dialog-close")
-    modalFrameworks.classList.remove("dialog-open")
-}
-
-// modal design de sistemas
-btnModalDesignDeSistemas.onclick = function () {
-    modalDesignDeSistemas.classList.remove("dialog-close")
-    modalDesignDeSistemas.classList.add("dialog-open")
-}
-
-buttonCloseDesignDeSistemas.onclick = function () {
-    modalDesignDeSistemas.classList.add("dialog-close")
-    modalDesignDeSistemas.classList.remove("dialog-open")
-}
-
-// modal level design
-btnModalLevelDesign.onclick = function () {
-    modalLevelDesign.classList.remove("dialog-close")
-    modalLevelDesign.classList.add("dialog-open")
-}
-
-buttonCloseLevelDesign.onclick = function () {
-    modalLevelDesign.classList.add("dialog-close")
-    modalLevelDesign.classList.remove("dialog-open")
-}
-
-// modal planilhas
-btnModalPlanilhas.onclick = function () {
-    modalPlanilhas.classList.remove("dialog-close")
-    modalPlanilhas.classList.add("dialog-open")
-}
-
-buttonClosePlanilhas.onclick = function () {
-    modalPlanilhas.classList.add("dialog-close")
-    modalPlanilhas.classList.remove("dialog-open")
-}
-
-// modal balanceamento
-btnModalBalanceamento.onclick = function () {
-    modalBalanceamento.classList.remove("dialog-close")
-    modalBalanceamento.classList.add("dialog-open")
-}
-
-buttonCloseBalanceamento.onclick = function () {
-    modalBalanceamento.classList.add("dialog-close")
-    modalBalanceamento.classList.remove("dialog-open")
-}
-
-// modal versionamento
-btnModalVersionamento.onclick = function () {
-    modalVersionamento.classList.remove("dialog-close")
-    modalVersionamento.classList.add("dialog-open")
-}
-
-buttonCloseVersionamento.onclick = function () {
-    modalVersionamento.classList.add("dialog-close")
-    modalVersionamento.classList.remove("dialog-open")
-}
-
-// modal engines
-btnModalEngines.onclick = function () {
-    modalEngines.classList.remove("dialog-close")
-    modalEngines.classList.add("dialog-open")
-}
-
-buttonCloseEngines.onclick = function () {
-    modalEngines.classList.add("dialog-close")
-    modalEngines.classList.remove("dialog-open")
-}
-
-// modal podcasts
-btnModalPodcasts.onclick = function () {
-    modalPodcasts.classList.remove("dialog-close")
-    modalPodcasts.classList.add("dialog-open")
-}
-
-buttonClosePodcasts.onclick = function () {
-    modalPodcasts.classList.add("dialog-close")
-    modalPodcasts.classList.remove("dialog-open")
-}
-
-// modal canais
-btnModalCanais.onclick = function () {
-    modalCanais.classList.remove("dialog-close")
-    modalCanais.classList.add("dialog-open")
-}
-
-buttonCloseCanais.onclick = function () {
-    modalCanais.classList.add("dialog-close")
-    modalCanais.classList.remove("dialog-open")
-}
+// Add CSS for ripple effect
+const style = document.createElement('style');
+style.textContent = `
+    .btn {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .ripple {
+        position: absolute;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.3);
+        transform: scale(0);
+        animation: ripple-animation 0.6s linear;
+        pointer-events: none;
+    }
+    
+    @keyframes ripple-animation {
+        to {
+            transform: scale(4);
+            opacity: 0;
+        }
+    }
+`;
+document.head.appendChild(style);

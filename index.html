@@ -1,496 +1,641 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GGD - Guia do Game Designer</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Archivo Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    
+    <!-- Favicon -->
     <link rel="shortcut icon" href="img/controle-favicon.png" type="image/x-icon">
 </head>
-<body>
-    <a href="https://github.com/baptixta/guia-do-game-designer" class="github-corner" aria-label="View source on GitHub" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#FF2B58; color:#212121; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<body class="dark-theme">
 
-    <div class="header">
-        <h1 class="header-title"><span>GUIA DO</span><br>GAME DESIGNER</h1>
-        <p>Eu criei esse guia para ajudar na sua jornada de aprendizado. Um mapeamento das principais tecnologias, conceitos e habilidades demandadas pelo mercado, com minhas sugestões e opiniões.</p>
+    <!-- Header -->
+    <div class="header pb-4">
+        <div class="container">
+            <div class="d-flex justify-content-end mb-3">
+                <button id="theme-toggle" class="btn btn-link theme-toggle">
+                    <i class="theme-icon">claro/escuro</i>
+                </button>
+            </div>
+            <h1 class="header-title mb-4 ">
+                <span class="archivo-300">guia do <i class="bold-italic">game designer</i></span>
+            </h1>
+            <p class="archivo-400">eu <a href="https://beacons.ai/baptixta" target="_blank" rel="noopener">(@baptixta)</a> criei esse guia para ajudar na sua jornada de aprendizado. Um mapeamento das principais tecnologias, conceitos e habilidades demandadas pelo mercado, com minhas sugestões e opiniões.</p>
+        </div>
     </div>
 
-    <div class="levels">
-        <div class="content">
-            <div class="box-highlight">
-                Comece aqui
-            </div>
+    <!-- divider -->
+    <div class="container fs-4">
+        <i class="bi bi-arrow-down-circle-fill"></i>
+    </div>
 
-            <div class="box-outline">
-                Nível 1 
-            </div>
-            <div class="box-divider">
-                <div class="box-fill intro">
-                    Introdução
-                </div>
-                <div class="box-fill conceitos-basicos">
-                    Conceitos Básicos
-                </div>
-            </div>    
-            <div class="box-divider">
-                <div class="box-fill gdd">
-                    Game Design Document (GDD)
-                </div>
-            </div>            
-
-            <div class="box-outline">
-                Nível 2
-            </div>           
-            <div class="box-divider">
-                <div class="box-fill frameworks">
-                    Frameworks
-                </div>
-                <div class="box-fill design-de-sistemas">
-                    Design de sistemas
-                </div>
-            </div>   
-            <div class="box-divider">
-                <div class="box-fill level-design">
-                    Level Design
-                </div>
-                <div class="box-fill planilhas">
-                    Planilhas
-                </div>
-            </div>   
-            <div class="box-divider">
-                <div class="box-fill balanceamento">
-                    Balanceamento
-                </div>
-            </div>  
-
-            <div class="box-outline">
-                Nível 3
-            </div>
-            
-            <div class="box-divider versionamento">
-                <div class="box-fill">
-                    Versionamento (Git)
-                </div>                
-            </div>
-            <div class="box-divider engines">
-                <div class="box-fill">
-                    Engines
-                </div>
-            </div>   
-
-            <div class="box-outline">
-                Extras
-            </div>
-
-            <div class="box-divider">
-                <div class="box-fill podcasts">
-                    Podcasts
-                </div>
-                <div class="box-fill canais">
-                    Canais
-                </div>
-            </div>   
-        
-        <a class="box-divider fix-text" href="https://gist.github.com/baptixta/b10f7ecbc6249aaa9efad12fafc531a3" target="_blank">
-            <div class="box-divider">
+    <!-- Main Content -->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-10">
                 
-                    <div class="box-fill joga">
-                        Game Designer Joga
+                <!-- Comece Aqui Section -->
+                <div class="mb-2">
+                    <h2 class="archivo-700 mb-2">comece aqui</h2>
+                    <div class="d-grid gap-3">
+                        <button class="btn btn-primary btn-lg archivo-600" type="button" data-bs-toggle="collapse" data-bs-target="#nivel1" aria-expanded="false">
+                            nível 1
+                        </button>
                     </div>
-                </a>
-            </div>  
-        </a>
-        </div>        
+                    
+                    <!-- Nível 1 Accordion -->
+                    <div class="collapse mt-3" id="nivel1">
+                        <div class="accordion" id="accordionLevelOne">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  introdução
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionLevelOne">
+                                <div class="modal-content">
+                                    <ul class="archivo-400 mb-4">
+                                        <li>game design é a disciplina/ciência/arte que é responsável pela criação do jogo em si.</li>
+                                        <li>é o processo criativo feito junto com pesquisa de mercado, em que uma pessoa tem ideias, documenta e decide quais dessas ideias serão utilizadas.</li>
+                                        <li>o game design além de gerar um conceito sólido para o jogo em questão que vai ser desenvolvido, também vai definir com a maior clareza possível as regras, mecânicas e sistemas que o jogo vai ter.</li>
+                                    </ul>
+                                    
+                                    <h4 class="archivo-700 fst-italic mb-3 related-content">conteúdos relacionados</h4>
+                                    <div class="d-flex flex-column align-items-start gap-2 mb-3">
+                                        <a href="https://youtu.be/PMXf0e8n2Oc?si=BTZbfX0zlYiZIq7Q" target="_blank" class="  archivo-300"><span class="badge bg-danger">YouTube</span> How to Become a Game Designer</a>
+                                        <a href="https://youtu.be/zQvWMdWhFCc?si=5DFPkH-w_X4OCk8E" target="_blank" class=" archivo-300"><span class="badge bg-danger">YouTube</span> So You Want To Be a Game Designer - Extra Credits</a>
+                                        <a href="https://youtu.be/suhANDk1h40?si=zyIMsVuL-r2I-e8N" target="_blank" class= "archivo-300"><span class="badge bg-danger">YouTube</span> The Four Types of Video Game Designers</a>
+                                        <a href="https://www.alura.com.br/artigos/game-design" target="_blank" class=" archivo-300"><span class="badge bg-primary">Artigo</span> O que é, o que faz e como se tornar game designer</a>
+                                        <a href="https://csjdigital.com.br/pv-gdx/" target="_blank" class="archivo-300"><span class="badge bg-info">Curso</span> Game Design Experience</a>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    conceitos básicos
+                                  </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionLevelOne">
+                                  <div class="modal-content">
+                                    <p class="archivo-400 mb-4 related-content">Indepenente do tipo de jogo que você for desenvolver, tem certos conceitos básicos que sempre serão usados no seu game design. A lista dos principais está abaixo 👇</p>
+                                    <ul class="archivo-400 mb-4">
+                                        <li>Core Loop Gameplay</li>
+                                        <li>Mecânicas</li>
+                                        <li>Sistemas</li>
+                                        <li>Flow</li>
+                                        <li>Arquétipos de Bartle</li>
+                                        <li>3Cs (Character, Controller, Camera)</li>
+                                        <li>Feedbacks (Juice)</li>
+                                        <li>Imersão</li>                        
+                                        <li>Recompensas</li>
+                                        <li>Acessibilidade</li>
+                                        <li>Economia</li>
+                                        <li>Iteração</li>
+                                        <li>Prototipação</li>                        
+                                    </ul>
+                                </ul>
+                                      
+                                      <h4 class="archivo-700 fst-italic mb-3 related-content">conteúdos relacionados</h4>
+                                      <div class="d-flex flex-column align-items-start gap-2 mb-3">
+                                        <a href="https://youtu.be/G8AT01tuyrk?si=gGbuakvy4vxKsL97" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> Basic Principles of Game Design</a>
+                                        <a href="https://youtu.be/XSvclSkmdyY?si=pidlOo4JbCQCb3lg" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> Who Gets to be Awesome in Games?</a>
+                                        <a href="https://youtu.be/H4kbJObhcHw?si=Hrd9qZ_Xrhee3umM" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> How Games Use Feedback Loops</a>
+                                        <a href="https://youtu.be/1ypOUn6rThM?si=J_cK9Fcqp5IvSLro" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> This Psychological Trick Makes Rewards Backfire</a>
+                                        <a href="https://youtu.be/7L1B5YaxxoA?si=VncxqG8EDw83Lvrj" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> Can We Make This Button Fun To Press?</a>
+                                        <a href="https://www.gamedeveloper.com/design/design-101-balancing-games" target="_blank" class="archivo-300"><span class="badge bg-primary">Artigo</span> Design 101: Balancing Games</a>
+                                        <a href="https://medium.com/strike-the-pixels/game-design-101-balancing-economy-5f3e5a7eecc5" target="_blank" class="archivo-300"><span class="badge bg-primary">Artigo</span> Game Design 101: Balancing Economy</a>
+                                        <a href="https://csjdigital.com.br/pv-gdx/" target="_blank" class="archivo-300"><span class="badge bg-info">Curso</span> Game Design Experience</a>
+                                    </div>
+                                    
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    game design document (gdd)
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionLevelOne">
+                                  <div class="modal-content">
+                                    <ul class="archivo-400 mb-4">
+                                        <li>Pra quem não conhece a sigla, GDD significa "Game Design Document", traduzindo para português seria o documento de game design.</li>
+                                        <li>Esse documento vai ser essencial pra você como GD ao criar seu jogo, e pra toda equipe que for trabalhar nesse jogo além do Game Designer. Nele você irá documentar tudo que seu jogo irá ter:</li>
+                                        <ul>
+                                            <li>Regras</li>
+                                            <li>Mecânicas</li>
+                                            <li>Sistemas</li>
+                                            <li>Personagens</li>
+                                            <li>Etc</li>
+                                        </ul>
+                                        <li>Como cada jogo é um caso a parte, os GDDs irão acabar sendo diferentes dependendo do contexto que você tiver trabalhando.</li>
+                                    </ul>
+                                      
+                                      <h4 class="archivo-700 fst-italic mb-3 related-content">conteúdos relacionados</h4>
+                                      <div class="d-flex flex-column align-items-start gap-2 mb-3">
+                                        <a href="https://youtu.be/xUo0rL2c_LQ?si=9b-EJRsxCOtPvEZH" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> The easiest game design document (+free Notion template)</a>
+                                        <a href="https://www.gamedeveloper.com/business/how-to-write-a-game-design-document" target="_blank" class="archivo-300"><span class="badge bg-primary">Artigo</span> How to write a game design document</a>
+                                        <a href="https://connect-prd-cdn.unity.com/20201215/83f3733d-3146-42de-8a69-f461d6662eb1/Game-Design-Document-Template.pdf" target="_blank" class="archivo-300"><span class="badge bg-primary">Artigo</span> GDD Template (by: Unity)</a>
+                                        <a href="https://glamorous-save-06a.notion.site/Game-design-template-0132383574dd4c2dbff5d14e3a90761c" target="_blank" class="archivo-300"><span class="badge bg-primary">Artigo</span> GDD Template (by: Rosa Carbo-Mascarell)</a>
+                                        <a href="https://csjdigital.com.br/pv-gdx/" target="_blank" class="archivo-300"><span class="badge bg-info">Curso</span> Game Design Experience</a>
+                                    </div>                                                                    
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+
+                <!-- Nível 2 Section -->
+                <div class="mb-2">
+                    <div class="d-grid gap-3">
+                        <button class="btn btn-primary btn-lg archivo-600" type="button" data-bs-toggle="collapse" data-bs-target="#nivel2" aria-expanded="false">
+                            nível 2
+                        </button>
+                    </div>
+                    
+                    <!-- Nível 2 Accordion -->
+                    <div class="collapse mt-3" id="nivel2">
+                        <div class="accordion" id="accordionLevelTwo">
+                      
+                          <!-- Frameworks -->
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFrameworks">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFrameworks" aria-expanded="true" aria-controls="collapseFrameworks">
+                                frameworks
+                              </button>
+                            </h2>
+                            <div id="collapseFrameworks" class="accordion-collapse collapse show" aria-labelledby="headingFrameworks" data-bs-parent="#accordionLevelTwo">
+                              <div class="modal-content">
+                                <ul class="archivo-400 mb-4">
+                                  <li>Framework nada mais é do que uma estrutura. Uma estrutura que nos dá um norte sobre como construir ou estudar sobre algo.</li>
+                                  <li>Os frameworks de game design serão estruturas que irão nos dar direção e formas pré-definidas de estudar e analisar jogos sempre que for preciso.</li>
+                                  <li>É interessante conhecer e aplicar frameworks nos nossos estudos quando formos jogar algum jogo para analisar, pois com as limitações e estrutura estabelecidas em cada um dos frameworks que iremos conhecer, vamos conseguir entender com mais profundidade elementos específicos dentro de cada jogo, e destrinchar com mais facilidade mecânicas, dinâmicas, regras, sistemas, e o que mais for preciso.</li> 
+                                  <li>Existem diversos frameworks de game design diferentes, você pode conhecer e ler mais sobre alguns abaixo.</li>
+                                </ul>
+                                <h4 class="archivo-700 fst-italic mb-3 related-content">conteúdos relacionados</h4>
+                                <div class="d-flex flex-column align-items-start gap-2 mb-3">
+                                  <a href="https://users.cs.northwestern.edu/~hunicke/MDA.pdf" target="_blank" class="archivo-300"><span class="badge bg-primary">Artigo</span> MDA: A Formal Approach to Game Design and Game Research</a>
+                                  <a href="https://youtu.be/NxiGduvDJ8s?si=D4KCKT5MtGcQzWV1" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> Explaining the MDA Design Framework | Video Game Design</a>
+                                  <a href="https://www.nicolelazzaro.com/the4-keys-to-fun/" target="_blank" class="archivo-300"><span class="badge bg-primary">Artigo</span> The 4 Keys 2 Fun</a>
+                                  <a href="https://apps.quanticfoundry.com/surveys/start/gamerprofile/" target="_blank" class="archivo-300"><span class="badge bg-primary">Artigo</span> Gamer Motivation Profile</a>
+                                  <a href="https://brasil.uxdesign.cc/as-cores-do-game-design-56085af672ea?gi=669cf587d713" target="_blank" class="archivo-300"><span class="badge bg-primary">Artigo</span> As cores do game design</a>
+                                  <a href="https://csjdigital.com.br/pv-gdx/" target="_blank" class="archivo-300"><span class="badge bg-info">Curso</span> Game Design Experience</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <!-- Design de sistemas -->
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSistemas">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSistemas" aria-expanded="false" aria-controls="collapseSistemas">
+                                design de sistemas
+                              </button>
+                            </h2>
+                            <div id="collapseSistemas" class="accordion-collapse collapse" aria-labelledby="headingSistemas" data-bs-parent="#accordionLevelTwo">
+                              <div class="modal-content">
+                                <ul class="archivo-400 mb-4">
+                                  <li>Um sistema é um conjunto de mecânicas, que recebe um input (condição) e resulta num output (efeito).</li>
+                                  <li>Sistemas também possuem um conjunto de regras e parâmetros.</li>
+                                  <li>Existem muitas possibilidades de sistemas para serem criados dentro de jogos, porém todos utilizam essa premissa de juntar o conjunto de mecânicas, regras, parâmetros e transformam essas coisas em uma estrutura organizada de padrões que o jogador utiliza durante sua experiência.</li>
+                                </ul>
+                                <h4 class="archivo-700 fst-italic mb-3 related-content">conteúdos relacionados</h4>
+                                <div class="d-flex flex-column align-items-start gap-2 mb-3">
+                                  <a href="https://youtube.com/playlist?list=PL5KbKbJ6Gf98b44ckrGGVhuxtPN4u20K7&si=uQiXxpQC7nGHqMk6" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> Systemic Game Series</a>
+                                  <a href="https://gamedesignskills.com/game-design/systems-design/" target="_blank" class="archivo-300"><span class="badge bg-primary">Artigo</span> What is Video Game Systems Design and How Do You Learn It?</a>
+                                  <a href="https://csjdigital.com.br/pv-gdx/" target="_blank" class="archivo-300"><span class="badge bg-info">Curso</span> Game Design Experience</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <!-- Level design -->
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingLevelDesign">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLevelDesign" aria-expanded="false" aria-controls="collapseLevelDesign">
+                                level design
+                              </button>
+                            </h2>
+                            <div id="collapseLevelDesign" class="accordion-collapse collapse" aria-labelledby="headingLevelDesign" data-bs-parent="#accordionLevelTwo">
+                              <div class="modal-content">
+                                <ul class="archivo-400 mb-4">
+                                  <li>Level Design é a parte do desenvolvimento de um jogo que é 100% focada na criação de níveis e todos os detalhes dentro dessa disciplina.</li>
+                                  <li>O processo de criação de um nível dentro de um jogo vai variar muito dependendo do gênero e do tamanho do jogo e da equipe desenvolvendo esse jogo.</li>
+                                </ul>
+                                <h4 class="archivo-700 fst-italic mb-3 related-content">conteúdos relacionados</h4>
+                                <div class="d-flex flex-column align-items-start gap-2 mb-3">
+                                  <a href="https://trello.com/b/AM3ZOmAd/level-design-compendium" target="_blank" class="archivo-300"><span class="badge bg-primary">Trello</span> Level Design Compendium</a>
+                                  <a href="https://book.leveldesignbook.com/" target="_blank" class="archivo-300"><span class="badge bg-primary">Livro</span> The Level Design Book</a>
+                                  <a href="https://youtube.com/playlist?list=PLgXVQbXBZAKLJeQvD7MlaW-GHNkitBcGZ&si=1dE0CcBgLow8DOT6" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> GDC Level Design Talks</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <!-- Planilhas -->
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingPlanilhas">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePlanilhas" aria-expanded="false" aria-controls="collapsePlanilhas">
+                                planilhas
+                              </button>
+                            </h2>
+                            <div id="collapsePlanilhas" class="accordion-collapse collapse" aria-labelledby="headingPlanilhas" data-bs-parent="#accordionLevelTwo">
+                              <div class="modal-content">
+                                <ul class="archivo-400 mb-4">
+                                  <li>Uma das ferramentas mais úteis para o Game Designer.</li>
+                                  <li>Por meio dessa ferramenta, é possível:</li>
+                                  <ul>
+                                    <li>Organizar o conteúdo do jogo</li>
+                                    <li>Balancear o jogo</li>
+                                    <li>Analisar métricas dos usuários</li>
+                                    <li>Muito mais</li>
+                                  </ul>
+                                </ul>
+                                <h4 class="archivo-700 fst-italic mb-3 related-content">conteúdos relacionados</h4>
+                                <div class="d-flex flex-column align-items-start gap-2 mb-3">
+                                  <a href="https://www.gamedeveloper.com/design/practical-tips-on-technical-game-design-documentation-part-3---spreadsheets" target="_blank" class="archivo-300"><span class="badge bg-primary">Artigo</span> Practical tips on technical G.D Documentation (Part 3)</a>
+                                  <a href="https://medium.com/@urpi/spreadsheet-tools-in-game-design-57511eac68c" target="_blank" class="archivo-300"><span class="badge bg-primary">Artigo</span> Spreadsheet Tools in Game Design</a>
+                                  <a href="https://www.youtube.com/playlist?list=PLA6D3KYUZa3MRm4nKO3YwjABanh3PA32H" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> Spreadsheeting for Designers</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <!-- Balanceamento -->
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingBalanceamento">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBalanceamento" aria-expanded="false" aria-controls="collapseBalanceamento">
+                                balanceamento
+                              </button>
+                            </h2>
+                            <div id="collapseBalanceamento" class="accordion-collapse collapse" aria-labelledby="headingBalanceamento" data-bs-parent="#accordionLevelTwo">
+                              <div class="modal-content">
+                                <ul class="archivo-400 mb-4">
+                                  <li>Todo jogo independente do gênero e qualquer outro detalhe precisa de algum tipo de balanceamento, ai entra o Game Designer, que vai determinar quais serão as direções que o jogo irá tomar e balancear de acordo com suas decisões de design.</li>
+                                  <li>Indpendente do gênero e da proposta do jogo, o game designer muito provavelmente terá que balacear o jogo e lidar com coisas como:</li>
+                                  <ul>
+                                    <li>Balanceamento da economia</li>
+                                    <li>Balanceamento dos inimigos/chefes</li>
+                                    <li>Balanceamento dos níveis</li>
+                                    <li>Balanceamento da progressão</li>
+                                    <li>Balanceamento dos sistemas</li>
+                                    <li>Balanceamento da dificuldade do jogo como um todo</li>
+                                    <li>etc</li>
+                                  </ul>
+                                </ul>
+                                <h4 class="archivo-700 fst-italic mb-3 related-content">conteúdos relacionados</h4>
+                                <div class="d-flex flex-column align-items-start gap-2 mb-3">
+                                  <a href="https://gamedesignskills.com/game-design/game-balance/" target="_blank" class="archivo-300"><span class="badge bg-primary">Artigo</span> Video Game Balance: A Definitive Guide</a>
+                                  <a href="https://medium.com/strike-the-pixels/game-design-101-balancing-economy-5f3e5a7eecc5" target="_blank" class="archivo-300"><span class="badge bg-primary">Artigo</span> Game Design 101: Balancing Economy</a>
+                                  <a href="https://www.gamedeveloper.com/design/design-101-balancing-games" target="_blank" class="archivo-300"><span class="badge bg-primary">Artigo</span> Design 101: Balancing Games</a>
+                                  <a href="https://csjdigital.com.br/pv-gdx/" target="_blank" class="archivo-300"><span class="badge bg-info">Curso</span> Game Design Experience</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      
+                        </div>
+                      </div>           
+                </div>
+
+                <!-- Nível 3 Section -->
+                <div class="mb-2">
+                  <div class="d-grid gap-3">
+                    <button class="btn btn-primary btn-lg archivo-600" type="button" data-bs-toggle="collapse" data-bs-target="#nivel3" aria-expanded="false">
+                      nível 3
+                    </button>
+                  </div>
+                
+                  <!-- Nível 3 Accordion -->
+                  <div class="collapse mt-3" id="nivel3">
+                    <div class="accordion" id="accordionLevelThree">
+                
+                      <!-- Versionamento (Git) -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingGit">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGit" aria-expanded="true" aria-controls="collapseGit">
+                            versionamento (git)
+                          </button>
+                        </h2>
+                        <div id="collapseGit" class="accordion-collapse collapse show" aria-labelledby="headingGit" data-bs-parent="#accordionLevelThree">
+                          <div class="modal-content">
+                            <ul class="archivo-400 mb-4">
+                              <li>Para trabalhar com desenvolvimento de games, você irá precisar aprender a usar softwares de versionamento de arquivos, que farão com que você consiga trabalhar junto com equipes inteiras no mesmo projeto ao mesmo tempo.</li>
+                              <li>O programa geralmente utilizado nos studios é o Git, e você pode usar diversas soluções pra ver, mudar e subir arquivos dentro do git, soluções como:</li>
+                              <ul>
+                                <li>Git Batch</li>
+                                <li>Github Desktop</li>
+                                <li>Gitlab</li>
+                                <li>Bitbucket</li>
+                                <li>Fork</li>
+                                <li>Etc</li>
+                              </ul>
+                              <li>Abaixo você conseguirá aprender como funciona e como utilizar no seu dia a dia o Git, e depois como usar isso dentro de um contexto de desenvolvimento de jogos.</li>
+                            </ul>
+                
+                            <h4 class="archivo-700 fst-italic mb-3 related-content">conteúdos relacionados</h4>
+                            <div class="d-flex flex-column align-items-start gap-2 mb-3">
+                              <a href="https://youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A&si=nX6UtKlN8KruBrUq" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> Git e Github para Iniciantes</a>
+                              <a href="https://youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A&si=nX6UtKlN8KruBrUq" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> Git e Github na Vida Real</a>
+                              <a href="https://youtu.be/GEOqwtzmeP0?si=b9kWTyOFKxK7n5A2" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> Version control & project organization best practices</a>
+                              <a href="https://csjdigital.com.br/pv-gdx/" target="_blank" class="archivo-300"><span class="badge bg-info">Curso</span> GDX: Módulo 9 - Git para GDs</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                
+                      <!-- Engines -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingEngines">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEngines" aria-expanded="false" aria-controls="collapseEngines">
+                            engines
+                          </button>
+                        </h2>
+                        <div id="collapseEngines" class="accordion-collapse collapse" aria-labelledby="headingEngines" data-bs-parent="#accordionLevelThree">
+                          <div class="modal-content">
+                            <ul class="archivo-400 mb-4">
+                              <li>Como Game Designer você terá que escolher uma ou mais de uma engine (o software usado pra desenvolvimento de jogos) para trabalhar na sua rotina.</li>
+                              <li>Cada engine tem pontos forte e pontos fracos dependendo do que você for quere fazer, então vale a pena dar uma conferida em cada uma delas pra ver qual faz mais sentido pro seu contexto e seu jogo específico.</li>
+                              <li>Abaixo tem os links das principais engines para você conferir.</li>
+                            </ul>
+                
+                            <h4 class="archivo-700 fst-italic mb-3 related-content">conteúdos relacionados</h4>
+                            <div class="d-flex flex-column align-items-start gap-2 mb-3">
+                              <a href="https://godotengine.org/download/windows/" target="_blank" class="archivo-300"><span class="badge bg-primary">Engine</span> Godot (Open Source)</a>
+                              <a href="https://www.unrealengine.com/pt-BR/download" target="_blank" class="archivo-300"><span class="badge bg-primary">Engine</span> Unreal</a>
+                              <a href="https://gamemaker.io/pt-BR/download" target="_blank" class="archivo-300"><span class="badge bg-primary">Engine</span> Game Maker</a>
+                              <a href="https://unity.com/pt/download" target="_blank" class="archivo-300"><span class="badge bg-primary">Engine</span> Unity</a>
+                              <a href="https://csjdigital.com.br/pv-gdx/" target="_blank" class="archivo-300"><span class="badge bg-info">Curso</span> GDX: Módulo 10 - Unity para GDs</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                
+                    </div> <!-- /accordionLevelThree -->
+                  </div> <!-- /collapse nivel3 -->
+                </div>
+                
+
+                <!-- Extras Section -->
+                <div class="mb-2">
+                  <div class="d-grid gap-3">
+                    <button class="btn btn-primary btn-lg archivo-600" type="button" data-bs-toggle="collapse" data-bs-target="#extras" aria-expanded="false">
+                      extras
+                    </button>
+                  </div>
+                
+                  <!-- Extras Accordion -->
+                  <div class="collapse mt-3" id="extras">
+                    <div class="accordion" id="accordionExtras">
+                
+                      <!-- Podcasts -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingPodcasts">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePodcasts" aria-expanded="true" aria-controls="collapsePodcasts">
+                            podcasts
+                          </button>
+                        </h2>
+                        <div id="collapsePodcasts" class="accordion-collapse collapse show" aria-labelledby="headingPodcasts" data-bs-parent="#accordionExtras">
+                          <div class="modal-content">
+                            <ul class="archivo-400 mb-4">
+                              <li>A seção extra do guia tem conteúdos que valem a pena acompanhar pra ficar por dentro da indústria de jogos, e aprender com a vivência de outros profissionais.</li>
+                              <li>Essa seção compartilho os podcasts que acompanho ou já acompanhei e que aprendi ou me inspirei ouvindo.</li>
+                            </ul>
+                
+                            <h4 class="archivo-700 fst-italic mb-3 related-content">conteúdos relacionados</h4>
+                            <div class="d-flex flex-column align-items-start gap-2 mb-3">
+                              <a href="https://open.spotify.com/show/6PvyZNI5qIL5EyhSXuX3Zw?si=312d567ddbd04183" target="_blank" class="archivo-300"><span class="badge bg-danger">Podcast</span> Game Design de Bolso</a>
+                              <a href="https://open.spotify.com/show/3WReGMZA3GcqC7iGeuKewE?si=32a75c55ea2640fc" target="_blank" class="archivo-300"><span class="badge bg-danger">Podcast</span> Regras do Jogo - Holodeck</a>
+                              <a href="https://open.spotify.com/show/4VHsfmQkt3lVbEVBpdm5jD?si=b56496ecad354ae4" target="_blank" class="archivo-300"><span class="badge bg-danger">Podcast</span> Jogabilidade</a>
+                              <a href="https://open.spotify.com/show/6ofZzsxZNJhK5LnHyIsHYH?si=6c7469825dcb479b" target="_blank" class="archivo-300"><span class="badge bg-danger">Podcast</span> Controles Voadores</a>
+                              <a href="https://open.spotify.com/show/6bTyYJmo2W6iOBQlpRD7Oy?si=77bc38d405824bed" target="_blank" class="archivo-300"><span class="badge bg-danger">Podcast</span> GameDev Espresso</a>
+                              <a href="https://open.spotify.com/show/3UxFPDdpiQMnoqVnGWgZWG?si=ffe537ae32b846a1" target="_blank" class="archivo-300"><span class="badge bg-danger">Podcast</span> Café com Dungeon</a>
+                              <a href="https://open.spotify.com/show/1sWDRirjJQ5b2ENuPyhE9Z?si=553f9fa7b08b43a1" target="_blank" class="archivo-300"><span class="badge bg-info">Podcast</span> bom dia, gedê</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                
+                      <!-- Canais -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingCanais">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCanais" aria-expanded="false" aria-controls="collapseCanais">
+                            canais
+                          </button>
+                        </h2>
+                        <div id="collapseCanais" class="accordion-collapse collapse" aria-labelledby="headingCanais" data-bs-parent="#accordionExtras">
+                          <div class="modal-content">
+                            <ul class="archivo-400 mb-4">
+                              <li>A seção extra do guia tem conteúdos que valem a pena acompanhar pra ficar por dentro da indústria de jogos, e aprender com a vivência de outros profissionais.</li>
+                              <li>Essa seção compartilho os canais que acompanho ou já acompanhei e que aprendi ou me inspirei ouvindo.</li>
+                            </ul>
+                
+                            <h4 class="archivo-700 fst-italic mb-3 related-content">conteúdos relacionados</h4>
+                            <div class="d-flex flex-column align-items-start gap-2 mb-3">
+                              <a href="https://www.youtube.com/@GMTK" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> Game Maker's Toolkit</a>
+                              <a href="https://www.youtube.com/@sora_sakurai_en" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> Masahiro Sakurai on Creating Games</a>
+                              <a href="https://www.youtube.com/@extracredits" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> Extra Credits</a>
+                              <a href="https://www.youtube.com/@Brackeys" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> Brackeys</a>
+                              <a href="https://www.youtube.com/@AndrewChambersDesign" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> Andrew Chambers Design</a>
+                              <a href="https://www.youtube.com/@fabricaDjogos" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> Fábrica de Jogos</a>
+                              <a href="https://www.youtube.com/@CrieSeusJogos" target="_blank" class="archivo-300"><span class="badge bg-danger">YouTube</span> Crie Seus Jogos</a>
+                              <a href="https://www.youtube.com/@baptixta" target="_blank" class="archivo-300"><span class="badge bg-info">YouTube</span> Baptixta</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                
+                      <!-- Game Designer Joga -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingGDJoga">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGDJoga" aria-expanded="false" aria-controls="collapseGDJoga">
+                            game designer joga
+                          </button>
+                        </h2>
+                        <div id="collapseGDJoga" class="accordion-collapse collapse" aria-labelledby="headingGDJoga" data-bs-parent="#accordionExtras">
+                          <div class="modal-content">
+                            <p class="archivo-400">Conteúdo especial sobre jogos que todo game designer deveria conhecer.</p>
+                
+                            <h4 class="archivo-700 fst-italic mb-3 related-content">lista</h4>
+                            <div class="d-flex flex-column align-items-start gap-2 mb-3">
+                              <ul class="archivo-400 mb-4">
+                                <li><span class="archivo-600">Action Adventure</span>
+                                    <ul class="archivo-400 mb-2">
+                                        <li>Death Stranding</li>
+                                        <li>Dwerve</li>
+                                        <li>Metal Gear Solid V: Ground Zeroes</li>
+                                        <li>Outer Wilds</li>
+                                    </ul>
+                                </li>
+                            
+                                <li><span class="archivo-600">Advergames</span>
+                                    <ul class="archivo-400 mb-2">
+                                        <li>Pepsiman</li>
+                                    </ul>
+                                </li>
+                            
+                                <li><span class="archivo-600">Arcade</span>
+                                    <ul class="archivo-400 mb-2">
+                                        <li>Tony Hawk's Pro Skater 2</li>
+                                    </ul>
+                                </li>
+                            
+                                <li><span class="archivo-600">Battle Royale</span>
+                                    <ul class="archivo-400 mb-2">
+                                        <li>Fortnite</li>
+                                        <li>PUBG</li>
+                                    </ul>
+                                </li>
+                            
+                                <li><span class="archivo-600">Board Games</span>
+                                    <ul class="archivo-400 mb-2">
+                                        <li>Monopoly</li>
+                                        <li>Uno</li>
+                                        <li>War</li>
+                                    </ul>
+                                </li>
+                            
+                                <li><span class="archivo-600">Boss Rush</span>
+                                    <ul class="archivo-400 mb-2">
+                                        <li>Titan Souls</li>
+                                    </ul>
+                                </li>
+                            
+                                <li><span class="archivo-600">Fighting Games</span>
+                                    <ul class="archivo-400 mb-2">
+                                        <li>Street Fighter</li>
+                                        <li>Tekken</li>
+                                    </ul>
+                                </li>
+                            
+                                <li><span class="archivo-600">FPS (First Person Shooter)</span>
+                                    <ul class="archivo-400 mb-2">
+                                        <li>Borderlands</li>
+                                        <li>Call of Duty</li>
+                                        <li>Halo</li>
+                                    </ul>
+                                </li>
+                            
+                                <li><span class="archivo-600">MMORPG (Massive Multiplayer Online Role-playing Game)</span>
+                                    <ul class="archivo-400 mb-2">
+                                        <li>Final Fantasy XIV Online</li>
+                                        <li>Tibia</li>
+                                        <li>Ragnarok Online</li>
+                                        <li>World of Warcraft</li>
+                                    </ul>
+                                </li>
+                            
+                                <li><span class="archivo-600">MOBA (Multiplayer Online Battle Arena)</span>
+                                    <ul class="archivo-400 mb-2">
+                                        <li>League of Legends</li>
+                                        <li>Smite</li>
+                                    </ul>
+                                </li>
+                            
+                                <li><span class="archivo-600">RPG (Role-playing Game)</span>
+                                    <ul class="archivo-400 mb-2">
+                                        <li>Undertale</li>
+                                        <li>Final Fantasy</li>
+                                    </ul>
+                                </li>
+                            
+                                <li><span class="archivo-600">Plataforma</span>
+                                    <ul class="archivo-400 mb-2">
+                                        <li>Dandara</li>
+                                        <li>Megaman X</li>
+                                        <li>Super Mario Bros Deluxe</li>
+                                        <li>Super Mario World</li>
+                                        <li>Thomas Was Alone</li>
+                                    </ul>
+                                </li>
+                            
+                                <li><span class="archivo-600">RTS (Real Time Strategy)</span>
+                                    <ul class="archivo-400 mb-2">
+                                        <li>Civilization</li>
+                                    </ul>
+                                </li>
+                            
+                                <li><span class="archivo-600">Serious Game</span>
+                                    <ul class="archivo-400 mb-2">
+                                        <li>Ayiti the cost of life</li>
+                                    </ul>
+                                </li>
+                            
+                                <li><span class="archivo-600">Soulslike</span>
+                                    <ul class="archivo-400 mb-2">
+                                        <li>Dark Souls</li>
+                                        <li>Elden Ring</li>
+                                        <li>Sekiro: Shadows Die Twice</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                                                        
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                
+                    </div> <!-- /accordionExtras -->
+                  </div> <!-- /collapse extras -->
+                </div>
+                
+            </div>
+        </div>
     </div>
 
-<!-- Modais -->
-    <!-- Modal Introdução-->
-    <dialog class="modal-introducao dialog-close" open>
-        <h2>Introdução</h2>
-
-        <div class="dialog-content">
-            <ul>
-                <li>Game Design é a disciplina/ciência/arte que é responsável pela criação do jogo em si.</li>
-                <li>É o processo criativo feito junto com pesquisa de mercado, em que uma pessoa tem ideias, documenta e decide quais dessas ideias serão utilizadas.</li>
-                <li>O game design além de gerar um conceito sólido para o jogo em questão que vai ser desenvolvido, também vai definir com a maior clareza possível as regras, mecânicas e sistemas que o jogo vai ter.</li>
-            </ul>
-    
-            <h3>Conteúdo Recomendado</h3>
-
-            <div class="dialog-recomendations">
-                <a href="https://youtu.be/PMXf0e8n2Oc?si=BTZbfX0zlYiZIq7Q" target="_blank"><span class="recomendation youtube">Youtube</span>How to Become a Game Designer</a>
-                <a href="https://youtu.be/zQvWMdWhFCc?si=5DFPkH-w_X4OCk8E" target="_blank"><span class="recomendation youtube">Youtube</span>So You Want To Be a Game Designer - Extra Credits</a>     
-                <a href="https://youtu.be/suhANDk1h40?si=zyIMsVuL-r2I-e8N" target="_blank"><span class="recomendation youtube">Youtube</span>The Four Types of Video Game Designers</a>     
-                <a href="https://www.alura.com.br/artigos/game-design" target="_blank"><span class="recomendation artigo">Artigo</span>O que é, o que faz e como se tornar game designer</a>
-                <a href="https://csjdigital.com.br/pv-gdx/" target="_blank"><span class="recomendation curso">curso</span>Game Design Experience</a>
+    <!-- GDX Section -->
+    <div class="gdx py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10">
+                    <div class="mb-4">
+                        <h2 class="archivo-700">quer investir na sua carreira?</h2>
+                        <p class="archivo-400">para complementar esse guia e te ajudar na sua carreira, eu criei um curso totalmente em português, ensinando teoria e prática do game design de uma forma mais simples e direta.</p>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <div class="ratio ratio-16x9 mb-4">
+                                <iframe src="https://www.youtube.com/embed/sFBDXtinomg" title="Game Design Experience" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            
+                            <div class="d-grid">
+                                <a href="https://csjdigital.com.br/pv-gdx/" target="_blank" class="btn btn-primary btn-lg archivo-600">
+                                    quero investir na minha carreira
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>        
-
-        <div class="close-intro">
-            x
         </div>
-    </dialog>
-
-    <!-- Modal Conceitos Básicos-->
-    <dialog class="modal-conceitos-basicos dialog-close" open>
-        <h2>Conceitos Básicos</h2>
-
-        <div class="dialog-content">
-            <ul>
-                <li>Indepenente do tipo de jogo que você for desenvolver, tem certos conceitos básicos que sempre serão usados no seu game design. A lista dos principais está abaixo 👇</li>
-                    <ul>
-                        <li>Core Loop Gameplay</li>
-                        <li>Mecânicas</li>
-                        <li>Sistemas</li>
-                        <li>Flow</li>
-                        <li>Arquétipos de Bartle</li>
-                        <li>3Cs (Character, Controller, Camera)</li>
-                        <li>Feedbacks (Juice)</li>
-                        <li>Imersão</li>                        
-                        <li>Recompensas</li>
-                        <li>Acessibilidade</li>
-                        <li>Economia</li>
-                        <li>Iteração</li>
-                        <li>Prototipação</li>                        
-                    </ul>
-            </ul>
-    
-            <h3>Conteúdo Recomendado</h3>
-
-            <div class="dialog-recomendations">
-                <a href="https://youtu.be/G8AT01tuyrk?si=gGbuakvy4vxKsL97" target="_blank"><span class="recomendation youtube">Youtube</span>Basic Principles of Game Design</a>
-                <a href="https://youtu.be/XSvclSkmdyY?si=pidlOo4JbCQCb3lg" target="_blank"><span class="recomendation youtube">Youtube</span>Who Gets to be Awesome in Games?</a>
-                <a href="https://youtu.be/H4kbJObhcHw?si=Hrd9qZ_Xrhee3umM" target="_blank"><span class="recomendation youtube">Youtube</span>How Games Use Feedback Loops</a>
-                <a href="https://youtu.be/1ypOUn6rThM?si=J_cK9Fcqp5IvSLro" target="_blank"><span class="recomendation youtube">Youtube</span>This Psychological Trick Makes Rewards Backfire</a>
-                <a href="https://youtu.be/7L1B5YaxxoA?si=VncxqG8EDw83Lvrj" target="_blank"><span class="recomendation youtube">Youtube</span>Can We Make This Button Fun To Press?</a>
-                <a href="https://www.gamedeveloper.com/design/design-101-balancing-games" target="_blank"><span class="recomendation artigo">Artigo</span>Design 101: Balancing Games</a>
-                <a href="https://medium.com/strike-the-pixels/game-design-101-balancing-economy-5f3e5a7eecc5" target="_blank"><span class="recomendation artigo">Artigo</span>Game Design 101: Balancing Economy</a>
-                <a href="https://csjdigital.com.br/pv-gdx/" target="_blank"><span class="recomendation curso">curso</span>Game Design Experience</a>
-            </div>
-        </div>        
-
-        <div class="close-conceitos-basicos">
-            x
-        </div>
-    </dialog>
-
-    <!-- Modal GDD -->
-    <dialog class="modal-gdd dialog-close" open>
-        <h2>Game Design Document</h2>
-
-        <div class="dialog-content">
-            <ul>
-                <li>Pra quem não conhece a sigla, GDD significa "Game Design Document", traduzindo para português seria o documento de game design.</li>
-                <li>Esse documento vai ser essencial pra você como GD ao criar seu jogo, e pra toda equipe que for trabalhar nesse jogo além do Game Designer. Nele você irá documentar tudo que seu jogo irá ter:</li>
-                    <ul>
-                        <li>Regras</li>
-                        <li>Mecânicas</li>
-                        <li>Sistemas</li>
-                        <li>Personagens</li>
-                        <li>Etc</li>
-                    </ul>
-                <li>Como cada jogo é um caso a parte, os GDDs irão acabar sendo diferentes dependendo do contexto que você tiver trabalhando.</li>
-            </ul>
-    
-            <h3>Conteúdo Recomendado</h3>
-
-            <div class="dialog-recomendations">
-                <a href="https://youtu.be/xUo0rL2c_LQ?si=9b-EJRsxCOtPvEZH" target="_blank"><span class="recomendation youtube">Youtube</span>The easiest game design document (+free Notion template)</a>
-                <a href="https://www.gamedeveloper.com/business/how-to-write-a-game-design-document" target="_blank"><span class="recomendation artigo">Artigo</span>How to write a game design document</a>
-                <a href="https://connect-prd-cdn.unity.com/20201215/83f3733d-3146-42de-8a69-f461d6662eb1/Game-Design-Document-Template.pdf" target="_blank"><span class="recomendation artigo">Artigo</span>GDD Template (by: Unity)</a>
-                <a href="https://glamorous-save-06a.notion.site/Game-design-template-0132383574dd4c2dbff5d14e3a90761c" target="_blank"><span class="recomendation artigo">Artigo</span>GDD Template (by: Rosa Carbo-Mascarell)</a>
-                <a href="https://csjdigital.com.br/pv-gdx/" target="_blank"><span class="recomendation curso">curso</span>Game Design Experience</a>
-            </div>
-        </div>        
-
-        <div class="close-gdd">
-            x
-        </div>
-    </dialog>
-
-    <!-- Modal Frameworks -->
-    <dialog class="modal-frameworks dialog-close" open>
-        <h2>Frameworks</h2>
-
-        <div class="dialog-content">
-            <ul>
-                <li>Framework nada mais é do que uma estrutura. Uma estrutura que nos dá um norte sobre como construir ou estudar sobre algo.</li>
-                <li>Os frameworks de game design serão estruturas que irão nos dar direção e formas pré-definidas de estudar e analisar jogos sempre que for preciso.</li>
-                <li>É interessante conhecer e aplicar frameworks nos nossos estudos quando formos jogar algum jogo para analisar, pois com as limitações e estrutura estabelecidas em cada um dos frameworks que iremos conhecer, vamos conseguir entender com mais profundidade elementos específicos dentro de cada jogo, e destrinchar com mais facilidade mecânicas, dinâmicas, regras, sistemas, e o que mais for preciso.</li> 
-                <li>Existem diversos frameworks de game design diferentes, você pode conhecer e ler mais sobre alguns abaixo.</li>
-            </ul>
-    
-            <h3>Conteúdo Recomendado</h3>
-
-            <div class="dialog-recomendations">
-                <a href="https://users.cs.northwestern.edu/~hunicke/MDA.pdf" target="_blank"><span class="recomendation artigo">Artigo</span>MDA: A Formal Approach to Game Design and Game Research</a>
-                <a href="https://youtu.be/NxiGduvDJ8s?si=D4KCKT5MtGcQzWV1" target="_blank"><span class="recomendation youtube">Youtube</span>Explaining the MDA Design Framework | Video Game Design</a>
-                <a href="https://www.nicolelazzaro.com/the4-keys-to-fun/" target="_blank"><span class="recomendation artigo">Artigo</span>The 4 Keys 2 Fun</a>
-                <a href="https://apps.quanticfoundry.com/surveys/start/gamerprofile/" target="_blank"><span class="recomendation artigo">Artigo</span>Gamer Motivation Profile</a>
-                <a href="https://brasil.uxdesign.cc/as-cores-do-game-design-56085af672ea?gi=669cf587d713" target="_blank"><span class="recomendation artigo">Artigo</span>As cores do game design</a>
-                <a href="https://csjdigital.com.br/pv-gdx/" target="_blank"><span class="recomendation curso">curso</span>Game Design Experience</a>
-            </div>
-        </div>        
-
-        <div class="close-frameworks">
-            x
-        </div>
-    </dialog>
-
-    <!-- Modal Design de Sistemas -->
-    <dialog class="modal-design-de-sistemas dialog-close" open>
-        <h2>Design de Sistemas</h2>
-
-        <div class="dialog-content">
-            <ul>
-                <li>Um sistema é um conjunto de mecânicas, que recebe um input (condição) e resulta num output (efeito).</li>
-                <li>Sistemas também possuem um conjunto de regras e parâmetros.</li>
-                <li>Existem muitas possibilidades de sistemas para serem criados dentro de jogos, porém todos utilizam essa premissa de juntar o conjunto de mecânicas, regras, parâmetros e transformam essas coisas em uma estrutura organizada de padrões que o jogador utiliza durante sua experiência.</li>
-            </ul>
-    
-            <h3>Conteúdo Recomendado</h3>
-
-            <div class="dialog-recomendations">
-                <a href="https://youtube.com/playlist?list=PL5KbKbJ6Gf98b44ckrGGVhuxtPN4u20K7&si=uQiXxpQC7nGHqMk6" target="_blank"><span class="recomendation youtube">Youtube</span>Systemic Game Series</a>
-                <a href="https://gamedesignskills.com/game-design/systems-design/" target="_blank"><span class="recomendation artigo">Artigo</span>What is Video Game Systems Design and How Do You Learn It?</a>
-                <a href="https://csjdigital.com.br/pv-gdx/" target="_blank"><span class="recomendation curso">curso</span>Game Design Experience</a>
-            </div>
-        </div>        
-
-        <div class="close-design-de-sistemas">
-            x
-        </div>
-    </dialog>
-
-    <!-- Modal Level Design -->
-    <dialog class="modal-level-design dialog-close" open>
-        <h2>Level Design</h2>
-
-        <div class="dialog-content">
-            <ul>
-                <li>Level Design é a parte do desenvolvimento de um jogo que é 100% focada na criação de níveis e todos os detalhes dentro dessa disciplina.</li>
-                <li>O processo de criação de um nível dentro de um jogo vai variar muito dependendo do gênero e do tamanho do jogo e da equipe desenvolvendo esse jogo.</li>
-            </ul>
-    
-            <h3>Conteúdo Recomendado</h3>
-
-            <div class="dialog-recomendations">
-                <a href="https://trello.com/b/AM3ZOmAd/level-design-compendium" target="_blank"><span class="recomendation artigo">Trello</span>Level Design Compendium</a>
-                <a href="https://book.leveldesignbook.com/" target="_blank"><span class="recomendation artigo">Livro</span>The Level Design Book</a>
-                <a href="https://youtube.com/playlist?list=PLgXVQbXBZAKLJeQvD7MlaW-GHNkitBcGZ&si=1dE0CcBgLow8DOT6" target="_blank"><span class="recomendation youtube">Youtube</span>GDC Level Design Talks</a>
-            </div>
-        </div>        
-
-        <div class="close-level-design">
-            x
-        </div>
-    </dialog>
-
-     <!-- Modal Planilhas -->
-     <dialog class="modal-planilhas dialog-close" open>
-        <h2>Planilhas</h2>
-
-        <div class="dialog-content">
-            <ul>
-                <li>Uma das ferramentas mais úteis para o Game Designer.</li>
-                <li>Por meio dessa ferramenta, é possível:</li>
-                <ul>
-                    <li>Organizar o conteúdo do jogo</li>
-                    <li>Balancear o jogo</li>
-                    <li>Analisar métricas dos usuários</li>
-                    <li>Muito mais</li>
-                </ul>
-            </ul>
-    
-            <h3>Conteúdo Recomendado</h3>
-
-            <div class="dialog-recomendations">
-                <a href="https://www.gamedeveloper.com/design/practical-tips-on-technical-game-design-documentation-part-3---spreadsheets" target="_blank"><span class="recomendation artigo">Artigo</span>Practical tips on technical G.D Documentation (Part 3)</a>                
-                <a href="https://medium.com/@urpi/spreadsheet-tools-in-game-design-57511eac68c" target="_blank"><span class="recomendation artigo">Artigo</span>Spreadsheet Tools in Game Design</a>
-                <a href="https://www.youtube.com/playlist?list=PLA6D3KYUZa3MRm4nKO3YwjABanh3PA32H" target="_blank"><span class="recomendation youtube">Youtube</span>Spreadsheeting for Designers</a>
-            </div>
-        </div>        
-
-        <div class="close-planilhas">
-            x
-        </div>
-    </dialog>
-
-    <!-- Modal Balanceamento -->
-    <dialog class="modal-balanceamento dialog-close" open>
-        <h2>Balanceamento</h2>
-
-        <div class="dialog-content">
-            <ul>
-                <li>Todo jogo independente do gênero e qualquer outro detalhe precisa de algum tipo de balanceamento, ai entra o Game Designer, que vai determinar quais serão as direções que o jogo irá tomar e balancear de acordo com suas decisões de design.</li>
-                <li>Indpendente do gênero e da proposta do jogo, o game designer muito provavelmente terá que balacear o jogo e lidar com coisas como:</li>
-                <ul>
-                    <li>Balanceamento da economia</li>
-                    <li>Balanceamento dos inimigos/chefes</li>
-                    <li>Balanceamento dos níveis</li>
-                    <li>Balanceamento da progressão</li>
-                    <li>Balanceamento dos sistemas</li>
-                    <li>Balanceamento da dificuldade do jogo como um todo</li>
-                    <li>etc</li>
-                </ul>
-            </ul>
-    
-            <h3>Conteúdo Recomendado</h3>
-
-            <div class="dialog-recomendations">
-                <a href="https://gamedesignskills.com/game-design/game-balance/" target="_blank"><span class="recomendation artigo">Artigo</span>Video Game Balance: A Definitive Guide</a>
-                <a href="https://medium.com/strike-the-pixels/game-design-101-balancing-economy-5f3e5a7eecc5" target="_blank"><span class="recomendation artigo">Artigo</span>Game Design 101: Balancing Economy</a>
-                <a href="https://www.gamedeveloper.com/design/design-101-balancing-games" target="_blank"><span class="recomendation artigo">Artigo</span>Design 101: Balancing Games</a>
-                <a href="https://csjdigital.com.br/pv-gdx/" target="_blank"><span class="recomendation curso">curso</span>Game Design Experience</a>
-            </div>
-        </div>        
-
-        <div class="close-balanceamento">
-            x
-        </div>
-    </dialog>
-
-    <!-- Modal Versionamento -->
-    <dialog class="modal-versionamento dialog-close" open>
-        <h2>Versionamento</h2>
-
-        <div class="dialog-content">
-            <ul>
-                <li>Para trabalhar com desenvolvimento de games, você irá precisar aprender a usar softwares de versionamento de arquivos, que farão com que você consiga trabalhar junto com equipes inteiras no mesmo projeto ao mesmo tempo.</li>
-                <li>O programa geralmente utilizado nos studios é o Git, e você pode usar diversas soluções pra ver, mudar e subir arquivos dentro do git, soluções como:</li>
-                    <ul>
-                        <li>Git Batch</li>
-                        <li>Github Desktop</li>
-                        <li>Gitlab</li>
-                        <li>Bitbucket</li>
-                        <li>Fork</li>
-                        <li>Etc</li>
-                    </ul>
-                <li>Abaixo você conseguirá aprender como funciona e como utilizar no seu dia a dia o Git, e depois como usar isso dentro de um contexto de desenvolvimento de jogos.</li>
-            </ul>
-    
-            <h3>Conteúdo Recomendado</h3>
-
-            <div class="dialog-recomendations">
-                <a href="https://youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A&si=nX6UtKlN8KruBrUq" target="_blank"><span class="recomendation youtube">Youtube</span>Git e Github para Iniciantes</a>
-                <a href="https://youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A&si=nX6UtKlN8KruBrUq" target="_blank"><span class="recomendation youtube">Youtube</span>Git e Github na Vida Real</a>
-                <a href="https://youtu.be/GEOqwtzmeP0?si=b9kWTyOFKxK7n5A2" target="_blank"><span class="recomendation youtube">Youtube</span>Version control & project organization best practices</a>
-                <a href="https://csjdigital.com.br/pv-gdx/" target="_blank"><span class="recomendation curso">curso</span>GDX: Módulo 9 - Git para GDs</a>
-            </div>
-        </div>        
-
-        <div class="close-versionamento">
-            x
-        </div>
-    </dialog>
-
-    <!-- Modal Engines -->
-    <dialog class="modal-engines dialog-close" open>
-        <h2>Engines</h2>
-
-        <div class="dialog-content">
-            <ul>
-                <li>Como Game Designer você terá que escolher uma ou mais de uma engine (o software usado pra desenvolvimento de jogos) para trabalhar na sua rotina.</li>
-                <li>Cada engine tem pontos forte e pontos fracos dependendo do que você for quere fazer, então vale a pena dar uma conferida em cada uma delas pra ver qual faz mais sentido pro seu contexto e seu jogo específico.</li>
-                <li>Abaixo tem os links das principais engines para você conferir.</li>
-            </ul>
-    
-            <h3>Conteúdo Recomendado</h3>
-
-            <div class="dialog-recomendations">
-                <a href="https://godotengine.org/download/windows/" target="_blank"><span class="recomendation artigo">Engine</span>Godot (Open Source)</a>
-                <a href="https://www.unrealengine.com/pt-BR/download" target="_blank"><span class="recomendation artigo">Engine</span>Unreal</a>
-                <a href="https://gamemaker.io/pt-BR/download" target="_blank"><span class="recomendation artigo">Engine</span>Game Maker</a>
-                <a href="https://unity.com/pt/download" target="_blank"><span class="recomendation artigo">Engine</span>Unity</a>
-                <a href="https://csjdigital.com.br/pv-gdx/" target="_blank"><span class="recomendation curso">curso</span>GDX: Módulo 10 - Unity para GDs</a>
-            </div>
-        </div>        
-
-        <div class="close-engines">
-            x
-        </div>
-    </dialog>  
-
-    <!-- Modal Podcasts -->
-    <dialog class="modal-podcasts dialog-close" open>
-        <h2>Podcasts</h2>
-
-        <div class="dialog-content">
-            <ul>
-                <li>A seção extra do guia tem conteúdos que valem a pena acompanhar pra ficar por dentro da indústria de jogos, e aprender com a vivência de outros profissionais.</li>
-                <li>Essa seção compartilho os podcasts que acompanho ou já acompanhei e que aprendi ou me inspirei ouvindo.</li>
-            </ul>
-    
-            <h3>Conteúdo Recomendado</h3>
-
-            <div class="dialog-recomendations">
-                <a href="https://open.spotify.com/show/6PvyZNI5qIL5EyhSXuX3Zw?si=312d567ddbd04183" target="_blank"><span class="recomendation youtube">Podcast</span>Game Design de Bolso</a>
-                <a href="https://open.spotify.com/show/3WReGMZA3GcqC7iGeuKewE?si=32a75c55ea2640fc" target="_blank"><span class="recomendation youtube">Podcast</span>Regras do Jogo - Holodeck</a>
-                <a href="https://open.spotify.com/show/4VHsfmQkt3lVbEVBpdm5jD?si=b56496ecad354ae4" target="_blank"><span class="recomendation youtube">Podcast</span>Jogabilidade</a>
-                <a href="https://open.spotify.com/show/6ofZzsxZNJhK5LnHyIsHYH?si=6c7469825dcb479b" target="_blank"><span class="recomendation youtube">Podcast</span>Controles Voadores</a>
-                <a href="https://open.spotify.com/show/6bTyYJmo2W6iOBQlpRD7Oy?si=77bc38d405824bed" target="_blank"><span class="recomendation youtube">Podcast</span>GameDev Espresso</a>
-                <a href="https://open.spotify.com/show/3UxFPDdpiQMnoqVnGWgZWG?si=ffe537ae32b846a1" target="_blank"><span class="recomendation youtube">Podcast</span>Café com Dungeon</a>
-                <a href="https://open.spotify.com/show/1sWDRirjJQ5b2ENuPyhE9Z?si=553f9fa7b08b43a1" target="_blank"><span class="recomendation curso">Podcast</span>bom dia, gedê</a>
-            </div>
-        </div>        
-
-        <div class="close-podcasts">
-            x
-        </div>
-    </dialog>  
-
-    <!-- Modal Canais -->
-    <dialog class="modal-canais dialog-close" open>
-        <h2>Canais</h2>
-
-        <div class="dialog-content">
-            <ul>
-                <li>A seção extra do guia tem conteúdos que valem a pena acompanhar pra ficar por dentro da indústria de jogos, e aprender com a vivência de outros profissionais.</li>
-                <li>Essa seção compartilho os canais que acompanho ou já acompanhei e que aprendi ou me inspirei ouvindo.</li>
-            </ul>
-    
-            <h3>Conteúdo Recomendado</h3>
-
-            <div class="dialog-recomendations">
-                <a href="https://www.youtube.com/@GMTK" target="_blank"><span class="recomendation youtube">Youtube</span>Game Maker's Toolkit</a>
-                <a href="https://www.youtube.com/@sora_sakurai_en" target="_blank"><span class="recomendation youtube">Youtube</span>Masahiro Sakurai on Creating Games</a>
-                <a href="https://www.youtube.com/@extracredits" target="_blank"><span class="recomendation youtube">Youtube</span>Extra Credits</a>
-                <a href="https://www.youtube.com/@Brackeys" target="_blank"><span class="recomendation youtube">Youtube</span>Brackeys</a>
-                <a href="https://www.youtube.com/@AndrewChambersDesign" target="_blank"><span class="recomendation youtube">Youtube</span>Andrew Chambers Design</a>                
-                <a href="https://www.youtube.com/@fabricaDjogos" target="_blank"><span class="recomendation youtube">Youtube</span>Fábrica de Jogos</a>
-                <a href="https://www.youtube.com/@CrieSeusJogos" target="_blank"><span class="recomendation youtube">Youtube</span>Crie Seus Jogos</a>
-                <a href="https://www.youtube.com/@baptixta" target="_blank"><span class="recomendation curso">Youtube</span>Baptixta</a>                
-            </div>
-        </div>        
-
-        <div class="close-canais">
-            x
-        </div>
-    </dialog>  
-
-    <div class="gdx">
-        <div class="gdx-info">
-            <div class="gdx-text">
-                <h2>Quer investir na sua carreira?</h2>
-                <p>
-                    Para complementar esse Guia e te ajudar na sua carreira, eu criei um curso totalmente em português, ensinando teoria e prática do game design de uma forma mais simples e direta.
-                </p>
-            </div>        
-    
-            <div class="gdx-video">
-                <iframe width="550" height="300" src="https://www.youtube.com/embed/sFBDXtinomg" title="Game Design Experience" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                <a href="https://csjdigital.com.br/pv-gdx/" rel="noopener" target="_blank" class="gdx-btn">
-                    Quero investir na minha carreira
-                </a>
-            </div>
-        </div>               
     </div>
 
-    <footer>
-        <h2>Feito com <span class="magenta">❤</span> por <a href="https://beacons.ai/baptixta" target="_blank" rel="noopener">@baptixta</a></h2>
+    <!-- Footer -->
+    <footer class="py-4 container">
+        <h2 class="archivo-300">Feito com ❤ por <a href="https://beacons.ai/baptixta" target="_blank" rel="noopener">@baptixta</a></h2>
     </footer>
 
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
     <script src="js/index.js"></script>
 </body>
 </html>
