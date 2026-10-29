@@ -1,0 +1,19 @@
+# A cada push na main, pede para o portfólio (baptixta/personal-portfolio) publicar de novo,
+# assim baptixta.com/guia-game-designer/ fica sempre igual a este repositório.
+# Requer o secret PORTFOLIO_TOKEN: um fine-grained token com acesso ao repo personal-portfolio
+# e permissão "Contents: Read and write" (veja o README).
+name: Atualizar portfólio
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Disparar deploy do portfólio
+        env:
+          GH_TOKEN: ${{ secrets.PORTFOLIO_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then echo "::error::falta o secret PORTFOLIO_TOKEN"; exit 1; fi
+          gh api repos/baptixta/personal-portfolio/dispatches -f event_type=guia-updated

@@ -1,0 +1,639 @@
+{
+  "title": "guia do game designer",
+  "intro": "eu criei esse guia para ajudar na sua jornada de aprendizado. um mapeamento das principais tecnologias, conceitos e habilidades demandadas pelo mercado, com minhas sugestões e opiniões.",
+  "tabs": {
+    "guia": "guia",
+    "almanaque": "almanaque gedê"
+  },
+  "levels": [
+    {
+      "title": "nível 1",
+      "topics": [
+        {
+          "title": "introdução",
+          "list": [
+            "game design é a disciplina/ciência/arte que é responsável pela criação do jogo em si.",
+            "é o processo criativo feito junto com pesquisa de mercado, em que uma pessoa tem ideias, documenta e decide quais dessas ideias serão utilizadas.",
+            "o game design além de gerar um conceito sólido para o jogo em questão que vai ser desenvolvido, também vai definir com a maior clareza possível as regras, mecânicas e sistemas que o jogo vai ter."
+          ],
+          "links": [
+            {
+              "type": "vídeo",
+              "label": "How to Become a Game Designer",
+              "url": "https://youtu.be/PMXf0e8n2Oc?si=BTZbfX0zlYiZIq7Q"
+            },
+            {
+              "type": "vídeo",
+              "label": "So You Want To Be a Game Designer - Extra Credits",
+              "url": "https://youtu.be/zQvWMdWhFCc?si=5DFPkH-w_X4OCk8E"
+            },
+            {
+              "type": "vídeo",
+              "label": "The Four Types of Video Game Designers",
+              "url": "https://youtu.be/suhANDk1h40?si=zyIMsVuL-r2I-e8N"
+            },
+            {
+              "type": "artigo",
+              "label": "O que é, o que faz e como se tornar game designer",
+              "url": "https://www.alura.com.br/artigos/game-design"
+            },
+            {
+              "type": "curso",
+              "label": "Game Design Experience",
+              "url": "https://csjdigital.com.br/pv-gdx/"
+            }
+          ]
+        },
+        {
+          "title": "conceitos básicos",
+          "text": [
+            "Indepenente do tipo de jogo que você for desenvolver, tem certos conceitos básicos que sempre serão usados no seu game design. A lista dos principais está abaixo 👇"
+          ],
+          "list": [
+            "Core Loop Gameplay",
+            "Mecânicas",
+            "Sistemas",
+            "Flow",
+            "Arquétipos de Bartle",
+            "3Cs (Character, Controller, Camera)",
+            "Feedbacks (Juice)",
+            "Imersão",
+            "Recompensas",
+            "Acessibilidade",
+            "Economia",
+            "Iteração",
+            "Prototipação"
+          ],
+          "links": [
+            {
+              "type": "vídeo",
+              "label": "Basic Principles of Game Design",
+              "url": "https://youtu.be/G8AT01tuyrk?si=gGbuakvy4vxKsL97"
+            },
+            {
+              "type": "vídeo",
+              "label": "Who Gets to be Awesome in Games?",
+              "url": "https://youtu.be/XSvclSkmdyY?si=pidlOo4JbCQCb3lg"
+            },
+            {
+              "type": "vídeo",
+              "label": "How Games Use Feedback Loops",
+              "url": "https://youtu.be/H4kbJObhcHw?si=Hrd9qZ_Xrhee3umM"
+            },
+            {
+              "type": "vídeo",
+              "label": "This Psychological Trick Makes Rewards Backfire",
+              "url": "https://youtu.be/1ypOUn6rThM?si=J_cK9Fcqp5IvSLro"
+            },
+            {
+              "type": "vídeo",
+              "label": "Can We Make This Button Fun To Press?",
+              "url": "https://youtu.be/7L1B5YaxxoA?si=VncxqG8EDw83Lvrj"
+            },
+            {
+              "type": "artigo",
+              "label": "Design 101: Balancing Games",
+              "url": "https://www.gamedeveloper.com/design/design-101-balancing-games"
+            },
+            {
+              "type": "artigo",
+              "label": "Game Design 101: Balancing Economy",
+              "url": "https://medium.com/strike-the-pixels/game-design-101-balancing-economy-5f3e5a7eecc5"
+            },
+            {
+              "type": "curso",
+              "label": "Game Design Experience",
+              "url": "https://csjdigital.com.br/pv-gdx/"
+            }
+          ]
+        },
+        {
+          "title": "game design document (gdd)",
+          "list": [
+            "Pra quem não conhece a sigla, GDD significa \"Game Design Document\", traduzindo para português seria o documento de game design.",
+            {
+              "text": "Esse documento vai ser essencial pra você como GD ao criar seu jogo, e pra toda equipe que for trabalhar nesse jogo além do Game Designer. Nele você irá documentar tudo que seu jogo irá ter:",
+              "list": [
+                "Regras",
+                "Mecânicas",
+                "Sistemas",
+                "Personagens",
+                "Etc"
+              ]
+            },
+            "Como cada jogo é um caso a parte, os GDDs irão acabar sendo diferentes dependendo do contexto que você tiver trabalhando."
+          ],
+          "links": [
+            {
+              "type": "vídeo",
+              "label": "The easiest game design document (+free Notion template)",
+              "url": "https://youtu.be/xUo0rL2c_LQ?si=9b-EJRsxCOtPvEZH"
+            },
+            {
+              "type": "artigo",
+              "label": "How to write a game design document",
+              "url": "https://www.gamedeveloper.com/business/how-to-write-a-game-design-document"
+            },
+            {
+              "type": "artigo",
+              "label": "GDD Template (by: Unity)",
+              "url": "https://connect-prd-cdn.unity.com/20201215/83f3733d-3146-42de-8a69-f461d6662eb1/Game-Design-Document-Template.pdf"
+            },
+            {
+              "type": "artigo",
+              "label": "GDD Template (by: Rosa Carbo-Mascarell)",
+              "url": "https://glamorous-save-06a.notion.site/Game-design-template-0132383574dd4c2dbff5d14e3a90761c"
+            },
+            {
+              "type": "curso",
+              "label": "Game Design Experience",
+              "url": "https://csjdigital.com.br/pv-gdx/"
+            }
+          ]
+        }
+      ],
+      "subtitle": "comece aqui"
+    },
+    {
+      "title": "nível 2",
+      "topics": [
+        {
+          "title": "frameworks",
+          "list": [
+            "Framework nada mais é do que uma estrutura. Uma estrutura que nos dá um norte sobre como construir ou estudar sobre algo.",
+            "Os frameworks de game design serão estruturas que irão nos dar direção e formas pré-definidas de estudar e analisar jogos sempre que for preciso.",
+            "É interessante conhecer e aplicar frameworks nos nossos estudos quando formos jogar algum jogo para analisar, pois com as limitações e estrutura estabelecidas em cada um dos frameworks que iremos conhecer, vamos conseguir entender com mais profundidade elementos específicos dentro de cada jogo, e destrinchar com mais facilidade mecânicas, dinâmicas, regras, sistemas, e o que mais for preciso.",
+            "Existem diversos frameworks de game design diferentes, você pode conhecer e ler mais sobre alguns abaixo."
+          ],
+          "links": [
+            {
+              "type": "artigo",
+              "label": "MDA: A Formal Approach to Game Design and Game Research",
+              "url": "https://users.cs.northwestern.edu/~hunicke/MDA.pdf"
+            },
+            {
+              "type": "vídeo",
+              "label": "Explaining the MDA Design Framework | Video Game Design",
+              "url": "https://youtu.be/NxiGduvDJ8s?si=D4KCKT5MtGcQzWV1"
+            },
+            {
+              "type": "artigo",
+              "label": "The 4 Keys 2 Fun",
+              "url": "https://www.nicolelazzaro.com/the4-keys-to-fun/"
+            },
+            {
+              "type": "artigo",
+              "label": "Gamer Motivation Profile",
+              "url": "https://apps.quanticfoundry.com/surveys/start/gamerprofile/"
+            },
+            {
+              "type": "artigo",
+              "label": "As cores do game design",
+              "url": "https://brasil.uxdesign.cc/as-cores-do-game-design-56085af672ea?gi=669cf587d713"
+            },
+            {
+              "type": "curso",
+              "label": "Game Design Experience",
+              "url": "https://csjdigital.com.br/pv-gdx/"
+            }
+          ]
+        },
+        {
+          "title": "design de sistemas",
+          "list": [
+            "Um sistema é um conjunto de mecânicas, que recebe um input (condição) e resulta num output (efeito).",
+            "Sistemas também possuem um conjunto de regras e parâmetros.",
+            "Existem muitas possibilidades de sistemas para serem criados dentro de jogos, porém todos utilizam essa premissa de juntar o conjunto de mecânicas, regras, parâmetros e transformam essas coisas em uma estrutura organizada de padrões que o jogador utiliza durante sua experiência."
+          ],
+          "links": [
+            {
+              "type": "vídeo",
+              "label": "Systemic Game Series",
+              "url": "https://youtube.com/playlist?list=PL5KbKbJ6Gf98b44ckrGGVhuxtPN4u20K7&si=uQiXxpQC7nGHqMk6"
+            },
+            {
+              "type": "artigo",
+              "label": "What is Video Game Systems Design and How Do You Learn It?",
+              "url": "https://gamedesignskills.com/game-design/systems-design/"
+            },
+            {
+              "type": "curso",
+              "label": "Game Design Experience",
+              "url": "https://csjdigital.com.br/pv-gdx/"
+            }
+          ]
+        },
+        {
+          "title": "level design",
+          "list": [
+            "Level Design é a parte do desenvolvimento de um jogo que é 100% focada na criação de níveis e todos os detalhes dentro dessa disciplina.",
+            "O processo de criação de um nível dentro de um jogo vai variar muito dependendo do gênero e do tamanho do jogo e da equipe desenvolvendo esse jogo."
+          ],
+          "links": [
+            {
+              "type": "ferramenta",
+              "label": "Level Design Compendium",
+              "url": "https://trello.com/b/AM3ZOmAd/level-design-compendium"
+            },
+            {
+              "type": "livro",
+              "label": "The Level Design Book",
+              "url": "https://book.leveldesignbook.com/"
+            },
+            {
+              "type": "vídeo",
+              "label": "GDC Level Design Talks",
+              "url": "https://youtube.com/playlist?list=PLgXVQbXBZAKLJeQvD7MlaW-GHNkitBcGZ&si=1dE0CcBgLow8DOT6"
+            }
+          ]
+        },
+        {
+          "title": "planilhas",
+          "list": [
+            "Uma das ferramentas mais úteis para o Game Designer.",
+            {
+              "text": "Por meio dessa ferramenta, é possível:",
+              "list": [
+                "Organizar o conteúdo do jogo",
+                "Balancear o jogo",
+                "Analisar métricas dos usuários",
+                "Muito mais"
+              ]
+            }
+          ],
+          "links": [
+            {
+              "type": "artigo",
+              "label": "Practical tips on technical G.D Documentation (Part 3)",
+              "url": "https://www.gamedeveloper.com/design/practical-tips-on-technical-game-design-documentation-part-3---spreadsheets"
+            },
+            {
+              "type": "artigo",
+              "label": "Spreadsheet Tools in Game Design",
+              "url": "https://medium.com/@urpi/spreadsheet-tools-in-game-design-57511eac68c"
+            },
+            {
+              "type": "vídeo",
+              "label": "Spreadsheeting for Designers",
+              "url": "https://www.youtube.com/playlist?list=PLA6D3KYUZa3MRm4nKO3YwjABanh3PA32H"
+            }
+          ]
+        },
+        {
+          "title": "balanceamento",
+          "list": [
+            "Todo jogo independente do gênero e qualquer outro detalhe precisa de algum tipo de balanceamento, ai entra o Game Designer, que vai determinar quais serão as direções que o jogo irá tomar e balancear de acordo com suas decisões de design.",
+            {
+              "text": "Indpendente do gênero e da proposta do jogo, o game designer muito provavelmente terá que balacear o jogo e lidar com coisas como:",
+              "list": [
+                "Balanceamento da economia",
+                "Balanceamento dos inimigos/chefes",
+                "Balanceamento dos níveis",
+                "Balanceamento da progressão",
+                "Balanceamento dos sistemas",
+                "Balanceamento da dificuldade do jogo como um todo",
+                "etc"
+              ]
+            }
+          ],
+          "links": [
+            {
+              "type": "artigo",
+              "label": "Video Game Balance: A Definitive Guide",
+              "url": "https://gamedesignskills.com/game-design/game-balance/"
+            },
+            {
+              "type": "artigo",
+              "label": "Game Design 101: Balancing Economy",
+              "url": "https://medium.com/strike-the-pixels/game-design-101-balancing-economy-5f3e5a7eecc5"
+            },
+            {
+              "type": "artigo",
+              "label": "Design 101: Balancing Games",
+              "url": "https://www.gamedeveloper.com/design/design-101-balancing-games"
+            },
+            {
+              "type": "curso",
+              "label": "Game Design Experience",
+              "url": "https://csjdigital.com.br/pv-gdx/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "nível 3",
+      "topics": [
+        {
+          "title": "versionamento (git)",
+          "list": [
+            "Para trabalhar com desenvolvimento de games, você irá precisar aprender a usar softwares de versionamento de arquivos, que farão com que você consiga trabalhar junto com equipes inteiras no mesmo projeto ao mesmo tempo.",
+            {
+              "text": "O programa geralmente utilizado nos studios é o Git, e você pode usar diversas soluções pra ver, mudar e subir arquivos dentro do git, soluções como:",
+              "list": [
+                "Git Batch",
+                "Github Desktop",
+                "Gitlab",
+                "Bitbucket",
+                "Fork",
+                "Etc"
+              ]
+            },
+            "Abaixo você conseguirá aprender como funciona e como utilizar no seu dia a dia o Git, e depois como usar isso dentro de um contexto de desenvolvimento de jogos."
+          ],
+          "links": [
+            {
+              "type": "vídeo",
+              "label": "Git e Github para Iniciantes",
+              "url": "https://youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A&si=nX6UtKlN8KruBrUq"
+            },
+            {
+              "type": "vídeo",
+              "label": "Git e Github na Vida Real",
+              "url": "https://youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A&si=nX6UtKlN8KruBrUq"
+            },
+            {
+              "type": "vídeo",
+              "label": "Version control & project organization best practices",
+              "url": "https://youtu.be/GEOqwtzmeP0?si=b9kWTyOFKxK7n5A2"
+            },
+            {
+              "type": "curso",
+              "label": "GDX: Módulo 9 - Git para GDs",
+              "url": "https://csjdigital.com.br/pv-gdx/"
+            }
+          ]
+        },
+        {
+          "title": "engines",
+          "list": [
+            "Como Game Designer você terá que escolher uma ou mais de uma engine (o software usado pra desenvolvimento de jogos) para trabalhar na sua rotina.",
+            "Cada engine tem pontos forte e pontos fracos dependendo do que você for quere fazer, então vale a pena dar uma conferida em cada uma delas pra ver qual faz mais sentido pro seu contexto e seu jogo específico.",
+            "Abaixo tem os links das principais engines para você conferir."
+          ],
+          "links": [
+            {
+              "type": "engine",
+              "label": "Godot (Open Source)",
+              "url": "https://godotengine.org/download/windows/"
+            },
+            {
+              "type": "engine",
+              "label": "Unreal",
+              "url": "https://www.unrealengine.com/pt-BR/download"
+            },
+            {
+              "type": "engine",
+              "label": "Game Maker",
+              "url": "https://gamemaker.io/pt-BR/download"
+            },
+            {
+              "type": "engine",
+              "label": "Unity",
+              "url": "https://unity.com/pt/download"
+            },
+            {
+              "type": "curso",
+              "label": "GDX: Módulo 10 - Unity para GDs",
+              "url": "https://csjdigital.com.br/pv-gdx/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "extras",
+      "topics": [
+        {
+          "title": "podcasts",
+          "list": [
+            "A seção extra do guia tem conteúdos que valem a pena acompanhar pra ficar por dentro da indústria de jogos, e aprender com a vivência de outros profissionais.",
+            "Essa seção compartilho os podcasts que acompanho ou já acompanhei e que aprendi ou me inspirei ouvindo."
+          ],
+          "links": [
+            {
+              "type": "podcast",
+              "label": "Game Design de Bolso",
+              "url": "https://open.spotify.com/show/6PvyZNI5qIL5EyhSXuX3Zw?si=312d567ddbd04183"
+            },
+            {
+              "type": "podcast",
+              "label": "Regras do Jogo - Holodeck",
+              "url": "https://open.spotify.com/show/3WReGMZA3GcqC7iGeuKewE?si=32a75c55ea2640fc"
+            },
+            {
+              "type": "podcast",
+              "label": "Jogabilidade",
+              "url": "https://open.spotify.com/show/4VHsfmQkt3lVbEVBpdm5jD?si=b56496ecad354ae4"
+            },
+            {
+              "type": "podcast",
+              "label": "Controles Voadores",
+              "url": "https://open.spotify.com/show/6ofZzsxZNJhK5LnHyIsHYH?si=6c7469825dcb479b"
+            },
+            {
+              "type": "podcast",
+              "label": "GameDev Espresso",
+              "url": "https://open.spotify.com/show/6bTyYJmo2W6iOBQlpRD7Oy?si=77bc38d405824bed"
+            },
+            {
+              "type": "podcast",
+              "label": "Café com Dungeon",
+              "url": "https://open.spotify.com/show/3UxFPDdpiQMnoqVnGWgZWG?si=ffe537ae32b846a1"
+            },
+            {
+              "type": "podcast",
+              "label": "bom dia, gedê",
+              "url": "https://open.spotify.com/show/1sWDRirjJQ5b2ENuPyhE9Z?si=553f9fa7b08b43a1"
+            }
+          ]
+        },
+        {
+          "title": "canais",
+          "list": [
+            "A seção extra do guia tem conteúdos que valem a pena acompanhar pra ficar por dentro da indústria de jogos, e aprender com a vivência de outros profissionais.",
+            "Essa seção compartilho os canais que acompanho ou já acompanhei e que aprendi ou me inspirei ouvindo."
+          ],
+          "links": [
+            {
+              "type": "vídeo",
+              "label": "Game Maker's Toolkit",
+              "url": "https://www.youtube.com/@GMTK"
+            },
+            {
+              "type": "vídeo",
+              "label": "Masahiro Sakurai on Creating Games",
+              "url": "https://www.youtube.com/@sora_sakurai_en"
+            },
+            {
+              "type": "vídeo",
+              "label": "Extra Credits",
+              "url": "https://www.youtube.com/@extracredits"
+            },
+            {
+              "type": "vídeo",
+              "label": "Brackeys",
+              "url": "https://www.youtube.com/@Brackeys"
+            },
+            {
+              "type": "vídeo",
+              "label": "Andrew Chambers Design",
+              "url": "https://www.youtube.com/@AndrewChambersDesign"
+            },
+            {
+              "type": "vídeo",
+              "label": "Fábrica de Jogos",
+              "url": "https://www.youtube.com/@fabricaDjogos"
+            },
+            {
+              "type": "vídeo",
+              "label": "Crie Seus Jogos",
+              "url": "https://www.youtube.com/@CrieSeusJogos"
+            },
+            {
+              "type": "vídeo",
+              "label": "Baptixta",
+              "url": "https://www.youtube.com/@baptixta"
+            }
+          ]
+        },
+        {
+          "title": "game designer joga",
+          "text": [
+            "Conteúdo especial sobre jogos que todo game designer deveria conhecer."
+          ],
+          "list": [
+            {
+              "text": "Action Adventure",
+              "list": [
+                "Death Stranding",
+                "Dwerve",
+                "Metal Gear Solid V: Ground Zeroes",
+                "Outer Wilds"
+              ]
+            },
+            {
+              "text": "Advergames",
+              "list": [
+                "Pepsiman"
+              ]
+            },
+            {
+              "text": "Arcade",
+              "list": [
+                "Tony Hawk's Pro Skater 2"
+              ]
+            },
+            {
+              "text": "Battle Royale",
+              "list": [
+                "Fortnite",
+                "PUBG"
+              ]
+            },
+            {
+              "text": "Board Games",
+              "list": [
+                "Monopoly",
+                "Uno",
+                "War"
+              ]
+            },
+            {
+              "text": "Boss Rush",
+              "list": [
+                "Titan Souls"
+              ]
+            },
+            {
+              "text": "Fighting Games",
+              "list": [
+                "Street Fighter",
+                "Tekken"
+              ]
+            },
+            {
+              "text": "FPS (First Person Shooter)",
+              "list": [
+                "Borderlands",
+                "Call of Duty",
+                "Halo"
+              ]
+            },
+            {
+              "text": "MMORPG (Massive Multiplayer Online Role-playing Game)",
+              "list": [
+                "Final Fantasy XIV Online",
+                "Tibia",
+                "Ragnarok Online",
+                "World of Warcraft"
+              ]
+            },
+            {
+              "text": "MOBA (Multiplayer Online Battle Arena)",
+              "list": [
+                "League of Legends",
+                "Smite"
+              ]
+            },
+            {
+              "text": "RPG (Role-playing Game)",
+              "list": [
+                "Undertale",
+                "Final Fantasy"
+              ]
+            },
+            {
+              "text": "Plataforma",
+              "list": [
+                "Dandara",
+                "Megaman X",
+                "Super Mario Bros Deluxe",
+                "Super Mario World",
+                "Thomas Was Alone"
+              ]
+            },
+            {
+              "text": "RTS (Real Time Strategy)",
+              "list": [
+                "Civilization"
+              ]
+            },
+            {
+              "text": "Serious Game",
+              "list": [
+                "Ayiti the cost of life"
+              ]
+            },
+            {
+              "text": "Soulslike",
+              "list": [
+                "Dark Souls",
+                "Elden Ring",
+                "Sekiro: Shadows Die Twice"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "quer investir na sua carreira?",
+    "text": "para complementar esse guia e te ajudar na sua carreira, eu criei um curso totalmente em português, ensinando teoria e prática do game design de uma forma mais simples e direta.",
+    "video": "sFBDXtinomg",
+    "button": {
+      "label": "quero investir na minha carreira",
+      "url": "https://csjdigital.com.br/pv-gdx/"
+    }
+  },
+  "almanaque": {
+    "file": "guia/almanaque.json",
+    "intro": "fichas de referência de game design: chefes, mecânicas, interfaces e outras coisas que vale a pena roubar (com carinho)."
+  },
+  "seo": {
+    "title": "guia do game designer: como aprender game design | Davi Baptixta",
+    "description": "guia gratuito para aprender game design em níveis: conceitos básicos, gdd, frameworks, sistemas, level design, balanceamento, engines e um almanaque de referências.",
+    "image": "guia/images/cover.png"
+  }
+}

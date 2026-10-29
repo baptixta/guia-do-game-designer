@@ -1,12 +1,24 @@
 
 ![Site Gif](https://github.com/baptixta/game-design-refs/blob/main/images/ggd.gif "Site Gif")
-<a href="https://baptixta.github.io/guia-do-game-designer/" target="_blank">Acesse o Guia do Game Designer aqui</a>
+<a href="https://baptixta.com/guia-game-designer/" target="_blank">Acesse o Guia do Game Designer aqui</a>
+
+## ✏️ Como editar o guia
+
+O site do guia faz parte do portfólio ([baptixta.com/guia-game-designer](https://baptixta.com/guia-game-designer/)), mas o conteúdo mora **aqui**:
+
+- `guia.json`: níveis, tópicos, listas e links. Cada tópico tem `title`, `text` (parágrafos), `list` (itens; um item pode ser `{ "text", "list" }` para sublista) e `links` (`{ "type", "label", "url" }`, onde `type` é vídeo, artigo, curso, podcast...).
+- `almanaque.json`: as fichas da aba **almanaque gedê** (`title`, `game`, `category`, `tags`, `summary`, `body` e `links`). No `body`, `## ` vira subtítulo e `- ` vira lista.
+- `**texto**` vira negrito em qualquer texto.
+
+A cada push na `main`, o workflow `.github/workflows/atualizar-portfolio.yml` pede para o portfólio publicar de novo (leva uns 2 minutos).
+
+**Configuração única:** crie um [fine-grained token](https://github.com/settings/personal-access-tokens/new) com acesso só ao repositório `personal-portfolio` e permissão **Contents: Read and write**, e salve como secret `PORTFOLIO_TOKEN` em *Settings → Secrets and variables → Actions* deste repositório.
 <br><br>
 ## 🎯Objetivo
 
 A ideia desse repositório, é compartilhar conteúdo para ajudar Game Designers a se desenvolverem (de iniciantes até avançados). Se tiver algo legal para compartilhar, é só mandar um pull request :)
 <br><br>
-Além de todos os links organizados e estruturados em níveis no site do [**Guia do Game Designer**](https://baptixta.github.io/guia-do-game-designer/), dentro desse readme tem diversos outros links categorizados e um pouco mais bagunçados pra você estudar se quiser.
+Além de todos os links organizados e estruturados em níveis no site do [**Guia do Game Designer**](https://baptixta.com/guia-game-designer/), dentro desse readme tem diversos outros links categorizados e um pouco mais bagunçados pra você estudar se quiser.
 <br><br>
 
 ## 💻 O trabalho de um Game Designer:

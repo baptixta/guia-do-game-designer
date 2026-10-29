@@ -1,0 +1,274 @@
+{
+  "refs": [
+    {
+      "id": "false-knight",
+      "body": "## Ataques\n- Salto (mira onde o jogador estava; nunca salta duas vezes seguidas)\n- Pancada simples por cima\n- Pancada com onda de choque\n\n## Fases\n- Três fases; nas seguintes, toda pancada derruba pedras do teto em pontos aleatórios e ele acelera\n\n## Armadura\n- Fica atordoado sempre que a vida da armadura chega a zero",
+      "category": "Chefões · Tank",
+      "game": "Hollow Knight",
+      "links": [
+        {
+          "label": "False Knight (Fextralife)",
+          "url": "https://hollowknight.wiki.fextralife.com/False+Knight"
+        },
+        {
+          "label": "False Knight (Hollow Knight Wiki)",
+          "url": "https://hollowknight.wiki/w/False_Knight"
+        }
+      ],
+      "summary": "Primeiro grande chefe: ataques lentos mas difíceis de evitar de perto. Ensina a achar a janela e se afastar.",
+      "tags": [
+        "lento",
+        "aoe",
+        "armadura",
+        "fases"
+      ],
+      "title": "False Knight",
+      "updatedAt": "2026-10-26T18:50:00.000Z"
+    },
+    {
+      "id": "fire-trolls-gow",
+      "body": "## Ataques\n- Varrida com o pilar\n- Pancada com o pilar\n- Pisão\n- Arremesso de bolas de lava à distância (Brenna Dauði)\n- Lava que incendeia e causa dano ao longo do tempo\n- Salto de longa distância (Dauði Hamarr, Dauði Munr)",
+      "category": "Chefões · Tank",
+      "game": "God of War (2018)",
+      "links": [
+        {
+          "label": "Guia de todos os chefes (Prima Games)",
+          "url": "https://primagames.com/tips/god-war-boss-defeat-all-bosses"
+        },
+        {
+          "label": "Dauði Munr (God of War Wiki)",
+          "url": "https://godofwar.fandom.com/wiki/Dau%C3%B0i_Munr"
+        }
+      ],
+      "summary": "Trolls com pilar gigante; a variante de lava deixa poças que queimam e algumas saltam grandes distâncias.",
+      "tags": [
+        "lento",
+        "aoe",
+        "dano-continuo",
+        "gigante"
+      ],
+      "title": "Fire Trolls",
+      "updatedAt": "2026-10-26T18:50:00.000Z"
+    },
+    {
+      "id": "gluth",
+      "body": "## AoE\n- Decimate a cada ~90 s reduz jogadores e zumbis a 5% da vida\n\n## Cura\n- Devora zumbis que chegam perto, recuperando 5% da vida máxima\n- Após o Decimate os zumbis param de atacar e correm até ele\n\n## Timer\n- Berserk logo após o quarto Decimate: +1.000% de dano",
+      "category": "Chefões · Tank",
+      "game": "World of Warcraft (Naxxramas)",
+      "links": [
+        {
+          "label": "Gluth (Warcraft Wiki)",
+          "url": "https://warcraft.wiki.gg/wiki/Gluth"
+        },
+        {
+          "label": "Guia de Gluth (Warcraft Tavern)",
+          "url": "https://www.warcrafttavern.com/wotlk/guides/gluth-25/"
+        }
+      ],
+      "summary": "Tank que se cura comendo zumbis; seu AoE prepara a própria cura e transforma impedir isso em tarefa do grupo.",
+      "tags": [
+        "cura",
+        "aoe",
+        "adds",
+        "enrage"
+      ],
+      "title": "Gluth",
+      "updatedAt": "2026-10-26T18:50:00.000Z"
+    },
+    {
+      "id": "gravios",
+      "body": "## Armadura\n- Corpo coberto por casca dura que desvia golpes na cabeça e asas e reduz dano em barriga, pernas e costas\n- Quebrar partes deixa a luta progressivamente mais fácil\n\n## Ataques\n- Gás embaixo do corpo em três variantes: sono, veneno e fogo\n- Raio de calor, inclusive varrendo da esquerda para a direita\n- Pisões contra quem está embaixo dele\n- Investida precedida de rugido curto\n- Rolamento lateral (inclina o corpo antes)\n- Cauda: varrida simples e dupla, telegrafadas virando a cabeça\n\n## Janela de punição\n- Durante os raios de calor o abdômen fica exposto",
+      "category": "Chefões · Tank",
+      "game": "Monster Hunter Wilds",
+      "links": [
+        {
+          "label": "Guia de Gravios (Mobalytics)",
+          "url": "https://mobalytics.gg/mhw/gravios-guide"
+        },
+        {
+          "label": "Guia de Gravios (GameWith)",
+          "url": "https://gamewith.net/monster-hunter-wilds/51999"
+        }
+      ],
+      "summary": "Wyvern enorme e blindada: lenta, mas compensa com durabilidade bruta e ataques em área devastadores.",
+      "tags": [
+        "lento",
+        "blindado",
+        "aoe",
+        "status"
+      ],
+      "title": "Gravios",
+      "updatedAt": "2026-10-26T18:50:00.000Z"
+    },
+    {
+      "id": "havel-the-rock",
+      "body": "## Ataques\n- Esmagamento longo por cima da cabeça com dano enorme\n- Depois do golpe, cambaleia para erguer o martelo de volta ao ombro\n\n## Autoproteção (DS3)\n- Com cerca de metade da vida recua e lança Stone Flesh\n- Fica extremamente resistente, mas bem menos móvel\n- Com o buff passa a usar duas mãos e não pode ser aparado",
+      "category": "Chefões · Tank",
+      "game": "Dark Souls / Dark Souls III",
+      "links": [
+        {
+          "label": "Havel (Fextralife, DS1)",
+          "url": "https://darksouls.wiki.fextralife.com/Havel+The+Rock"
+        },
+        {
+          "label": "Havel (Wiki, DS3)",
+          "url": "https://darksouls.fandom.com/wiki/Havel_the_Rock_(Dark_Souls_III)"
+        }
+      ],
+      "summary": "Golpe por cima devastador seguido de recuperação longa; no DS3 ganha um buff de pedra que troca mobilidade por defesa.",
+      "tags": [
+        "lento",
+        "dano-alto",
+        "autobuff",
+        "janela-de-punicao"
+      ],
+      "title": "Havel the Rock",
+      "updatedAt": "2026-10-26T18:50:00.000Z"
+    },
+    {
+      "id": "hinox",
+      "body": "## Comportamento\n- Passa a maior parte do tempo dormindo\n\n## Ataques\n- Tapas e socos\n- Arranca árvores próximas e arremessa\n- Variantes fortes desenterram e arremessam barris de bomba\n\n## Pontos fracos\n- Flecha no olho atordoa\n- Caneleiras de madeira queimam com fogo; as de metal conduzem eletricidade",
+      "category": "Chefões · Tank",
+      "game": "Zelda: Breath of the Wild / Tears of the Kingdom",
+      "links": [
+        {
+          "label": "Hinox (Zelda Wiki)",
+          "url": "https://zeldawiki.wiki/wiki/Hinox"
+        }
+      ],
+      "summary": "Ciclope que dorme até ser acordado; usa o cenário como arma e tem o olho como ponto fraco.",
+      "tags": [
+        "lento",
+        "ponto-fraco",
+        "armadura",
+        "ambiente"
+      ],
+      "title": "Hinox",
+      "updatedAt": "2026-10-26T18:50:00.000Z"
+    },
+    {
+      "id": "mohg",
+      "body": "## Ataques\n- Tridente cravado no chão gera explosão\n- Bloodboon espalha chamas de sangue pela arena\n- Poças de sangue que entram em combustão\n\n## Cura (Nihil)\n- Marca o jogador com anéis via Bloodboon Ritual\n- Ergue o tridente, a arena fica vermelha, grita \"nihil\" três vezes e se cura drenando sua vida\n\n## Fase 2\n- Ganha asas e voa; magia à distância e uma investida, seu único golpe rápido",
+      "category": "Chefões · Tank",
+      "game": "Elden Ring",
+      "links": [
+        {
+          "label": "Guia de Mohg (GamerGuides)",
+          "url": "https://gamerguides.com/elden-ring/guide/mohgwyn-palace"
+        },
+        {
+          "label": "Guia de Mohg (GGRecon)",
+          "url": "https://ggrecon.com/guides/elden-ring-mohg-boss-fight"
+        }
+      ],
+      "summary": "Tridente lento e telegrafado, AoE de sangue constante e uma cura que drena a vida do jogador (Nihil).",
+      "tags": [
+        "lento",
+        "cura",
+        "aoe",
+        "fases"
+      ],
+      "title": "Mohg, Lord of Blood",
+      "updatedAt": "2026-10-26T18:50:00.000Z"
+    },
+    {
+      "id": "patchwerk",
+      "body": "## Ataques\n- Hateful Strike: dano enorme no alvo com mais vida dentro do alcance corpo a corpo (nunca o tank ativo)\n\n## Timer\n- Frenzy com 5% de vida: +40% velocidade de ataque e +25% de dano\n- Enrage impossível de sobreviver após seis minutos",
+      "category": "Chefões · Tank",
+      "game": "World of Warcraft (Naxxramas)",
+      "links": [
+        {
+          "label": "Patchwerk (Warcraft Wiki)",
+          "url": "https://warcraft.wiki.gg/wiki/Patchwerk"
+        },
+        {
+          "label": "Guia de Patchwerk (Icy Veins)",
+          "url": "https://www.icy-veins.com/wotlk-classic/patchwerk-encounter-guide-strategy-abilities-loot"
+        }
+      ],
+      "summary": "O tank puro de referência: sem AoE nem cura, só golpes enormes e pressão de tempo.",
+      "tags": [
+        "dano-alto",
+        "enrage",
+        "gear-check"
+      ],
+      "title": "Patchwerk",
+      "updatedAt": "2026-10-26T18:50:00.000Z"
+    },
+    {
+      "id": "seath",
+      "body": "## Invulnerabilidade\n- Imortal enquanto o Cristal Primordial estiver intacto\n\n## Ataques (dano de maldição)\n- Feixe em arco que faz brotar espinhos de cristal\n- Feixe em linha reta\n- Feixe direto no chão à frente\n- Explosão de cristal em grande raio ao redor",
+      "category": "Chefões · Tank",
+      "game": "Dark Souls",
+      "links": [
+        {
+          "label": "Seath (Giant Bomb)",
+          "url": "https://giantbomb.com/wiki/Characters/Seath_the_Scaleless"
+        },
+        {
+          "label": "Seath (Dark Souls Wiki)",
+          "url": "https://darksouls.fandom.com/wiki/Seath_the_Scaleless"
+        }
+      ],
+      "summary": "Começa invencível: o jogador precisa quebrar o Cristal Primordial antes de causar dano.",
+      "tags": [
+        "invulneravel",
+        "aoe",
+        "objetivo"
+      ],
+      "title": "Seath the Scaleless",
+      "updatedAt": "2026-10-26T18:50:00.000Z"
+    },
+    {
+      "id": "stone-talus",
+      "body": "## Ataques\n- Soco esmagador de perto\n- Se joga com o corpo inteiro\n- Arremessa o próprio braço de pedra (tira boa parte da vida)\n\n## Regeneração\n- Os braços se regeneram periodicamente\n\n## Ponto fraco\n- Imune fora do minério; é preciso escalar e atacar o minério",
+      "category": "Chefões · Tank",
+      "game": "Zelda: Breath of the Wild / Tears of the Kingdom",
+      "links": [
+        {
+          "label": "Stone Talus (Zelda Universe)",
+          "url": "https://zeldauniverse.net/guides/breath-of-the-wild/sidequests/boss-strategies/stone-talus/"
+        },
+        {
+          "label": "Stone Talus (Game8)",
+          "url": "https://game8.co/games/LoZ-BotW/archives/294197"
+        }
+      ],
+      "summary": "Montanha de pedra que só toma dano no minério; regenera os braços e pede que o jogador o escale.",
+      "tags": [
+        "lento",
+        "regeneracao",
+        "ponto-fraco",
+        "escalada"
+      ],
+      "title": "Stone Talus",
+      "updatedAt": "2026-10-26T18:50:00.000Z"
+    },
+    {
+      "id": "yhorm",
+      "body": "## Ataques\n- Grito de guerra com onda de choque que derruba\n- Golpe ajoelhado no chão\n- Corte de revés para cima\n- Varrida girando\n- Investida em linha reta com as duas mãos\n- Pisão que gera onda e empurra\n\n## Fase 2\n- Com 50% de vida adiciona fogo aos ataques e solta explosões de raio moderado\n\n## O que roubar daqui\n- Sem a Storm Ruler o dano é irrisório: o tank vira um quebra-cabeça de ferramenta",
+      "category": "Chefões · Tank",
+      "game": "Dark Souls III",
+      "links": [
+        {
+          "label": "Yhorm (Fextralife)",
+          "url": "https://darksouls3.wiki.fextralife.com/Yhorm+The+Giant"
+        },
+        {
+          "label": "Guia de Yhorm (Twinfinite)",
+          "url": "https://twinfinite.net/guides/dark-souls-iii-yhorm-the-giant-how-to/"
+        }
+      ],
+      "summary": "Golpes pesadíssimos, fáceis de esquivar. A arena entrega a arma que resolve a luta (Storm Ruler).",
+      "tags": [
+        "lento",
+        "gigante",
+        "aoe",
+        "fases",
+        "arma-chave"
+      ],
+      "title": "Yhorm the Giant",
+      "updatedAt": "2026-10-26T18:50:00.000Z"
+    }
+  ]
+}
