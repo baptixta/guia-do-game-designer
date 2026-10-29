@@ -2,8 +2,14 @@
   "refs": [
     {
       "id": "false-knight",
-      "body": "## Ataques\n- Salto (mira onde o jogador estava; nunca salta duas vezes seguidas)\n- Pancada simples por cima\n- Pancada com onda de choque\n\n## Fases\n- Três fases; nas seguintes, toda pancada derruba pedras do teto em pontos aleatórios e ele acelera\n\n## Armadura\n- Fica atordoado sempre que a vida da armadura chega a zero",
-      "category": "Chefões · Tank",
+      "body": {
+        "pt": "## Ataques\n- Salto (mira onde o jogador estava; nunca salta duas vezes seguidas)\n- Pancada simples por cima\n- Pancada com onda de choque\n\n## Fases\n- Três fases; nas seguintes, toda pancada derruba pedras do teto em pontos aleatórios e ele acelera\n\n## Armadura\n- Fica atordoado sempre que a vida da armadura chega a zero",
+        "en": "## Attacks\n- Leap (aims where the player was; never leaps twice in a row)\n- Simple overhead slam\n- Slam with a shockwave\n\n## Phases\n- Three phases; in the later ones every slam drops rocks from the ceiling at random spots and he speeds up\n\n## Armor\n- Gets stunned whenever the armor's health reaches zero"
+      },
+      "category": {
+        "pt": "Chefões · Tank",
+        "en": "Bosses · Tank"
+      },
       "game": "Hollow Knight",
       "links": [
         {
@@ -15,24 +21,44 @@
           "url": "https://hollowknight.wiki/w/False_Knight"
         }
       ],
-      "summary": "Primeiro grande chefe: ataques lentos mas difíceis de evitar de perto. Ensina a achar a janela e se afastar.",
-      "tags": [
-        "lento",
-        "aoe",
-        "armadura",
-        "fases"
-      ],
+      "summary": {
+        "pt": "Primeiro grande chefe: ataques lentos mas difíceis de evitar de perto. Ensina a achar a janela e se afastar.",
+        "en": "The first big boss: slow attacks that are hard to avoid up close. Teaches you to find the opening and back off."
+      },
+      "tags": {
+        "pt": [
+          "lento",
+          "aoe",
+          "armadura",
+          "fases"
+        ],
+        "en": [
+          "slow",
+          "aoe",
+          "armor",
+          "phases"
+        ]
+      },
       "title": "False Knight",
       "updatedAt": "2026-10-26T18:50:00.000Z"
     },
     {
       "id": "fire-trolls-gow",
-      "body": "## Ataques\n- Varrida com o pilar\n- Pancada com o pilar\n- Pisão\n- Arremesso de bolas de lava à distância (Brenna Dauði)\n- Lava que incendeia e causa dano ao longo do tempo\n- Salto de longa distância (Dauði Hamarr, Dauði Munr)",
-      "category": "Chefões · Tank",
+      "body": {
+        "pt": "## Ataques\n- Varrida com o pilar\n- Pancada com o pilar\n- Pisão\n- Arremesso de bolas de lava à distância (Brenna Dauði)\n- Lava que incendeia e causa dano ao longo do tempo\n- Salto de longa distância (Dauði Hamarr, Dauði Munr)",
+        "en": "## Attacks\n- Pillar sweep\n- Pillar slam\n- Stomp\n- Throws lava balls from range (Brenna Dauði)\n- Lava that sets you on fire and deals damage over time\n- Long-distance leap (Dauði Hamarr, Dauði Munr)"
+      },
+      "category": {
+        "pt": "Chefões · Tank",
+        "en": "Bosses · Tank"
+      },
       "game": "God of War (2018)",
       "links": [
         {
-          "label": "Guia de todos os chefes (Prima Games)",
+          "label": {
+            "pt": "Guia de todos os chefes (Prima Games)",
+            "en": "Guide to every boss (Prima Games)"
+          },
           "url": "https://primagames.com/tips/god-war-boss-defeat-all-bosses"
         },
         {
@@ -40,20 +66,37 @@
           "url": "https://godofwar.fandom.com/wiki/Dau%C3%B0i_Munr"
         }
       ],
-      "summary": "Trolls com pilar gigante; a variante de lava deixa poças que queimam e algumas saltam grandes distâncias.",
-      "tags": [
-        "lento",
-        "aoe",
-        "dano-continuo",
-        "gigante"
-      ],
+      "summary": {
+        "pt": "Trolls com pilar gigante; a variante de lava deixa poças que queimam e algumas saltam grandes distâncias.",
+        "en": "Trolls with a giant pillar; the lava variant leaves burning pools and some leap long distances."
+      },
+      "tags": {
+        "pt": [
+          "lento",
+          "aoe",
+          "dano-continuo",
+          "gigante"
+        ],
+        "en": [
+          "slow",
+          "aoe",
+          "damage-over-time",
+          "giant"
+        ]
+      },
       "title": "Fire Trolls",
       "updatedAt": "2026-10-26T18:50:00.000Z"
     },
     {
       "id": "gluth",
-      "body": "## AoE\n- Decimate a cada ~90 s reduz jogadores e zumbis a 5% da vida\n\n## Cura\n- Devora zumbis que chegam perto, recuperando 5% da vida máxima\n- Após o Decimate os zumbis param de atacar e correm até ele\n\n## Timer\n- Berserk logo após o quarto Decimate: +1.000% de dano",
-      "category": "Chefões · Tank",
+      "body": {
+        "pt": "## AoE\n- Decimate a cada ~90 s reduz jogadores e zumbis a 5% da vida\n\n## Cura\n- Devora zumbis que chegam perto, recuperando 5% da vida máxima\n- Após o Decimate os zumbis param de atacar e correm até ele\n\n## Timer\n- Berserk logo após o quarto Decimate: +1.000% de dano",
+        "en": "## AoE\n- Decimate every ~90 s drops players and zombies to 5% health\n\n## Healing\n- Devours zombies that get close, recovering 5% of max health\n- After Decimate the zombies stop attacking and run to him\n\n## Timer\n- Berserk right after the fourth Decimate: +1,000% damage"
+      },
+      "category": {
+        "pt": "Chefões · Tank",
+        "en": "Bosses · Tank"
+      },
       "game": "World of Warcraft (Naxxramas)",
       "links": [
         {
@@ -61,49 +104,92 @@
           "url": "https://warcraft.wiki.gg/wiki/Gluth"
         },
         {
-          "label": "Guia de Gluth (Warcraft Tavern)",
+          "label": {
+            "pt": "Guia de Gluth (Warcraft Tavern)",
+            "en": "Gluth guide (Warcraft Tavern)"
+          },
           "url": "https://www.warcrafttavern.com/wotlk/guides/gluth-25/"
         }
       ],
-      "summary": "Tank que se cura comendo zumbis; seu AoE prepara a própria cura e transforma impedir isso em tarefa do grupo.",
-      "tags": [
-        "cura",
-        "aoe",
-        "adds",
-        "enrage"
-      ],
+      "summary": {
+        "pt": "Tank que se cura comendo zumbis; seu AoE prepara a própria cura e transforma impedir isso em tarefa do grupo.",
+        "en": "A tank that heals by eating zombies; its AoE sets up its own healing and turns stopping it into a group job."
+      },
+      "tags": {
+        "pt": [
+          "cura",
+          "aoe",
+          "adds",
+          "enrage"
+        ],
+        "en": [
+          "healing",
+          "aoe",
+          "adds",
+          "enrage"
+        ]
+      },
       "title": "Gluth",
       "updatedAt": "2026-10-26T18:50:00.000Z"
     },
     {
       "id": "gravios",
-      "body": "## Armadura\n- Corpo coberto por casca dura que desvia golpes na cabeça e asas e reduz dano em barriga, pernas e costas\n- Quebrar partes deixa a luta progressivamente mais fácil\n\n## Ataques\n- Gás embaixo do corpo em três variantes: sono, veneno e fogo\n- Raio de calor, inclusive varrendo da esquerda para a direita\n- Pisões contra quem está embaixo dele\n- Investida precedida de rugido curto\n- Rolamento lateral (inclina o corpo antes)\n- Cauda: varrida simples e dupla, telegrafadas virando a cabeça\n\n## Janela de punição\n- Durante os raios de calor o abdômen fica exposto",
-      "category": "Chefões · Tank",
+      "body": {
+        "pt": "## Armadura\n- Corpo coberto por casca dura que desvia golpes na cabeça e asas e reduz dano em barriga, pernas e costas\n- Quebrar partes deixa a luta progressivamente mais fácil\n\n## Ataques\n- Gás embaixo do corpo em três variantes: sono, veneno e fogo\n- Raio de calor, inclusive varrendo da esquerda para a direita\n- Pisões contra quem está embaixo dele\n- Investida precedida de rugido curto\n- Rolamento lateral (inclina o corpo antes)\n- Cauda: varrida simples e dupla, telegrafadas virando a cabeça\n\n## Janela de punição\n- Durante os raios de calor o abdômen fica exposto",
+        "en": "## Armor\n- Body covered in a hard shell that deflects hits to the head and wings and reduces damage to the belly, legs and back\n- Breaking parts makes the fight progressively easier\n\n## Attacks\n- Gas under its body in three variants: sleep, poison and fire\n- Heat beam, including one that sweeps from left to right\n- Stomps against anyone underneath it\n- Charge preceded by a short roar\n- Side roll (leans its body first)\n- Tail: single and double sweep, telegraphed by turning its head\n\n## Punish window\n- The belly is exposed during the heat beams"
+      },
+      "category": {
+        "pt": "Chefões · Tank",
+        "en": "Bosses · Tank"
+      },
       "game": "Monster Hunter Wilds",
       "links": [
         {
-          "label": "Guia de Gravios (Mobalytics)",
+          "label": {
+            "pt": "Guia de Gravios (Mobalytics)",
+            "en": "Gravios guide (Mobalytics)"
+          },
           "url": "https://mobalytics.gg/mhw/gravios-guide"
         },
         {
-          "label": "Guia de Gravios (GameWith)",
+          "label": {
+            "pt": "Guia de Gravios (GameWith)",
+            "en": "Gravios guide (GameWith)"
+          },
           "url": "https://gamewith.net/monster-hunter-wilds/51999"
         }
       ],
-      "summary": "Wyvern enorme e blindada: lenta, mas compensa com durabilidade bruta e ataques em área devastadores.",
-      "tags": [
-        "lento",
-        "blindado",
-        "aoe",
-        "status"
-      ],
+      "summary": {
+        "pt": "Wyvern enorme e blindada: lenta, mas compensa com durabilidade bruta e ataques em área devastadores.",
+        "en": "A huge armored wyvern: slow, but makes up for it with raw durability and devastating area attacks."
+      },
+      "tags": {
+        "pt": [
+          "lento",
+          "blindado",
+          "aoe",
+          "status"
+        ],
+        "en": [
+          "slow",
+          "armored",
+          "aoe",
+          "status"
+        ]
+      },
       "title": "Gravios",
       "updatedAt": "2026-10-26T18:50:00.000Z"
     },
     {
       "id": "havel-the-rock",
-      "body": "## Ataques\n- Esmagamento longo por cima da cabeça com dano enorme\n- Depois do golpe, cambaleia para erguer o martelo de volta ao ombro\n\n## Autoproteção (DS3)\n- Com cerca de metade da vida recua e lança Stone Flesh\n- Fica extremamente resistente, mas bem menos móvel\n- Com o buff passa a usar duas mãos e não pode ser aparado",
-      "category": "Chefões · Tank",
+      "body": {
+        "pt": "## Ataques\n- Esmagamento longo por cima da cabeça com dano enorme\n- Depois do golpe, cambaleia para erguer o martelo de volta ao ombro\n\n## Autoproteção (DS3)\n- Com cerca de metade da vida recua e lança Stone Flesh\n- Fica extremamente resistente, mas bem menos móvel\n- Com o buff passa a usar duas mãos e não pode ser aparado",
+        "en": "## Attacks\n- Long overhead smash with huge damage\n- After the blow, he staggers to lift the hammer back onto his shoulder\n\n## Self-protection (DS3)\n- At about half health he backs off and casts Stone Flesh\n- Becomes extremely tough, but much less mobile\n- With the buff he switches to two-handing and can't be parried"
+      },
+      "category": {
+        "pt": "Chefões · Tank",
+        "en": "Bosses · Tank"
+      },
       "game": "Dark Souls / Dark Souls III",
       "links": [
         {
@@ -115,20 +201,37 @@
           "url": "https://darksouls.fandom.com/wiki/Havel_the_Rock_(Dark_Souls_III)"
         }
       ],
-      "summary": "Golpe por cima devastador seguido de recuperação longa; no DS3 ganha um buff de pedra que troca mobilidade por defesa.",
-      "tags": [
-        "lento",
-        "dano-alto",
-        "autobuff",
-        "janela-de-punicao"
-      ],
+      "summary": {
+        "pt": "Golpe por cima devastador seguido de recuperação longa; no DS3 ganha um buff de pedra que troca mobilidade por defesa.",
+        "en": "A devastating overhead blow followed by a long recovery; in DS3 he gains a stone buff that trades mobility for defense."
+      },
+      "tags": {
+        "pt": [
+          "lento",
+          "dano-alto",
+          "autobuff",
+          "janela-de-punicao"
+        ],
+        "en": [
+          "slow",
+          "high-damage",
+          "self-buff",
+          "punish-window"
+        ]
+      },
       "title": "Havel the Rock",
       "updatedAt": "2026-10-26T18:50:00.000Z"
     },
     {
       "id": "hinox",
-      "body": "## Comportamento\n- Passa a maior parte do tempo dormindo\n\n## Ataques\n- Tapas e socos\n- Arranca árvores próximas e arremessa\n- Variantes fortes desenterram e arremessam barris de bomba\n\n## Pontos fracos\n- Flecha no olho atordoa\n- Caneleiras de madeira queimam com fogo; as de metal conduzem eletricidade",
-      "category": "Chefões · Tank",
+      "body": {
+        "pt": "## Comportamento\n- Passa a maior parte do tempo dormindo\n\n## Ataques\n- Tapas e socos\n- Arranca árvores próximas e arremessa\n- Variantes fortes desenterram e arremessam barris de bomba\n\n## Pontos fracos\n- Flecha no olho atordoa\n- Caneleiras de madeira queimam com fogo; as de metal conduzem eletricidade",
+        "en": "## Behavior\n- Spends most of its time asleep\n\n## Attacks\n- Slaps and punches\n- Rips out nearby trees and throws them\n- Stronger variants dig up and throw bomb barrels\n\n## Weak points\n- An arrow to the eye stuns it\n- Wooden shin guards burn with fire; metal ones conduct electricity"
+      },
+      "category": {
+        "pt": "Chefões · Tank",
+        "en": "Bosses · Tank"
+      },
       "game": "Zelda: Breath of the Wild / Tears of the Kingdom",
       "links": [
         {
@@ -136,45 +239,85 @@
           "url": "https://zeldawiki.wiki/wiki/Hinox"
         }
       ],
-      "summary": "Ciclope que dorme até ser acordado; usa o cenário como arma e tem o olho como ponto fraco.",
-      "tags": [
-        "lento",
-        "ponto-fraco",
-        "armadura",
-        "ambiente"
-      ],
+      "summary": {
+        "pt": "Ciclope que dorme até ser acordado; usa o cenário como arma e tem o olho como ponto fraco.",
+        "en": "A cyclops that sleeps until woken; uses the environment as a weapon and has its eye as a weak point."
+      },
+      "tags": {
+        "pt": [
+          "lento",
+          "ponto-fraco",
+          "armadura",
+          "ambiente"
+        ],
+        "en": [
+          "slow",
+          "weak-point",
+          "armor",
+          "environment"
+        ]
+      },
       "title": "Hinox",
       "updatedAt": "2026-10-26T18:50:00.000Z"
     },
     {
       "id": "mohg",
-      "body": "## Ataques\n- Tridente cravado no chão gera explosão\n- Bloodboon espalha chamas de sangue pela arena\n- Poças de sangue que entram em combustão\n\n## Cura (Nihil)\n- Marca o jogador com anéis via Bloodboon Ritual\n- Ergue o tridente, a arena fica vermelha, grita \"nihil\" três vezes e se cura drenando sua vida\n\n## Fase 2\n- Ganha asas e voa; magia à distância e uma investida, seu único golpe rápido",
-      "category": "Chefões · Tank",
+      "body": {
+        "pt": "## Ataques\n- Tridente cravado no chão gera explosão\n- Bloodboon espalha chamas de sangue pela arena\n- Poças de sangue que entram em combustão\n\n## Cura (Nihil)\n- Marca o jogador com anéis via Bloodboon Ritual\n- Ergue o tridente, a arena fica vermelha, grita \"nihil\" três vezes e se cura drenando sua vida\n\n## Fase 2\n- Ganha asas e voa; magia à distância e uma investida, seu único golpe rápido",
+        "en": "## Attacks\n- Trident driven into the ground causes an explosion\n- Bloodboon spreads blood flames across the arena\n- Pools of blood that ignite\n\n## Healing (Nihil)\n- Marks the player with rings via Bloodboon Ritual\n- Raises the trident, the arena turns red, he shouts \"nihil\" three times and heals by draining your health\n\n## Phase 2\n- Grows wings and flies; ranged magic and a charge, his only fast attack"
+      },
+      "category": {
+        "pt": "Chefões · Tank",
+        "en": "Bosses · Tank"
+      },
       "game": "Elden Ring",
       "links": [
         {
-          "label": "Guia de Mohg (GamerGuides)",
+          "label": {
+            "pt": "Guia de Mohg (GamerGuides)",
+            "en": "Mohg guide (GamerGuides)"
+          },
           "url": "https://gamerguides.com/elden-ring/guide/mohgwyn-palace"
         },
         {
-          "label": "Guia de Mohg (GGRecon)",
+          "label": {
+            "pt": "Guia de Mohg (GGRecon)",
+            "en": "Mohg guide (GGRecon)"
+          },
           "url": "https://ggrecon.com/guides/elden-ring-mohg-boss-fight"
         }
       ],
-      "summary": "Tridente lento e telegrafado, AoE de sangue constante e uma cura que drena a vida do jogador (Nihil).",
-      "tags": [
-        "lento",
-        "cura",
-        "aoe",
-        "fases"
-      ],
+      "summary": {
+        "pt": "Tridente lento e telegrafado, AoE de sangue constante e uma cura que drena a vida do jogador (Nihil).",
+        "en": "A slow, telegraphed trident, constant blood AoE and a heal that drains the player's health (Nihil)."
+      },
+      "tags": {
+        "pt": [
+          "lento",
+          "cura",
+          "aoe",
+          "fases"
+        ],
+        "en": [
+          "slow",
+          "healing",
+          "aoe",
+          "phases"
+        ]
+      },
       "title": "Mohg, Lord of Blood",
       "updatedAt": "2026-10-26T18:50:00.000Z"
     },
     {
       "id": "patchwerk",
-      "body": "## Ataques\n- Hateful Strike: dano enorme no alvo com mais vida dentro do alcance corpo a corpo (nunca o tank ativo)\n\n## Timer\n- Frenzy com 5% de vida: +40% velocidade de ataque e +25% de dano\n- Enrage impossível de sobreviver após seis minutos",
-      "category": "Chefões · Tank",
+      "body": {
+        "pt": "## Ataques\n- Hateful Strike: dano enorme no alvo com mais vida dentro do alcance corpo a corpo (nunca o tank ativo)\n\n## Timer\n- Frenzy com 5% de vida: +40% velocidade de ataque e +25% de dano\n- Enrage impossível de sobreviver após seis minutos",
+        "en": "## Attacks\n- Hateful Strike: huge damage to the highest-health target in melee range (never the active tank)\n\n## Timer\n- Frenzy at 5% health: +40% attack speed and +25% damage\n- Unsurvivable enrage after six minutes"
+      },
+      "category": {
+        "pt": "Chefões · Tank",
+        "en": "Bosses · Tank"
+      },
       "game": "World of Warcraft (Naxxramas)",
       "links": [
         {
@@ -182,23 +325,42 @@
           "url": "https://warcraft.wiki.gg/wiki/Patchwerk"
         },
         {
-          "label": "Guia de Patchwerk (Icy Veins)",
+          "label": {
+            "pt": "Guia de Patchwerk (Icy Veins)",
+            "en": "Patchwerk guide (Icy Veins)"
+          },
           "url": "https://www.icy-veins.com/wotlk-classic/patchwerk-encounter-guide-strategy-abilities-loot"
         }
       ],
-      "summary": "O tank puro de referência: sem AoE nem cura, só golpes enormes e pressão de tempo.",
-      "tags": [
-        "dano-alto",
-        "enrage",
-        "gear-check"
-      ],
+      "summary": {
+        "pt": "O tank puro de referência: sem AoE nem cura, só golpes enormes e pressão de tempo.",
+        "en": "The textbook pure tank: no AoE, no healing, just huge hits and time pressure."
+      },
+      "tags": {
+        "pt": [
+          "dano-alto",
+          "enrage",
+          "gear-check"
+        ],
+        "en": [
+          "high-damage",
+          "enrage",
+          "gear-check"
+        ]
+      },
       "title": "Patchwerk",
       "updatedAt": "2026-10-26T18:50:00.000Z"
     },
     {
       "id": "seath",
-      "body": "## Invulnerabilidade\n- Imortal enquanto o Cristal Primordial estiver intacto\n\n## Ataques (dano de maldição)\n- Feixe em arco que faz brotar espinhos de cristal\n- Feixe em linha reta\n- Feixe direto no chão à frente\n- Explosão de cristal em grande raio ao redor",
-      "category": "Chefões · Tank",
+      "body": {
+        "pt": "## Invulnerabilidade\n- Imortal enquanto o Cristal Primordial estiver intacto\n\n## Ataques (dano de maldição)\n- Feixe em arco que faz brotar espinhos de cristal\n- Feixe em linha reta\n- Feixe direto no chão à frente\n- Explosão de cristal em grande raio ao redor",
+        "en": "## Invulnerability\n- Immortal while the Primordial Crystal is intact\n\n## Attacks (curse damage)\n- Arcing beam that makes crystal spikes sprout\n- Straight-line beam\n- Beam straight into the ground in front\n- Crystal burst in a wide radius around him"
+      },
+      "category": {
+        "pt": "Chefões · Tank",
+        "en": "Bosses · Tank"
+      },
       "game": "Dark Souls",
       "links": [
         {
@@ -210,19 +372,35 @@
           "url": "https://darksouls.fandom.com/wiki/Seath_the_Scaleless"
         }
       ],
-      "summary": "Começa invencível: o jogador precisa quebrar o Cristal Primordial antes de causar dano.",
-      "tags": [
-        "invulneravel",
-        "aoe",
-        "objetivo"
-      ],
+      "summary": {
+        "pt": "Começa invencível: o jogador precisa quebrar o Cristal Primordial antes de causar dano.",
+        "en": "Starts out invincible: the player has to break the Primordial Crystal before dealing damage."
+      },
+      "tags": {
+        "pt": [
+          "invulneravel",
+          "aoe",
+          "objetivo"
+        ],
+        "en": [
+          "invulnerable",
+          "aoe",
+          "objective"
+        ]
+      },
       "title": "Seath the Scaleless",
       "updatedAt": "2026-10-26T18:50:00.000Z"
     },
     {
       "id": "stone-talus",
-      "body": "## Ataques\n- Soco esmagador de perto\n- Se joga com o corpo inteiro\n- Arremessa o próprio braço de pedra (tira boa parte da vida)\n\n## Regeneração\n- Os braços se regeneram periodicamente\n\n## Ponto fraco\n- Imune fora do minério; é preciso escalar e atacar o minério",
-      "category": "Chefões · Tank",
+      "body": {
+        "pt": "## Ataques\n- Soco esmagador de perto\n- Se joga com o corpo inteiro\n- Arremessa o próprio braço de pedra (tira boa parte da vida)\n\n## Regeneração\n- Os braços se regeneram periodicamente\n\n## Ponto fraco\n- Imune fora do minério; é preciso escalar e atacar o minério",
+        "en": "## Attacks\n- Crushing punch up close\n- Throws its whole body at you\n- Hurls its own stone arm (takes a good chunk of health)\n\n## Regeneration\n- The arms regenerate periodically\n\n## Weak point\n- Immune anywhere but the ore; you have to climb it and hit the ore"
+      },
+      "category": {
+        "pt": "Chefões · Tank",
+        "en": "Bosses · Tank"
+      },
       "game": "Zelda: Breath of the Wild / Tears of the Kingdom",
       "links": [
         {
@@ -234,20 +412,37 @@
           "url": "https://game8.co/games/LoZ-BotW/archives/294197"
         }
       ],
-      "summary": "Montanha de pedra que só toma dano no minério; regenera os braços e pede que o jogador o escale.",
-      "tags": [
-        "lento",
-        "regeneracao",
-        "ponto-fraco",
-        "escalada"
-      ],
+      "summary": {
+        "pt": "Montanha de pedra que só toma dano no minério; regenera os braços e pede que o jogador o escale.",
+        "en": "A mountain of stone that only takes damage on its ore; regenerates its arms and makes the player climb it."
+      },
+      "tags": {
+        "pt": [
+          "lento",
+          "regeneracao",
+          "ponto-fraco",
+          "escalada"
+        ],
+        "en": [
+          "slow",
+          "regeneration",
+          "weak-point",
+          "climbing"
+        ]
+      },
       "title": "Stone Talus",
       "updatedAt": "2026-10-26T18:50:00.000Z"
     },
     {
       "id": "yhorm",
-      "body": "## Ataques\n- Grito de guerra com onda de choque que derruba\n- Golpe ajoelhado no chão\n- Corte de revés para cima\n- Varrida girando\n- Investida em linha reta com as duas mãos\n- Pisão que gera onda e empurra\n\n## Fase 2\n- Com 50% de vida adiciona fogo aos ataques e solta explosões de raio moderado\n\n## O que roubar daqui\n- Sem a Storm Ruler o dano é irrisório: o tank vira um quebra-cabeça de ferramenta",
-      "category": "Chefões · Tank",
+      "body": {
+        "pt": "## Ataques\n- Grito de guerra com onda de choque que derruba\n- Golpe ajoelhado no chão\n- Corte de revés para cima\n- Varrida girando\n- Investida em linha reta com as duas mãos\n- Pisão que gera onda e empurra\n\n## Fase 2\n- Com 50% de vida adiciona fogo aos ataques e solta explosões de raio moderado\n\n## O que roubar daqui\n- Sem a Storm Ruler o dano é irrisório: o tank vira um quebra-cabeça de ferramenta",
+        "en": "## Attacks\n- War cry with a shockwave that knocks you down\n- Kneeling ground slam\n- Upward backhand slash\n- Spinning sweep\n- Two-handed charge in a straight line\n- Stomp that sends out a pushing wave\n\n## Phase 2\n- At 50% health adds fire to his attacks and releases moderate-radius explosions\n\n## What to steal from this\n- Without the Storm Ruler your damage is negligible: the tank becomes a tool puzzle"
+      },
+      "category": {
+        "pt": "Chefões · Tank",
+        "en": "Bosses · Tank"
+      },
       "game": "Dark Souls III",
       "links": [
         {
@@ -255,18 +450,33 @@
           "url": "https://darksouls3.wiki.fextralife.com/Yhorm+The+Giant"
         },
         {
-          "label": "Guia de Yhorm (Twinfinite)",
+          "label": {
+            "pt": "Guia de Yhorm (Twinfinite)",
+            "en": "Yhorm guide (Twinfinite)"
+          },
           "url": "https://twinfinite.net/guides/dark-souls-iii-yhorm-the-giant-how-to/"
         }
       ],
-      "summary": "Golpes pesadíssimos, fáceis de esquivar. A arena entrega a arma que resolve a luta (Storm Ruler).",
-      "tags": [
-        "lento",
-        "gigante",
-        "aoe",
-        "fases",
-        "arma-chave"
-      ],
+      "summary": {
+        "pt": "Golpes pesadíssimos, fáceis de esquivar. A arena entrega a arma que resolve a luta (Storm Ruler).",
+        "en": "Extremely heavy blows that are easy to dodge. The arena hands you the weapon that solves the fight (Storm Ruler)."
+      },
+      "tags": {
+        "pt": [
+          "lento",
+          "gigante",
+          "aoe",
+          "fases",
+          "arma-chave"
+        ],
+        "en": [
+          "slow",
+          "giant",
+          "aoe",
+          "phases",
+          "key-weapon"
+        ]
+      },
       "title": "Yhorm the Giant",
       "updatedAt": "2026-10-26T18:50:00.000Z"
     },
@@ -385,7 +595,10 @@
     {
       "id": "canal-game-maker-s-toolkit",
       "title": "Game Maker's Toolkit",
-      "category": "Canais",
+      "category": {
+        "pt": "Canais",
+        "en": "Channels"
+      },
       "tags": [
         "youtube"
       ],
@@ -401,7 +614,10 @@
     {
       "id": "canal-masahiro-sakurai-on-creating-games",
       "title": "Masahiro Sakurai on Creating Games",
-      "category": "Canais",
+      "category": {
+        "pt": "Canais",
+        "en": "Channels"
+      },
       "tags": [
         "youtube"
       ],
@@ -417,7 +633,10 @@
     {
       "id": "canal-extra-credits",
       "title": "Extra Credits",
-      "category": "Canais",
+      "category": {
+        "pt": "Canais",
+        "en": "Channels"
+      },
       "tags": [
         "youtube"
       ],
@@ -433,7 +652,10 @@
     {
       "id": "canal-brackeys",
       "title": "Brackeys",
-      "category": "Canais",
+      "category": {
+        "pt": "Canais",
+        "en": "Channels"
+      },
       "tags": [
         "youtube"
       ],
@@ -449,7 +671,10 @@
     {
       "id": "canal-andrew-chambers-design",
       "title": "Andrew Chambers Design",
-      "category": "Canais",
+      "category": {
+        "pt": "Canais",
+        "en": "Channels"
+      },
       "tags": [
         "youtube"
       ],
@@ -465,7 +690,10 @@
     {
       "id": "canal-fabrica-de-jogos",
       "title": "Fábrica de Jogos",
-      "category": "Canais",
+      "category": {
+        "pt": "Canais",
+        "en": "Channels"
+      },
       "tags": [
         "youtube"
       ],
@@ -481,7 +709,10 @@
     {
       "id": "canal-crie-seus-jogos",
       "title": "Crie Seus Jogos",
-      "category": "Canais",
+      "category": {
+        "pt": "Canais",
+        "en": "Channels"
+      },
       "tags": [
         "youtube"
       ],
@@ -497,7 +728,10 @@
     {
       "id": "canal-baptixta",
       "title": "Baptixta",
-      "category": "Canais",
+      "category": {
+        "pt": "Canais",
+        "en": "Channels"
+      },
       "tags": [
         "youtube"
       ],
@@ -513,173 +747,344 @@
     {
       "id": "joga-action-adventure",
       "title": "Action Adventure",
-      "category": "Game designer joga",
+      "category": {
+        "pt": "Game designer joga",
+        "en": "Game designer plays"
+      },
       "tags": [],
-      "game": "4 jogos",
+      "game": {
+        "pt": "4 jogos",
+        "en": "4 games"
+      },
       "summary": "Death Stranding, Dwerve, Metal Gear Solid V: Ground Zeroes, Outer Wilds",
-      "body": "## Jogos\n- Death Stranding\n- Dwerve\n- Metal Gear Solid V: Ground Zeroes\n- Outer Wilds",
+      "body": {
+        "pt": "## Jogos\n- Death Stranding\n- Dwerve\n- Metal Gear Solid V: Ground Zeroes\n- Outer Wilds",
+        "en": "## Games\n- Death Stranding\n- Dwerve\n- Metal Gear Solid V: Ground Zeroes\n- Outer Wilds"
+      },
       "links": [],
       "updatedAt": "2026-10-29T19:56:06.955Z"
     },
     {
       "id": "joga-advergames",
       "title": "Advergames",
-      "category": "Game designer joga",
+      "category": {
+        "pt": "Game designer joga",
+        "en": "Game designer plays"
+      },
       "tags": [],
-      "game": "1 jogo",
+      "game": {
+        "pt": "1 jogo",
+        "en": "1 game"
+      },
       "summary": "Pepsiman",
-      "body": "## Jogos\n- Pepsiman",
+      "body": {
+        "pt": "## Jogos\n- Pepsiman",
+        "en": "## Games\n- Pepsiman"
+      },
       "links": [],
       "updatedAt": "2026-10-29T19:56:06.955Z"
     },
     {
       "id": "joga-arcade",
       "title": "Arcade",
-      "category": "Game designer joga",
+      "category": {
+        "pt": "Game designer joga",
+        "en": "Game designer plays"
+      },
       "tags": [],
-      "game": "1 jogo",
+      "game": {
+        "pt": "1 jogo",
+        "en": "1 game"
+      },
       "summary": "Tony Hawk's Pro Skater 2",
-      "body": "## Jogos\n- Tony Hawk's Pro Skater 2",
+      "body": {
+        "pt": "## Jogos\n- Tony Hawk's Pro Skater 2",
+        "en": "## Games\n- Tony Hawk's Pro Skater 2"
+      },
       "links": [],
       "updatedAt": "2026-10-29T19:56:06.955Z"
     },
     {
       "id": "joga-battle-royale",
       "title": "Battle Royale",
-      "category": "Game designer joga",
+      "category": {
+        "pt": "Game designer joga",
+        "en": "Game designer plays"
+      },
       "tags": [],
-      "game": "2 jogos",
+      "game": {
+        "pt": "2 jogos",
+        "en": "2 games"
+      },
       "summary": "Fortnite, PUBG",
-      "body": "## Jogos\n- Fortnite\n- PUBG",
+      "body": {
+        "pt": "## Jogos\n- Fortnite\n- PUBG",
+        "en": "## Games\n- Fortnite\n- PUBG"
+      },
       "links": [],
       "updatedAt": "2026-10-29T19:56:06.955Z"
     },
     {
       "id": "joga-board-games",
       "title": "Board Games",
-      "category": "Game designer joga",
+      "category": {
+        "pt": "Game designer joga",
+        "en": "Game designer plays"
+      },
       "tags": [],
-      "game": "3 jogos",
+      "game": {
+        "pt": "3 jogos",
+        "en": "3 games"
+      },
       "summary": "Monopoly, Uno, War",
-      "body": "## Jogos\n- Monopoly\n- Uno\n- War",
+      "body": {
+        "pt": "## Jogos\n- Monopoly\n- Uno\n- War",
+        "en": "## Games\n- Monopoly\n- Uno\n- War"
+      },
       "links": [],
       "updatedAt": "2026-10-29T19:56:06.955Z"
     },
     {
       "id": "joga-boss-rush",
       "title": "Boss Rush",
-      "category": "Game designer joga",
+      "category": {
+        "pt": "Game designer joga",
+        "en": "Game designer plays"
+      },
       "tags": [],
-      "game": "1 jogo",
+      "game": {
+        "pt": "1 jogo",
+        "en": "1 game"
+      },
       "summary": "Titan Souls",
-      "body": "## Jogos\n- Titan Souls",
+      "body": {
+        "pt": "## Jogos\n- Titan Souls",
+        "en": "## Games\n- Titan Souls"
+      },
       "links": [],
       "updatedAt": "2026-10-29T19:56:06.955Z"
     },
     {
       "id": "joga-fighting-games",
       "title": "Fighting Games",
-      "category": "Game designer joga",
+      "category": {
+        "pt": "Game designer joga",
+        "en": "Game designer plays"
+      },
       "tags": [],
-      "game": "2 jogos",
+      "game": {
+        "pt": "2 jogos",
+        "en": "2 games"
+      },
       "summary": "Street Fighter, Tekken",
-      "body": "## Jogos\n- Street Fighter\n- Tekken",
+      "body": {
+        "pt": "## Jogos\n- Street Fighter\n- Tekken",
+        "en": "## Games\n- Street Fighter\n- Tekken"
+      },
       "links": [],
       "updatedAt": "2026-10-29T19:56:06.955Z"
     },
     {
       "id": "joga-fps-first-person-shooter",
       "title": "FPS (First Person Shooter)",
-      "category": "Game designer joga",
+      "category": {
+        "pt": "Game designer joga",
+        "en": "Game designer plays"
+      },
       "tags": [],
-      "game": "3 jogos",
+      "game": {
+        "pt": "3 jogos",
+        "en": "3 games"
+      },
       "summary": "Borderlands, Call of Duty, Halo",
-      "body": "## Jogos\n- Borderlands\n- Call of Duty\n- Halo",
+      "body": {
+        "pt": "## Jogos\n- Borderlands\n- Call of Duty\n- Halo",
+        "en": "## Games\n- Borderlands\n- Call of Duty\n- Halo"
+      },
       "links": [],
       "updatedAt": "2026-10-29T19:56:06.955Z"
     },
     {
       "id": "joga-mmorpg-massive-multiplayer-online-role-playing-game",
       "title": "MMORPG (Massive Multiplayer Online Role-playing Game)",
-      "category": "Game designer joga",
+      "category": {
+        "pt": "Game designer joga",
+        "en": "Game designer plays"
+      },
       "tags": [],
-      "game": "4 jogos",
+      "game": {
+        "pt": "4 jogos",
+        "en": "4 games"
+      },
       "summary": "Final Fantasy XIV Online, Tibia, Ragnarok Online, World of Warcraft",
-      "body": "## Jogos\n- Final Fantasy XIV Online\n- Tibia\n- Ragnarok Online\n- World of Warcraft",
+      "body": {
+        "pt": "## Jogos\n- Final Fantasy XIV Online\n- Tibia\n- Ragnarok Online\n- World of Warcraft",
+        "en": "## Games\n- Final Fantasy XIV Online\n- Tibia\n- Ragnarok Online\n- World of Warcraft"
+      },
       "links": [],
       "updatedAt": "2026-10-29T19:56:06.955Z"
     },
     {
       "id": "joga-moba-multiplayer-online-battle-arena",
       "title": "MOBA (Multiplayer Online Battle Arena)",
-      "category": "Game designer joga",
+      "category": {
+        "pt": "Game designer joga",
+        "en": "Game designer plays"
+      },
       "tags": [],
-      "game": "2 jogos",
+      "game": {
+        "pt": "2 jogos",
+        "en": "2 games"
+      },
       "summary": "League of Legends, Smite",
-      "body": "## Jogos\n- League of Legends\n- Smite",
+      "body": {
+        "pt": "## Jogos\n- League of Legends\n- Smite",
+        "en": "## Games\n- League of Legends\n- Smite"
+      },
       "links": [],
       "updatedAt": "2026-10-29T19:56:06.955Z"
     },
     {
       "id": "joga-rpg-role-playing-game",
       "title": "RPG (Role-playing Game)",
-      "category": "Game designer joga",
+      "category": {
+        "pt": "Game designer joga",
+        "en": "Game designer plays"
+      },
       "tags": [],
-      "game": "2 jogos",
+      "game": {
+        "pt": "2 jogos",
+        "en": "2 games"
+      },
       "summary": "Undertale, Final Fantasy",
-      "body": "## Jogos\n- Undertale\n- Final Fantasy",
+      "body": {
+        "pt": "## Jogos\n- Undertale\n- Final Fantasy",
+        "en": "## Games\n- Undertale\n- Final Fantasy"
+      },
       "links": [],
       "updatedAt": "2026-10-29T19:56:06.955Z"
     },
     {
       "id": "joga-plataforma",
-      "title": "Plataforma",
-      "category": "Game designer joga",
+      "title": {
+        "pt": "Plataforma",
+        "en": "Platformer"
+      },
+      "category": {
+        "pt": "Game designer joga",
+        "en": "Game designer plays"
+      },
       "tags": [],
-      "game": "5 jogos",
+      "game": {
+        "pt": "5 jogos",
+        "en": "5 games"
+      },
       "summary": "Dandara, Megaman X, Super Mario Bros Deluxe, Super Mario World, Thomas Was Alone",
-      "body": "## Jogos\n- Dandara\n- Megaman X\n- Super Mario Bros Deluxe\n- Super Mario World\n- Thomas Was Alone",
+      "body": {
+        "pt": "## Jogos\n- Dandara\n- Megaman X\n- Super Mario Bros Deluxe\n- Super Mario World\n- Thomas Was Alone",
+        "en": "## Games\n- Dandara\n- Megaman X\n- Super Mario Bros Deluxe\n- Super Mario World\n- Thomas Was Alone"
+      },
       "links": [],
       "updatedAt": "2026-10-29T19:56:06.955Z"
     },
     {
       "id": "joga-rts-real-time-strategy",
       "title": "RTS (Real Time Strategy)",
-      "category": "Game designer joga",
+      "category": {
+        "pt": "Game designer joga",
+        "en": "Game designer plays"
+      },
       "tags": [],
-      "game": "1 jogo",
+      "game": {
+        "pt": "1 jogo",
+        "en": "1 game"
+      },
       "summary": "Civilization",
-      "body": "## Jogos\n- Civilization",
+      "body": {
+        "pt": "## Jogos\n- Civilization",
+        "en": "## Games\n- Civilization"
+      },
       "links": [],
       "updatedAt": "2026-10-29T19:56:06.955Z"
     },
     {
       "id": "joga-serious-game",
       "title": "Serious Game",
-      "category": "Game designer joga",
+      "category": {
+        "pt": "Game designer joga",
+        "en": "Game designer plays"
+      },
       "tags": [],
-      "game": "1 jogo",
+      "game": {
+        "pt": "1 jogo",
+        "en": "1 game"
+      },
       "summary": "Ayiti the cost of life",
-      "body": "## Jogos\n- Ayiti the cost of life",
+      "body": {
+        "pt": "## Jogos\n- Ayiti the cost of life",
+        "en": "## Games\n- Ayiti the cost of life"
+      },
       "links": [],
       "updatedAt": "2026-10-29T19:56:06.955Z"
     },
     {
       "id": "joga-soulslike",
       "title": "Soulslike",
-      "category": "Game designer joga",
+      "category": {
+        "pt": "Game designer joga",
+        "en": "Game designer plays"
+      },
       "tags": [],
-      "game": "3 jogos",
+      "game": {
+        "pt": "3 jogos",
+        "en": "3 games"
+      },
       "summary": "Dark Souls, Elden Ring, Sekiro: Shadows Die Twice",
-      "body": "## Jogos\n- Dark Souls\n- Elden Ring\n- Sekiro: Shadows Die Twice",
+      "body": {
+        "pt": "## Jogos\n- Dark Souls\n- Elden Ring\n- Sekiro: Shadows Die Twice",
+        "en": "## Games\n- Dark Souls\n- Elden Ring\n- Sekiro: Shadows Die Twice"
+      },
       "links": [],
       "updatedAt": "2026-10-29T19:56:06.955Z"
     }
   ],
-  "categories": {
-    "Chefões · Tank": "chefes que aguentam muito dano e punem quem fica perto: referências de ritmo, telegrafia e janelas de punição.",
-    "Podcasts": "podcasts que acompanho ou já acompanhei, pra ficar por dentro da indústria e aprender com a vivência de outros profissionais.",
-    "Canais": "canais que acompanho ou já acompanhei e com os quais aprendi ou me inspirei.",
-    "Game designer joga": "jogos que todo game designer deveria conhecer, separados por gênero."
-  }
+  "categories": [
+    {
+      "name": {
+        "pt": "Chefões · Tank",
+        "en": "Bosses · Tank"
+      },
+      "text": {
+        "pt": "chefes que aguentam muito dano e punem quem fica perto: referências de ritmo, telegrafia e janelas de punição.",
+        "en": "bosses that soak up a lot of damage and punish anyone who stays close: references for pacing, telegraphing and punish windows."
+      }
+    },
+    {
+      "name": "Podcasts",
+      "text": {
+        "pt": "podcasts que acompanho ou já acompanhei, pra ficar por dentro da indústria e aprender com a vivência de outros profissionais.",
+        "en": "podcasts i follow or used to follow, to keep up with the industry and learn from other professionals' experience."
+      }
+    },
+    {
+      "name": {
+        "pt": "Canais",
+        "en": "Channels"
+      },
+      "text": {
+        "pt": "canais que acompanho ou já acompanhei e com os quais aprendi ou me inspirei.",
+        "en": "channels i follow or used to follow, that taught or inspired me."
+      }
+    },
+    {
+      "name": {
+        "pt": "Game designer joga",
+        "en": "Game designer plays"
+      },
+      "text": {
+        "pt": "jogos que todo game designer deveria conhecer, separados por gênero.",
+        "en": "games every game designer should know, grouped by genre."
+      }
+    }
+  ]
 }
