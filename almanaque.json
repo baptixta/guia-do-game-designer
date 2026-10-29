@@ -269,6 +269,417 @@
       ],
       "title": "Yhorm the Giant",
       "updatedAt": "2026-10-26T18:50:00.000Z"
+    },
+    {
+      "id": "podcast-game-design-de-bolso",
+      "title": "Game Design de Bolso",
+      "category": "Podcasts",
+      "tags": [
+        "podcast"
+      ],
+      "summary": "",
+      "links": [
+        {
+          "label": "ouvir no Spotify",
+          "url": "https://open.spotify.com/show/6PvyZNI5qIL5EyhSXuX3Zw?si=312d567ddbd04183"
+        }
+      ],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "podcast-regras-do-jogo-holodeck",
+      "title": "Regras do Jogo - Holodeck",
+      "category": "Podcasts",
+      "tags": [
+        "podcast"
+      ],
+      "summary": "",
+      "links": [
+        {
+          "label": "ouvir no Spotify",
+          "url": "https://open.spotify.com/show/3WReGMZA3GcqC7iGeuKewE?si=32a75c55ea2640fc"
+        }
+      ],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "podcast-jogabilidade",
+      "title": "Jogabilidade",
+      "category": "Podcasts",
+      "tags": [
+        "podcast"
+      ],
+      "summary": "",
+      "links": [
+        {
+          "label": "ouvir no Spotify",
+          "url": "https://open.spotify.com/show/4VHsfmQkt3lVbEVBpdm5jD?si=b56496ecad354ae4"
+        }
+      ],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "podcast-controles-voadores",
+      "title": "Controles Voadores",
+      "category": "Podcasts",
+      "tags": [
+        "podcast"
+      ],
+      "summary": "",
+      "links": [
+        {
+          "label": "ouvir no Spotify",
+          "url": "https://open.spotify.com/show/6ofZzsxZNJhK5LnHyIsHYH?si=6c7469825dcb479b"
+        }
+      ],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "podcast-gamedev-espresso",
+      "title": "GameDev Espresso",
+      "category": "Podcasts",
+      "tags": [
+        "podcast"
+      ],
+      "summary": "",
+      "links": [
+        {
+          "label": "ouvir no Spotify",
+          "url": "https://open.spotify.com/show/6bTyYJmo2W6iOBQlpRD7Oy?si=77bc38d405824bed"
+        }
+      ],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "podcast-cafe-com-dungeon",
+      "title": "Café com Dungeon",
+      "category": "Podcasts",
+      "tags": [
+        "podcast"
+      ],
+      "summary": "",
+      "links": [
+        {
+          "label": "ouvir no Spotify",
+          "url": "https://open.spotify.com/show/3UxFPDdpiQMnoqVnGWgZWG?si=ffe537ae32b846a1"
+        }
+      ],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "podcast-bom-dia-gede",
+      "title": "bom dia, gedê",
+      "category": "Podcasts",
+      "tags": [
+        "podcast"
+      ],
+      "summary": "",
+      "links": [
+        {
+          "label": "ouvir no Spotify",
+          "url": "https://open.spotify.com/show/1sWDRirjJQ5b2ENuPyhE9Z?si=553f9fa7b08b43a1"
+        }
+      ],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "canal-game-maker-s-toolkit",
+      "title": "Game Maker's Toolkit",
+      "category": "Canais",
+      "tags": [
+        "youtube"
+      ],
+      "summary": "",
+      "links": [
+        {
+          "label": "assistir no YouTube",
+          "url": "https://www.youtube.com/@GMTK"
+        }
+      ],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "canal-masahiro-sakurai-on-creating-games",
+      "title": "Masahiro Sakurai on Creating Games",
+      "category": "Canais",
+      "tags": [
+        "youtube"
+      ],
+      "summary": "",
+      "links": [
+        {
+          "label": "assistir no YouTube",
+          "url": "https://www.youtube.com/@sora_sakurai_en"
+        }
+      ],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "canal-extra-credits",
+      "title": "Extra Credits",
+      "category": "Canais",
+      "tags": [
+        "youtube"
+      ],
+      "summary": "",
+      "links": [
+        {
+          "label": "assistir no YouTube",
+          "url": "https://www.youtube.com/@extracredits"
+        }
+      ],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "canal-brackeys",
+      "title": "Brackeys",
+      "category": "Canais",
+      "tags": [
+        "youtube"
+      ],
+      "summary": "",
+      "links": [
+        {
+          "label": "assistir no YouTube",
+          "url": "https://www.youtube.com/@Brackeys"
+        }
+      ],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "canal-andrew-chambers-design",
+      "title": "Andrew Chambers Design",
+      "category": "Canais",
+      "tags": [
+        "youtube"
+      ],
+      "summary": "",
+      "links": [
+        {
+          "label": "assistir no YouTube",
+          "url": "https://www.youtube.com/@AndrewChambersDesign"
+        }
+      ],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "canal-fabrica-de-jogos",
+      "title": "Fábrica de Jogos",
+      "category": "Canais",
+      "tags": [
+        "youtube"
+      ],
+      "summary": "",
+      "links": [
+        {
+          "label": "assistir no YouTube",
+          "url": "https://www.youtube.com/@fabricaDjogos"
+        }
+      ],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "canal-crie-seus-jogos",
+      "title": "Crie Seus Jogos",
+      "category": "Canais",
+      "tags": [
+        "youtube"
+      ],
+      "summary": "",
+      "links": [
+        {
+          "label": "assistir no YouTube",
+          "url": "https://www.youtube.com/@CrieSeusJogos"
+        }
+      ],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "canal-baptixta",
+      "title": "Baptixta",
+      "category": "Canais",
+      "tags": [
+        "youtube"
+      ],
+      "summary": "",
+      "links": [
+        {
+          "label": "assistir no YouTube",
+          "url": "https://www.youtube.com/@baptixta"
+        }
+      ],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "joga-action-adventure",
+      "title": "Action Adventure",
+      "category": "Game designer joga",
+      "tags": [],
+      "game": "4 jogos",
+      "summary": "Death Stranding, Dwerve, Metal Gear Solid V: Ground Zeroes, Outer Wilds",
+      "body": "## Jogos\n- Death Stranding\n- Dwerve\n- Metal Gear Solid V: Ground Zeroes\n- Outer Wilds",
+      "links": [],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "joga-advergames",
+      "title": "Advergames",
+      "category": "Game designer joga",
+      "tags": [],
+      "game": "1 jogo",
+      "summary": "Pepsiman",
+      "body": "## Jogos\n- Pepsiman",
+      "links": [],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "joga-arcade",
+      "title": "Arcade",
+      "category": "Game designer joga",
+      "tags": [],
+      "game": "1 jogo",
+      "summary": "Tony Hawk's Pro Skater 2",
+      "body": "## Jogos\n- Tony Hawk's Pro Skater 2",
+      "links": [],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "joga-battle-royale",
+      "title": "Battle Royale",
+      "category": "Game designer joga",
+      "tags": [],
+      "game": "2 jogos",
+      "summary": "Fortnite, PUBG",
+      "body": "## Jogos\n- Fortnite\n- PUBG",
+      "links": [],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "joga-board-games",
+      "title": "Board Games",
+      "category": "Game designer joga",
+      "tags": [],
+      "game": "3 jogos",
+      "summary": "Monopoly, Uno, War",
+      "body": "## Jogos\n- Monopoly\n- Uno\n- War",
+      "links": [],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "joga-boss-rush",
+      "title": "Boss Rush",
+      "category": "Game designer joga",
+      "tags": [],
+      "game": "1 jogo",
+      "summary": "Titan Souls",
+      "body": "## Jogos\n- Titan Souls",
+      "links": [],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "joga-fighting-games",
+      "title": "Fighting Games",
+      "category": "Game designer joga",
+      "tags": [],
+      "game": "2 jogos",
+      "summary": "Street Fighter, Tekken",
+      "body": "## Jogos\n- Street Fighter\n- Tekken",
+      "links": [],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "joga-fps-first-person-shooter",
+      "title": "FPS (First Person Shooter)",
+      "category": "Game designer joga",
+      "tags": [],
+      "game": "3 jogos",
+      "summary": "Borderlands, Call of Duty, Halo",
+      "body": "## Jogos\n- Borderlands\n- Call of Duty\n- Halo",
+      "links": [],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "joga-mmorpg-massive-multiplayer-online-role-playing-game",
+      "title": "MMORPG (Massive Multiplayer Online Role-playing Game)",
+      "category": "Game designer joga",
+      "tags": [],
+      "game": "4 jogos",
+      "summary": "Final Fantasy XIV Online, Tibia, Ragnarok Online, World of Warcraft",
+      "body": "## Jogos\n- Final Fantasy XIV Online\n- Tibia\n- Ragnarok Online\n- World of Warcraft",
+      "links": [],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "joga-moba-multiplayer-online-battle-arena",
+      "title": "MOBA (Multiplayer Online Battle Arena)",
+      "category": "Game designer joga",
+      "tags": [],
+      "game": "2 jogos",
+      "summary": "League of Legends, Smite",
+      "body": "## Jogos\n- League of Legends\n- Smite",
+      "links": [],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "joga-rpg-role-playing-game",
+      "title": "RPG (Role-playing Game)",
+      "category": "Game designer joga",
+      "tags": [],
+      "game": "2 jogos",
+      "summary": "Undertale, Final Fantasy",
+      "body": "## Jogos\n- Undertale\n- Final Fantasy",
+      "links": [],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "joga-plataforma",
+      "title": "Plataforma",
+      "category": "Game designer joga",
+      "tags": [],
+      "game": "5 jogos",
+      "summary": "Dandara, Megaman X, Super Mario Bros Deluxe, Super Mario World, Thomas Was Alone",
+      "body": "## Jogos\n- Dandara\n- Megaman X\n- Super Mario Bros Deluxe\n- Super Mario World\n- Thomas Was Alone",
+      "links": [],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "joga-rts-real-time-strategy",
+      "title": "RTS (Real Time Strategy)",
+      "category": "Game designer joga",
+      "tags": [],
+      "game": "1 jogo",
+      "summary": "Civilization",
+      "body": "## Jogos\n- Civilization",
+      "links": [],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "joga-serious-game",
+      "title": "Serious Game",
+      "category": "Game designer joga",
+      "tags": [],
+      "game": "1 jogo",
+      "summary": "Ayiti the cost of life",
+      "body": "## Jogos\n- Ayiti the cost of life",
+      "links": [],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
+    },
+    {
+      "id": "joga-soulslike",
+      "title": "Soulslike",
+      "category": "Game designer joga",
+      "tags": [],
+      "game": "3 jogos",
+      "summary": "Dark Souls, Elden Ring, Sekiro: Shadows Die Twice",
+      "body": "## Jogos\n- Dark Souls\n- Elden Ring\n- Sekiro: Shadows Die Twice",
+      "links": [],
+      "updatedAt": "2026-10-29T19:56:06.955Z"
     }
-  ]
+  ],
+  "categories": {
+    "Chefões · Tank": "chefes que aguentam muito dano e punem quem fica perto: referências de ritmo, telegrafia e janelas de punição.",
+    "Podcasts": "podcasts que acompanho ou já acompanhei, pra ficar por dentro da indústria e aprender com a vivência de outros profissionais.",
+    "Canais": "canais que acompanho ou já acompanhei e com os quais aprendi ou me inspirei.",
+    "Game designer joga": "jogos que todo game designer deveria conhecer, separados por gênero."
+  }
 }
