@@ -13,8 +13,8 @@
       "en": "guide"
     },
     "almanaque": {
-      "pt": "almanaque gedê",
-      "en": "gedê almanac"
+      "pt": "referências",
+      "en": "references"
     }
   },
   "levels": [
@@ -756,8 +756,8 @@
   "almanaque": {
     "file": "guia/almanaque.json",
     "intro": {
-      "pt": "fichas de referência de game design: chefes, mecânicas e jogos que vale a pena estudar, além dos podcasts e canais que eu acompanho.",
-      "en": "game design reference cards: bosses, mechanics and games worth studying, plus the podcasts and channels i follow."
+      "pt": "jogos que vale a pena estudar, além dos podcasts e canais que eu acompanho.",
+      "en": "games worth studying, plus the podcasts and channels i follow."
     }
   },
   "seo": {
@@ -766,8 +766,8 @@
       "en": "game designer's guide: how to learn game design | Davi Baptixta"
     },
     "description": {
-      "pt": "guia gratuito para aprender game design em níveis: conceitos básicos, gdd, frameworks, sistemas, level design, balanceamento, engines e um almanaque de referências.",
-      "en": "a free guide to learning game design in levels: basic concepts, gdd, frameworks, systems, level design, balancing, engines and a reference almanac."
+      "pt": "guia gratuito para aprender game design em níveis: conceitos básicos, gdd, frameworks, sistemas, level design, balanceamento, engines e referências.",
+      "en": "a free guide to learning game design in levels: basic concepts, gdd, frameworks, systems, level design, balancing, engines and references."
     },
     "image": "guia/images/cover.png"
   }

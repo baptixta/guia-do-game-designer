@@ -7,7 +7,7 @@
 O site do guia faz parte do portfólio ([baptixta.com/guia-game-designer](https://baptixta.com/guia-game-designer/)), mas o conteúdo mora **aqui**:
 
 - `guia.json`: níveis, tópicos, listas e links. Cada tópico tem `title`, `text` (parágrafos), `list` (itens; um item pode ser `{ "text", "list" }` para sublista) e `links` (`{ "type", "label", "url" }`, onde `type` é vídeo, artigo, curso, podcast...).
-- `almanaque.json`: as fichas da aba **almanaque gedê** (`title`, `game`, `category`, `tags`, `summary`, `body` e `links`). No `body`, `## ` vira subtítulo e `- ` vira lista.
+- `almanaque.json`: as fichas da aba **referências** (`title`, `game`, `category`, `tags`, `summary`, `body` e `links`). No `body`, `## ` vira subtítulo e `- ` vira lista.
 - `**texto**` vira negrito em qualquer texto.
 
 A cada push na `main`, o workflow `.github/workflows/atualizar-portfolio.yml` pede para o portfólio publicar de novo (leva uns 2 minutos).
