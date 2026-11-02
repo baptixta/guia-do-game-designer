@@ -756,8 +756,8 @@
   "almanaque": {
     "file": "guia/almanaque.json",
     "intro": {
-      "pt": "jogos que vale a pena estudar, além dos podcasts e canais que eu acompanho.",
-      "en": "games worth studying, plus the podcasts and channels i follow."
+      "pt": "jogos que vale a pena estudar, além dos podcasts, canais, livros e artigos que eu acompanho.",
+      "en": "games worth studying, plus the podcasts, channels, books and articles i follow."
     }
   },
   "seo": {

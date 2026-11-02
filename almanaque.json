@@ -872,6 +872,443 @@
         }
       ],
       "updatedAt": "2026-11-01T20:16:12.000Z"
+    },
+    {
+      "id": "livro-theory-of-fun-for-game-design",
+      "title": "Theory of Fun for Game Design",
+      "category": {
+        "pt": "livros",
+        "en": "books"
+      },
+      "tags": [
+        "livro"
+      ],
+      "summary": "Raph Koster",
+      "links": [
+        {
+          "label": "ver na Amazon",
+          "url": "https://www.amazon.com.br/dp/B00GK5SRFY"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "livro-the-art-of-game-design-a-book-of-lenses",
+      "title": "The Art of Game Design: A Book of Lenses",
+      "category": {
+        "pt": "livros",
+        "en": "books"
+      },
+      "tags": [
+        "livro"
+      ],
+      "summary": "Jesse Schell",
+      "links": [
+        {
+          "label": "ver na Amazon",
+          "url": "https://www.amazon.com.br/dp/B07X59RN6N"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "livro-level-up-um-guia-para-o-design-de-grandes-jogos",
+      "title": "Level UP: um guia para o design de grandes jogos",
+      "category": {
+        "pt": "livros",
+        "en": "books"
+      },
+      "tags": [
+        "livro"
+      ],
+      "summary": "Scott Rogers",
+      "links": [
+        {
+          "label": "ver na Amazon",
+          "url": "https://www.amazon.com.br/dp/B07HYC8BPG"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "livro-game-feel-a-game-designer-s-guide-to-virtual-sensation",
+      "title": "Game Feel: A Game Designer's Guide to Virtual Sensation",
+      "category": {
+        "pt": "livros",
+        "en": "books"
+      },
+      "tags": [
+        "livro"
+      ],
+      "summary": "Steve Swink",
+      "links": [
+        {
+          "label": "ver na Amazon",
+          "url": "https://www.amazon.com.br/dp/B07FDBQKF6"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "livro-rules-of-play",
+      "title": "Rules of Play",
+      "category": {
+        "pt": "livros",
+        "en": "books"
+      },
+      "tags": [
+        "livro"
+      ],
+      "summary": "Katie Salen e Eric Zimmerman",
+      "links": [
+        {
+          "label": "ver na Amazon",
+          "url": "https://www.amazon.com.br/dp/0262240459"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "livro-challenges-for-game-designers",
+      "title": "Challenges for Game Designers",
+      "category": {
+        "pt": "livros",
+        "en": "books"
+      },
+      "tags": [
+        "livro"
+      ],
+      "summary": "Brenda Brathwaite e Ian Schreiber",
+      "links": [
+        {
+          "label": "ver na Amazon",
+          "url": "https://www.amazon.com.br/dp/B01NCYECGE"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "artigo-the-door-problem-of-game-design",
+      "title": "\"The Door Problem\" of Game Design",
+      "category": {
+        "pt": "artigos",
+        "en": "articles"
+      },
+      "tags": [
+        "artigo"
+      ],
+      "summary": "Liz England",
+      "links": [
+        {
+          "label": "ler o artigo",
+          "url": "https://www.gamedeveloper.com/design/-quot-the-door-problem-quot-of-game-design"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "artigo-the-game-design-prism",
+      "title": "The Game Design Prism",
+      "category": {
+        "pt": "artigos",
+        "en": "articles"
+      },
+      "tags": [
+        "artigo"
+      ],
+      "summary": "Colin Anderson",
+      "links": [
+        {
+          "label": "ler o artigo",
+          "url": "https://www.gamedeveloper.com/blogs/the-game-design-prism"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "artigo-pense-pequeno-entendendo-o-leitmotif-do-seu-jogo",
+      "title": "Pense Pequeno: Entendendo o leitmotif do seu jogo",
+      "category": {
+        "pt": "artigos",
+        "en": "articles"
+      },
+      "tags": [
+        "artigo"
+      ],
+      "summary": "Thais Weiller",
+      "links": [
+        {
+          "label": "ler o artigo",
+          "url": "https://medium.com/game-start/pense-pequeno-entendendo-o-leitmotif-seu-jogo-15c98e08b8ae"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "artigo-10-design-lessons-from-10-years-in-games",
+      "title": "10 design lessons from 10 years in games",
+      "category": {
+        "pt": "artigos",
+        "en": "articles"
+      },
+      "tags": [
+        "artigo"
+      ],
+      "summary": "Peter Harries",
+      "links": [
+        {
+          "label": "ler o artigo",
+          "url": "https://www.gamedeveloper.com/blogs/10-design-lessons-from-10-years-in-games"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "artigo-10-game-design-tips-for-new-developers",
+      "title": "10 GAME DESIGN TIPS FOR NEW DEVELOPERS",
+      "category": {
+        "pt": "artigos",
+        "en": "articles"
+      },
+      "tags": [
+        "artigo"
+      ],
+      "summary": "Unity",
+      "links": [
+        {
+          "label": "ler o artigo",
+          "url": "https://unity.com/how-to/beginner/10-game-design-tips-new-developers"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "artigo-game-development-terms",
+      "title": "GAME DEVELOPMENT TERMS",
+      "category": {
+        "pt": "artigos",
+        "en": "articles"
+      },
+      "tags": [
+        "artigo"
+      ],
+      "summary": "Unity",
+      "links": [
+        {
+          "label": "ler o artigo",
+          "url": "https://unity.com/how-to/beginner/game-development-terms#general-game-development-terms"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "artigo-20-must-read-game-design-articles-for-beginners-so-far-2022",
+      "title": "20 Must-Read Game Design Articles for Beginners So Far 2022",
+      "category": {
+        "pt": "artigos",
+        "en": "articles"
+      },
+      "tags": [
+        "artigo"
+      ],
+      "summary": "",
+      "links": [
+        {
+          "label": "ler o artigo",
+          "url": "https://en.eagle.cool/blog/post/game-design-article"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "artigo-pense-pequeno-mecanicas-principais-e-core-loop",
+      "title": "Pense Pequeno: Mecânicas principais e core loop",
+      "category": {
+        "pt": "artigos",
+        "en": "articles"
+      },
+      "tags": [
+        "artigo"
+      ],
+      "summary": "Thais Weiller",
+      "links": [
+        {
+          "label": "ler o artigo",
+          "url": "https://medium.com/game-start/pense-pequeno-mecânicas-principais-e-core-loop-78178b001429"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "artigo-why-the-core-gameplay-loop-is-critical-for-game-design",
+      "title": "Why the Core Gameplay Loop is Critical For Game Design",
+      "category": {
+        "pt": "artigos",
+        "en": "articles"
+      },
+      "tags": [
+        "artigo"
+      ],
+      "summary": "Josh Bycer",
+      "links": [
+        {
+          "label": "ler o artigo",
+          "url": "https://www.gamedeveloper.com/business/why-the-core-gameplay-loop-is-critical-for-game-design"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "artigo-how-to-perfect-your-games-core-loop",
+      "title": "How To Perfect Your Game’s Core Loop",
+      "category": {
+        "pt": "artigos",
+        "en": "articles"
+      },
+      "tags": [
+        "artigo"
+      ],
+      "summary": "Nathan Lovato",
+      "links": [
+        {
+          "label": "ler o artigo",
+          "url": "https://gameanalytics.com/blog/how-to-perfect-your-games-core-loop/"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "artigo-full-guide-to-mobile-game-design-theory-and-best-practices",
+      "title": "Full Guide To Mobile Game Design: Theory and Best Practices",
+      "category": {
+        "pt": "artigos",
+        "en": "articles"
+      },
+      "tags": [
+        "artigo"
+      ],
+      "summary": "Innovecs Games",
+      "links": [
+        {
+          "label": "ler o artigo",
+          "url": "https://www.innovecsgames.com/blog/mobile-game-design/"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "artigo-density-of-goals-the-secret-to-high-mobile-game-retention",
+      "title": "Density of goals: The secret to high mobile game retention",
+      "category": {
+        "pt": "artigos",
+        "en": "articles"
+      },
+      "tags": [
+        "artigo"
+      ],
+      "summary": "",
+      "links": [
+        {
+          "label": "ler o artigo",
+          "url": "https://medium.com/ironsource-levelup/density-of-goals-2620113518bc"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "artigo-what-is-video-game-systems-design-and-how-do-you-learn-it",
+      "title": "What is Video Game Systems Design and How Do You Learn It?",
+      "category": {
+        "pt": "artigos",
+        "en": "articles"
+      },
+      "tags": [
+        "artigo"
+      ],
+      "summary": "Game Design Skills",
+      "links": [
+        {
+          "label": "ler o artigo",
+          "url": "https://gamedesignskills.com/game-design/systems-design/"
+        }
+      ],
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "livro-manual-do-game-ux",
+      "title": "Manual do Game UX: Um guia para designers e curiosos",
+      "category": {
+        "pt": "livros",
+        "en": "books"
+      },
+      "tags": [
+        "livro"
+      ],
+      "summary": "Rafael Lima e Artur Ataíde",
+      "links": [
+        {
+          "label": "ver na Amazon",
+          "url": "https://www.amazon.com.br/dp/B0C1DRHPJT"
+        }
+      ],
+      "updatedAt": "2026-11-02T13:00:00.000Z"
+    },
+    {
+      "id": "livro-game-start",
+      "title": "Game Start: Lições de Game Design para seu Videogame",
+      "category": {
+        "pt": "livros",
+        "en": "books"
+      },
+      "tags": [
+        "livro"
+      ],
+      "summary": "Thais Weiller",
+      "links": [
+        {
+          "label": "ver na Amazon",
+          "url": "https://www.amazon.com.br/dp/B0193JG56Q"
+        }
+      ],
+      "updatedAt": "2026-11-02T13:00:00.000Z"
+    },
+    {
+      "id": "livro-pense-pequeno",
+      "title": "Pense Pequeno: e Termine o seu Primeiro Videogame",
+      "category": {
+        "pt": "livros",
+        "en": "books"
+      },
+      "tags": [
+        "livro"
+      ],
+      "summary": "Thais Weiller",
+      "links": [
+        {
+          "label": "ver na Amazon",
+          "url": "https://www.amazon.com.br/dp/B077X3YPQL"
+        }
+      ],
+      "updatedAt": "2026-11-02T13:00:00.000Z"
+    },
+    {
+      "id": "livro-como-entender-e-fazer-game-design",
+      "title": "Como entender e fazer Game Design",
+      "category": {
+        "pt": "livros",
+        "en": "books"
+      },
+      "tags": [
+        "livro"
+      ],
+      "summary": "Thais Weiller",
+      "links": [
+        {
+          "label": "ver na Amazon",
+          "url": "https://www.amazon.com.br/dp/B0BX4RBHMX"
+        }
+      ],
+      "updatedAt": "2026-11-02T13:00:00.000Z"
     }
   ],
   "categories": [
@@ -900,6 +1337,26 @@
       "text": {
         "pt": "jogos que todo game designer deveria conhecer, separados por gênero.",
         "en": "games every game designer should know, grouped by genre."
+      }
+    },
+    {
+      "name": {
+        "pt": "livros",
+        "en": "books"
+      },
+      "text": {
+        "pt": "livros de game design que vale a pena ter por perto.",
+        "en": "game design books worth keeping close."
+      }
+    },
+    {
+      "name": {
+        "pt": "artigos",
+        "en": "articles"
+      },
+      "text": {
+        "pt": "artigos sobre game design, core loop, mobile e design de sistemas.",
+        "en": "articles on game design, core loops, mobile and systems design."
       }
     }
   ]
